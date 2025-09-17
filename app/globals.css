@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Plugins */
+@import "tw-animate-css";
+
+/* Dark Mode */
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  /* Fonts */
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: var(--font-mono), ui-monospace, "SF Mono", "Monaco",
+    "Inconsolata", "Fira Code", "Droid Sans Mono", "Courier New", monospace;
+}

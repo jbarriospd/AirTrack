@@ -1,0 +1,18 @@
+name: Update Flight Statuses Daily
+
+on:
+  schedule:
+    # Se ejecuta todos los días a las 5:00 AM UTC. Puedes ajustar el horario.
+    # Visita https://crontab.guru para ayuda con la sintaxis cron.
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Permite ejecutar este workflow manualmente desde la pestaña "Actions" en GitHub
+
+jobs:
+  update-flights:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger flight status update API
+        run: |
+          curl --request GET \
+          --url 'https://<TU_URL_DE_PRODUCCION>/api/cron' \
+          --header 'Authorization: Bearer ${{ secrets.CRON_SECRET }}'
