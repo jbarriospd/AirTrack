@@ -41,7 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 # cloudflare
-.open-next
 .wrangler/
 
 /db/routes.json
