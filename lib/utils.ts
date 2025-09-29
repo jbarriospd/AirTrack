@@ -61,7 +61,6 @@ export function calculateDelayCategory(etd: string, atd: string): string {
   let delay = atdInMinutes - etdInMinutes;
 
   // Handle cross-midnight flights
-  // If the delay is more than 12 hours (720 minutes), it's likely a cross-midnight scenario
   if (delay > 720) {
     // ATD is previous day, so subtract 24 hours (1440 minutes) from ATD
     delay = atdInMinutes - 1440 - etdInMinutes;
@@ -79,7 +78,6 @@ export function calculateDelayCategory(etd: string, atd: string): string {
 }
 
 export function calculateFlightDelayCategory(flight: { etd?: string; atd?: string; status: string }): string | null {
-  // Solo calcular delay para vuelos Departed o Landed (que siempre tienen etd y atd)
   if ((flight.status === 'Departed' || flight.status === 'Landed' || flight.status === 'Delayed') && flight.etd && flight.atd) {
     return calculateDelayCategory(flight.etd, flight.atd);
   }
@@ -87,7 +85,6 @@ export function calculateFlightDelayCategory(flight: { etd?: string; atd?: strin
   return null;
 }
 
-// Utilidad para filtrar vuelos que necesitan actualización
 export function shouldUpdateFlight(flight: { status: string; etd?: string; date?: string }): boolean {
   if (flight.status === "Landed" || flight.status === "Departed") return false;
   if (!flight.etd || !flight.date) return false;

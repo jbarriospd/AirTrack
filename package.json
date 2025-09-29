@@ -12,7 +12,7 @@
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.6.5",
+    "@opennextjs/cloudflare": "^1.9.0",
     "clsx": "^2.1.1",
     "googleapis": "^156.0.0",
     "lucide-react": "^0.544.0",
@@ -31,6 +31,6 @@
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.8",
     "typescript": "^5",
-    "wrangler": "^4.31.0"
+    "wrangler": "^4.40.2"
   }
 }

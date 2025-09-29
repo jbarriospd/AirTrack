@@ -135,7 +135,7 @@ export async function processFlightExisting() {
 
         // Si el nuevo estado es Departed o Landed, calcular el delay con los valores actualizados
         if (refreshed.status === "Departed" || refreshed.status === "Landed") {
-          console.log(
+          console.info(
             `Calculating delay for flight ${flight.flightNumber} with ETD: ${refreshed.etd} and ATD: ${refreshed.atd}`
           );
           delayCategory = calculateDelayCategory(refreshed.etd, refreshed.atd);

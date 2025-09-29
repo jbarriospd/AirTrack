@@ -1,5 +1,4 @@
 import { writeFile, readFile } from 'node:fs/promises';
-import { formattedDate } from '@/lib/utils';
 
 import path from 'node:path';
 

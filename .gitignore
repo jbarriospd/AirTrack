@@ -43,7 +43,6 @@ next-env.d.ts
 # cloudflare
 .open-next
 .wrangler/
-wrangler.toml
 
 /db/routes.json
 /db/flights.json
