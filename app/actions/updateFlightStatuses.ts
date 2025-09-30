@@ -2,9 +2,10 @@
 
 import { getSheetValues } from "@/services/googleSheets";
 import { fetchFlightStatus } from "@/lib/fetchData";
-import { writeDBFile } from "@/db/index";
+import { upsertMultipleFlights } from "@/lib/dal";
 import { SimplifiedFlightStatus } from "@/lib/types";
-import { transformFlightStatus, getTodayString, createResponse } from "@/lib/utils";
+import { type NewFlightStatus } from "@/db/schema";
+import { transformFlightStatus, getTodayString, createResponse, calculateFlightDelayCategory } from "@/lib/utils";
 
 const dayToColumn: { [key: number]: string } = {
   0: 'G', // Domingo
@@ -15,6 +16,29 @@ const dayToColumn: { [key: number]: string } = {
   5: 'E', // Viernes
   6: 'F', // Sábado
 };
+
+/**
+ * Convierte SimplifiedFlightStatus a NewFlightStatus para insertar en D1
+ */
+function mapToNewFlightStatus(simplified: SimplifiedFlightStatus): NewFlightStatus {
+  const delayCategory = calculateFlightDelayCategory({
+    etd: simplified.etd,
+    atd: simplified.atd,
+    status: simplified.status
+  });
+
+  return {
+    flightNumber: simplified.flightNumber,
+    date: simplified.date,
+    status: simplified.status,
+    etd: simplified.etd || null,
+    atd: simplified.atd || null,
+    eta: null, // No disponible en SimplifiedFlightStatus
+    ata: null, // No disponible en SimplifiedFlightStatus
+    delayCategory,
+    lastUpdated: new Date().toISOString(),
+  };
+}
 
 /**
  * Procesa una lista de números de vuelo en lotes para obtener su estado.
@@ -67,7 +91,7 @@ async function processFlightsInBatches(
 
 /**
  * Orquesta el proceso de obtener vuelos de Google Sheets,
- * consultar su estado y guardar los resultados.
+ * consultar su estado y guardar los resultados en D1.
  */
 export async function updateFlightStatusesFromSheet() {
   try {
@@ -97,8 +121,11 @@ export async function updateFlightStatusesFromSheet() {
     
     const { statuses: flightStatuses, unresolvedFlights } = await processFlightsInBatches(flightNumbers, todayStr);
 
-    const fileName = `flight_statuses_${todayStr}`;
-    await writeDBFile(fileName, flightStatuses);
+    // Convertir SimplifiedFlightStatus a NewFlightStatus
+    const flightsToInsert = flightStatuses.map(mapToNewFlightStatus);
+
+    // Insertar en D1 usando el DAL
+    await upsertMultipleFlights(flightsToInsert);
 
     const successMessage = unresolvedFlights.length > 0 
       ? `Successfully processed ${flightStatuses.length} flights, ${unresolvedFlights.length} failed`
@@ -109,7 +136,7 @@ export async function updateFlightStatusesFromSheet() {
       failed: unresolvedFlights.length,
       unresolvedFlights: unresolvedFlights.length > 0 ? unresolvedFlights : undefined,
       date: todayStr,
-      fileName
+      savedToDatabase: true
     });
 
   } catch (error) {
