@@ -40,9 +40,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# cloudflare
-.wrangler/
+# Drizzle
+drizzle/
 
-/db/routes.json
-/db/flights.json
-/db/airports.json
+# wrangler
+.wrangler
+wrangler.toml*
+
+

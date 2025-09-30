@@ -2,6 +2,12 @@
   name = "airtrack"
   compatibility_date = "2025-09-21"
   compatibility_flags = ["nodejs_compat"]
+
   [assets]
   directory = ".open-next/assets"
   binding = "ASSETS"
+
+  [[d1_databases]]
+  binding = "DB"
+  database_name = "airtrack-db"
+  database_id = "758f23d2-b5e6-4bc7-a21d-a25a0ea32dfb"
