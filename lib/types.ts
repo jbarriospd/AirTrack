@@ -7,7 +7,7 @@ export const FlightSchema = z.object({
   to: z.string(),
   status: z.string(),
   etd: z.string().optional(),
-atd: z.string().optional(),
+  atd: z.string().optional(),
 });
 
 export type Flight = z.infer<typeof FlightSchema>;
@@ -64,4 +64,5 @@ export interface FlightStatus extends Flight {
   id?: number;
   delayCategory: string | null;
   lastUpdated: string;
+  createdAt?: string;
 }

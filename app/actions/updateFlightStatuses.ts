@@ -30,11 +30,11 @@ function mapToNewFlightStatus(simplified: SimplifiedFlightStatus): NewFlightStat
   return {
     flightNumber: simplified.flightNumber,
     date: simplified.date,
+    from: simplified.from,
+    to: simplified.to,
     status: simplified.status,
-    etd: simplified.etd || null,
-    atd: simplified.atd || null,
-    eta: null, // No disponible en SimplifiedFlightStatus
-    ata: null, // No disponible en SimplifiedFlightStatus
+    etd: simplified.etd,
+    atd: simplified.atd,
     delayCategory,
     lastUpdated: new Date().toISOString(),
   };

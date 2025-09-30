@@ -14,5 +14,5 @@ jobs:
       - name: Trigger flight status update API
         run: |
           curl --request GET \
-          --url 'https://airtrack.jbarrios571.workers.dev/api/flights/status' \
+          --url 'https://airtrack.jbarriospd.workers.dev/api/flights/status' \
           --header 'Authorization: Bearer ${{ secrets.CRON_SECRET }}'
