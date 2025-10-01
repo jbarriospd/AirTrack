@@ -1,0 +1,31 @@
+name: Download Latest Flight Statuses
+
+on:
+  workflow_dispatch: # Permite ejecutar manualmente
+  schedule:
+    # Ejecutar todos los días a las 2:00 AM UTC
+    - cron: '58 23 * * *'
+
+jobs:
+  download-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Run download script
+        env:
+          GOOGLE_SPREADSHEET_ID: ${{ secrets.GOOGLE_SPREADSHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_EMAIL: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_EMAIL }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+        run: npm run download-today-status
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update flight statuses $(date +'%Y-%m-%d')" && git push)
