@@ -83,7 +83,7 @@ export async function updateFlightStatusesFromSheet() {
     }
 
     const range = `logDailyFlights!${column}2:${column}`; 
-    const sheetValues = await getSheetValues(process.env.GOOGLE_SHEET_ID!, range);
+    const sheetValues = await getSheetValues(process.env.GOOGLE_SPREADSHEET_ID!, range);
 
     const flightNumbers = sheetValues.flat().filter(String) as string[];
 
