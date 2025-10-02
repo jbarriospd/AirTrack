@@ -5,5 +5,7 @@ import path from 'path';
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 
 import { updateFlightStatusesFromSheet } from "../lib/downloadTodayStatus";
+import { processFlightInitial } from "../lib/processFlights";
 
 updateFlightStatusesFromSheet();
+processFlightInitial();

@@ -1,10 +1,9 @@
 name: Download Latest Flight Statuses
 
 on:
-  workflow_dispatch: # Permite ejecutar manualmente
+  workflow_dispatch:
   schedule:
-    # Ejecutar todos los días a las 2:00 AM UTC
-    - cron: '58 23 * * *'
+    - cron: '50 23 * * *'
 
 jobs:
   download-latest:
@@ -14,9 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
-      - name: Install dependencies
-        run: npm install
+      - run: npm install
       
       - name: Run download script
         env:

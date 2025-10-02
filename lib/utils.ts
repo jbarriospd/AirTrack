@@ -8,12 +8,10 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function getTodayString(): string {
-  const now = new Date();
-  const today = new Date(now.toLocaleString('en-US', { timeZone: 'America/Bogota' }));
-  const yyyy = today.getFullYear();
-  const mm = String(today.getMonth() + 1).padStart(2, "0");
-  const dd = String(today.getDate()).padStart(2, "0");
-  return `${yyyy}-${mm}-${dd}`;
+  const today = new Date();
+  return today.toLocaleDateString('sv-SE', { 
+    timeZone: 'America/Bogota' 
+  });
 }
 
 export function getFlightStatusFileName(date?: string): string {

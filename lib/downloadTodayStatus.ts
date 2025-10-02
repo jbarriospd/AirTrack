@@ -2,7 +2,7 @@ import { getSheetValues } from "../services/googleSheets";
 import { fetchFlightStatus } from "../lib/fetchData";
 import { writeDBFile } from "../db/index";
 import { SimplifiedFlightStatus } from "../lib/types";
-import { transformFlightStatus, getTodayString, createResponse } from "../lib/utils";
+import { transformFlightStatus, getTodayString } from "../lib/utils";
 
 const dayToColumn: { [key: number]: string } = {
   0: 'G', // Domingo
@@ -74,7 +74,7 @@ export async function updateFlightStatusesFromSheet() {
     const column = dayToColumn[dayOfWeek];
     
     if (!column) {
-      return createResponse(false, 'Invalid day of week', { 
+      return console.info('❌ Invalid day of week', { 
         dayOfWeek,
         date: todayStr
       });
@@ -86,7 +86,7 @@ export async function updateFlightStatusesFromSheet() {
     const flightNumbers = sheetValues.flat().filter(String) as string[];
 
     if (flightNumbers.length === 0) {
-      return createResponse(true, 'No flights to process today', {
+      return console.info('✅ No flights to process today', {
         count: 0,
         date: todayStr,
         column
@@ -102,7 +102,7 @@ export async function updateFlightStatusesFromSheet() {
       ? `Successfully processed ${flightStatuses.length} flights, ${unresolvedFlights.length} failed`
       : `Successfully processed ${flightStatuses.length} flights`;
 
-    return createResponse(true, successMessage, {
+    return console.info('✅ ' + successMessage, {
       processed: flightStatuses.length,
       failed: unresolvedFlights.length,
       unresolvedFlights: unresolvedFlights.length > 0 ? unresolvedFlights : undefined,
@@ -111,7 +111,7 @@ export async function updateFlightStatusesFromSheet() {
     });
 
   } catch (error) {
-    return createResponse(false, 'Failed to update flight statuses from sheet', {
+    return console.error('❌ Failed to update flight statuses from sheet', {
       error: error instanceof Error ? error.message : error,
     });
   }
