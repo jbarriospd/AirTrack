@@ -24,15 +24,6 @@ export function getProcessFlightFileName(date?: string): string {
   return `process_flight_${dateStr}`
 }
 
-export function createResponse(success: boolean, message: string, data?: any) {
-  return {
-    success,
-    message,
-    date: getTodayString(),
-    ...data,
-  }
-}
-
 export function extractFlightNumber(flightNumber: string): string {
   const match = flightNumber.match(/\d+/)
   return match ? match[0] : ''
