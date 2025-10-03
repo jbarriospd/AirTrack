@@ -20,8 +20,7 @@ export default function Button({
     'font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none'
 
   const variants = {
-    primary:
-      'bg-purple-600 text-white hover:bg-purple-700 active:bg-purple-800',
+    primary: 'bg-purple-600 text-white hover:bg-purple-700 active:bg-purple-800',
     secondary:
       'bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600',
     outline:

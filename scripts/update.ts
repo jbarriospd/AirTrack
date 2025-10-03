@@ -1,3 +1,3 @@
-import { updateFlightsStatuses } from "../lib/updateFlightsStatuses";
+import { updateFlightsStatuses } from '../lib/updateFlightsStatuses'
 
-updateFlightsStatuses();
+updateFlightsStatuses()

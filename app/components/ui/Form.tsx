@@ -35,10 +35,7 @@ interface FormLabelProps extends React.LabelHTMLAttributes<HTMLLabelElement> {
 export function FormLabel({ className, children, ...props }: FormLabelProps) {
   return (
     <label
-      className={cn(
-        'text-sm font-medium text-gray-700 dark:text-gray-300',
-        className
-      )}
+      className={cn('text-sm font-medium text-gray-700 dark:text-gray-300', className)}
       {...props}
     >
       {children}
@@ -85,8 +82,7 @@ export const FormTextarea = forwardRef<HTMLTextAreaElement, FormTextareaProps>(
 FormTextarea.displayName = 'FormTextarea'
 
 // Form Select
-interface FormSelectProps
-  extends React.SelectHTMLAttributes<HTMLSelectElement> {
+interface FormSelectProps extends React.SelectHTMLAttributes<HTMLSelectElement> {
   options?: Array<{ label: string; value: string }>
 }
 
@@ -128,21 +124,13 @@ export function FormError({ className, children, ...props }: FormErrorProps) {
 }
 
 // Form Description
-interface FormDescriptionProps
-  extends React.HTMLAttributes<HTMLParagraphElement> {
+interface FormDescriptionProps extends React.HTMLAttributes<HTMLParagraphElement> {
   children: React.ReactNode
 }
 
-export function FormDescription({
-  className,
-  children,
-  ...props
-}: FormDescriptionProps) {
+export function FormDescription({ className, children, ...props }: FormDescriptionProps) {
   return (
-    <p
-      className={cn('text-xs text-gray-500 dark:text-gray-400', className)}
-      {...props}
-    >
+    <p className={cn('text-xs text-gray-500 dark:text-gray-400', className)} {...props}>
       {children}
     </p>
   )

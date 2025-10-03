@@ -12,9 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
       - run: npm install
-      
+
       - name: Download flight statuses
         env:
           GOOGLE_SPREADSHEET_ID: ${{ secrets.GOOGLE_SPREADSHEET_ID }}
@@ -22,7 +22,7 @@ jobs:
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
         run: npm run download-today-status
       - run: npm run process-flights
-      
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"

@@ -1,0 +1,23 @@
+name: Update Flights
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '* 2 * * *'
+
+jobs:
+  update-flights:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npm run update-flights
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add db/*.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update flight statuses $(date +'%Y-%m-%d')" && git push).

@@ -1,3 +1,3 @@
-import { processFlightInitial } from "../lib/processFlights";
+import { processFlightInitial } from '../lib/processFlights'
 
-processFlightInitial();
+processFlightInitial()

@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
+dist-scripts/
+.wrangler/
+
+# Database
+db/*.json
+
+# Config files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Logs
+*.log

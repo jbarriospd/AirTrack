@@ -1,37 +1,36 @@
-"use client";
+'use client'
 
-import { appConfig } from "@/lib/utils";
-import { cn } from "@/lib/utils";
-import { ArrowUpRightIcon, Moon, Sun } from "lucide-react";
-import { useTheme } from "next-themes";
+import { appConfig } from '@/lib/utils'
+import { cn } from '@/lib/utils'
+import { ArrowUpRightIcon, Moon, Sun } from 'lucide-react'
+import { useTheme } from 'next-themes'
 
 const Footer = () => {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme()
 
   const handleChangeTheme = () => {
-    if (theme === "dark") {
-      setTheme("light");
-    } else if (theme === "light") {
-      setTheme("dark");
+    if (theme === 'dark') {
+      setTheme('light')
+    } else if (theme === 'light') {
+      setTheme('dark')
     }
-  };
+  }
 
   return (
-    <nav className={cn("absolute bottom-4 left-4 hidden md:block")}>
+    <nav className={cn('absolute bottom-4 left-4 hidden md:block')}>
       <div className="flex items-center space-x-2">
         <a
           href={appConfig.repositoryUrl}
           target="_blank"
-          className='outline outline-zinc-500 cursor-pointer rounded-2xl py-1 px-2 flex items-start space-x-2'
+          className="outline outline-zinc-500 cursor-pointer rounded-2xl py-1 px-2 flex items-start space-x-2"
+          rel="noreferrer"
         >
-
           <span className="text-sm">GitHub</span>
           <ArrowUpRightIcon size={14} className="text-zinc-500" />
         </a>
         <button
           onClick={handleChangeTheme}
-          className='outline outline-zinc-500 cursor-pointer rounded-2xl py-1 px-2 flex items-center space-x-2'
-
+          className="outline outline-zinc-500 cursor-pointer rounded-2xl py-1 px-2 flex items-center space-x-2"
         >
           <Sun
             size={14}
@@ -45,7 +44,7 @@ const Footer = () => {
         </button>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

@@ -7,6 +7,7 @@ if (fs.existsSync(envPath)) {
   dotenv.config({ path: envPath })
 }
 
-import { downloadFlightsFromSheet } from '../lib/downloadTodayStatus'
+import { writeFlightsToGoogleSheet } from '../lib/exportData'
 
-downloadFlightsFromSheet()
+// Ejecutar la función
+writeFlightsToGoogleSheet(process.env.GOOGLE_SPREADSHEET_ID!)
