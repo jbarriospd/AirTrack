@@ -10,7 +10,9 @@
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
-    "download-today-status": "ts-node -P tsconfig.scripts.json scripts/download.ts"
+    "download-today-status": "ts-node -P tsconfig.scripts.json scripts/download.ts",
+    "process-flights": "ts-node -P tsconfig.scripts.json scripts/process.ts",
+    "update-statuses": "ts-node -P tsconfig.scripts.json scripts/update.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.9.0",

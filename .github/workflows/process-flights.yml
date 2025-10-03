@@ -3,7 +3,7 @@ name: Download Latest Flight Statuses
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 23 * * *'
+    - cron: '0 4 * * *'
 
 jobs:
   download-latest:
@@ -15,12 +15,13 @@ jobs:
           node-version: '20'
       - run: npm install
       
-      - name: Run download script
+      - name: Download flight statuses
         env:
           GOOGLE_SPREADSHEET_ID: ${{ secrets.GOOGLE_SPREADSHEET_ID }}
           GOOGLE_SERVICE_ACCOUNT_EMAIL: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_EMAIL }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
         run: npm run download-today-status
+      - run: npm run process-flights
       
       - name: Commit and push changes
         run: |
