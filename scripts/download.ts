@@ -1,11 +1,12 @@
 import dotenv from 'dotenv';
 import path from 'path';
+import fs from 'fs';
 
-// Cargar variables de entorno desde .env.local
-dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+const envPath = path.resolve(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+  dotenv.config({ path: envPath });
+}
 
-import { updateFlightStatusesFromSheet } from "../lib/downloadTodayStatus";
-import { processFlightInitial } from "../lib/processFlights";
+import { downloadFlightsFromSheet } from "../lib/downloadTodayStatus";
 
-updateFlightStatusesFromSheet();
-processFlightInitial();
+downloadFlightsFromSheet();

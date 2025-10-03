@@ -67,7 +67,7 @@ async function processFlightsInBatches(
  * Orquesta el proceso de obtener vuelos de Google Sheets,
  * consultar su estado y guardar los resultados.
  */
-export async function updateFlightStatusesFromSheet() {
+export async function downloadFlightsFromSheet() {
   try {
     const todayStr = getTodayString(); 
     const dayOfWeek = new Date().getDay();
