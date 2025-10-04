@@ -1,0 +1,11 @@
+[
+  {
+    "flightNumber": "155",
+    "date": "2025-10-03",
+    "from": "BOG-El Dorado Airport",
+    "to": "AEP-Jorge Newbery Airfield",
+    "status": "Departed",
+    "etd": "21:15",
+    "atd": "21:13"
+  }
+]
