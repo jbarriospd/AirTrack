@@ -3,18 +3,25 @@ name: Update Flights
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* 2 * * *'
+    - cron: '0 7 * * *'
 
 jobs:
   update-flights:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm install
-      - run: npm run update-flights
+          cache: 'pnpm'
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm update-flights
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"

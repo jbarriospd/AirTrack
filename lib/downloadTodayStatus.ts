@@ -68,7 +68,7 @@ async function processFlightsInBatches(
 export async function downloadFlightsFromSheet() {
   try {
     const todayStr = getTodayString()
-    const dayOfWeek = new Date().getDay()
+    const dayOfWeek = new Date(todayStr).getDay()
     const column = dayToColumn[dayOfWeek]
 
     if (!column) {
