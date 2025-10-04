@@ -17,7 +17,7 @@ const Footer = () => {
   }
 
   return (
-    <nav className={cn('absolute bottom-4 left-4 hidden md:block')}>
+    <nav className={cn('fixed bottom-4 left-4 z-10 hidden md:block')}>
       <div className="flex items-center space-x-2">
         <a
           href={appConfig.repositoryUrl}
@@ -42,6 +42,7 @@ const Footer = () => {
           />
           <span className="text-sm">Theme</span>
         </button>
+
       </div>
     </nav>
   )

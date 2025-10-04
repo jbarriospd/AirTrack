@@ -1,6 +1,6 @@
 const BackgroundGradient = () => {
   return (
-    <div className="absolute inset-0 bg-zinc-50 dark:bg-zinc-950">
+    <div className="fixed inset-0 -z-10 bg-zinc-50 dark:bg-zinc-950">
       <svg
         className="absolute inset-0 h-full w-full opacity-[0.15] dark:opacity-[0.07]"
         xmlns="http://www.w3.org/2000/svg"
