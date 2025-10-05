@@ -14,6 +14,13 @@ export default function FlightsList({ date }: FlightsListProps) {
   const [loading, setLoading] = useState(true)
   const [selectedFilter, setSelectedFilter] = useState<'all' | 'on-time' | 'delayed' | 'cancelled'>('all')
 
+  const getDelayColor = (delayCategory: string | null | undefined): string => {
+    if (delayCategory?.includes('Early') || delayCategory?.includes('On time')) {
+      return 'text-green-500'
+    }
+    return 'text-red-500'
+  }
+
   useEffect(() => {
     setLoading(true)
     getFlights(date)
@@ -97,14 +104,7 @@ export default function FlightsList({ date }: FlightsListProps) {
             <div className="flex items-start justify-between gap-4">
               <div className="flex items-start gap-4">
                 <PlaneTakeoff
-                  className={`w-6 h-6 ${flight.status === 'Delayed'
-                    ? 'text-red-500'
-                    : flight.status === 'Cancelled'
-                      ? 'text-orange-500'
-                      : flight.status === 'Landed'
-                        ? 'text-green-500'
-                        : 'text-blue-500'
-                    }`}
+                  className={`w-6 h-6 ${getDelayColor(flight.delayCategory)}`}
                 />
                 <div className="text-left">
                   <p className="font-bold text-lg">
@@ -112,21 +112,18 @@ export default function FlightsList({ date }: FlightsListProps) {
                   </p>
                   <p className="text-sm text-slate-500 dark:text-slate-400">
                     Departure: {flight.etd || 'N/A'}
-                    {flight.atd && ` | Actual: ${flight.atd}`}
+                    {flight.atd}
                   </p>
                 </div>
               </div>
               <div className="text-right">
                 <span
-                  className="text-sm font-medium"
-                >
-                  {flight.status}
+                  className={`text-sm ${getDelayColor(flight.delayCategory)}`}>
+                  {flight.delayCategory}
                 </span>
-                {flight.delayCategory && (
-                  <p className="text-xs text-red-600 dark:text-red-400 mt-1">
-                    {flight.delayCategory}
-                  </p>
-                )}
+                <p className='text-sm'>
+                  {flight.status}{flight.status === 'Delayed' ? ` | ${flight.atd}` : flight.status === 'Landed' ? ` | ${flight.atd}` : flight.status === 'Departed' ? ` | ${flight.atd}` : ''}
+                </p>
               </div>
             </div>
           </div>
