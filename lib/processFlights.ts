@@ -30,15 +30,16 @@ export async function processFlightInitial() {
 
   // Procesar los vuelos
   const newStatuses: FlightStatus[] = updatedFlights.map((flight, idx) => {
-    const delayCategory =
+    const delayInfo =
       flight.status === 'Departed' || flight.status === 'Landed' || flight.status === 'Delayed'
         ? calculateDelayCategory(flight.etd!, flight.atd!)
-        : null
+        : { delayMinutes: null, delayCategory: null }
 
     return {
       id: idx + 1,
       ...flight,
-      delayCategory,
+      delayMinutes: delayInfo.delayMinutes,
+      delayCategory: delayInfo.delayCategory,
       lastUpdated: new Date().toISOString(),
     }
   })

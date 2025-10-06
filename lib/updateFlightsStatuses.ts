@@ -72,20 +72,20 @@ export async function updateFlightsStatuses() {
           }
         }
 
-        let delayCategory = flight.delayCategory
+        let delayMinutes = flight.delayMinutes
 
         // Si el nuevo estado es Departed o Landed, calcular el delay con los valores actualizados
         if (refreshed.status === 'Departed' || refreshed.status === 'Landed') {
           console.info(
             `Calculating delay for flight ${flight.flightNumber} with ETD: ${refreshed.etd} and ATD: ${refreshed.atd}`
           )
-          delayCategory = calculateDelayCategory(refreshed.etd, refreshed.atd)
+          delayMinutes = calculateDelayCategory(refreshed.etd, refreshed.atd)
         }
 
         return {
           ...flight,
           ...refreshed, // Esto actualiza status, atd y etd con el formato transformado
-          delayCategory,
+          delayMinutes,
           lastUpdated: new Date().toISOString(),
         }
       } catch (error) {

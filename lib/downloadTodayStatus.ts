@@ -5,13 +5,13 @@ import { SimplifiedFlightStatus } from '../lib/types'
 import { transformFlightStatus, getTodayString } from '../lib/utils'
 
 const dayToColumn: { [key: number]: string } = {
-  0: 'G', // Domingo
   1: 'A', // Lunes
   2: 'B', // Martes
   3: 'C', // Miércoles
   4: 'D', // Jueves
   5: 'E', // Viernes
   6: 'F', // Sábado
+  7: 'G', // Domingo
 }
 
 /**
@@ -68,7 +68,7 @@ async function processFlightsInBatches(
 export async function downloadFlightsFromSheet() {
   try {
     const todayStr = getTodayString()
-    const dayOfWeek = new Date(todayStr).getDay()
+    const dayOfWeek = new Date(todayStr).getDay() || 7 // Convierte 0 (Domingo) a 7
     const column = dayToColumn[dayOfWeek]
 
     if (!column) {
