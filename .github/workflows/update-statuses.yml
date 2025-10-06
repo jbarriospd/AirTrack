@@ -21,7 +21,7 @@ jobs:
           cache: 'pnpm'
 
       - run: pnpm install --frozen-lockfile
-      - run: pnpm update-flights
+      - run: pnpm update-statuses
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"

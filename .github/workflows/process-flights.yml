@@ -3,23 +3,23 @@ name: Download Latest Flight Statuses
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 15 * * *'
 
 jobs:
   download-latest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: pnpm/action-setup@v4
         with:
           version: 9
-      
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'pnpm'
-      
+
       - run: pnpm install --frozen-lockfile
 
       - name: Download flight statuses
@@ -28,7 +28,7 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_EMAIL: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_EMAIL }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
         run: pnpm download-today-status
-      
+
       - run: pnpm process-flights
 
       - name: Commit and push changes
