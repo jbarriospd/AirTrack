@@ -1,10 +1,5 @@
 import type { NextConfig } from 'next'
 
-const nextConfig: NextConfig = {
-  outputFileTracingIncludes: {
-    '/app/actions/**': ['./db/**/*.json'],
-    '/app/page': ['./db/**/*.json'],
-  },
-}
+const nextConfig: NextConfig = {}
 
 export default nextConfig
