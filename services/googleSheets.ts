@@ -76,7 +76,7 @@ export async function writeFlightDataToSheet(
       flight.status,
       flight.etd || '',
       flight.atd || '',
-      flight.delayCategory || '',
+      flight.delayMinutes || '',
     ])
 
     // Usar append para agregar datos sin sobreescribir

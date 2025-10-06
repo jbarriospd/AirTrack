@@ -7,9 +7,12 @@ import Footer from '@/app/components/Footer'
 import Logo from '@/app/components/ui/Logo'
 import DateSelector from '@/app/components/DateSelector'
 import FlightsList from '@/app/components/FlightsList'
+import DailySummary from '@/app/components/DailySummary'
+import { useFlightSummary } from '@/lib/hooks/useFlightSummary'
 
 export default function HomePage() {
   const [selectedDate, setSelectedDate] = useState(getTodayString())
+  const { summary, loading } = useFlightSummary(selectedDate)
 
   return (
     <main className="relative min-h-screen pb-16">
@@ -44,6 +47,15 @@ export default function HomePage() {
               onDateChange={setSelectedDate}
               className="animate-in fill-mode-backwards fade-in slide-in-from-bottom-2 delay-700 duration-500"
             />
+            {!loading && (
+              <DailySummary
+                totalFlights={summary.totalFlights}
+                onTime={summary.onTime}
+                delayed={summary.delayed}
+                canceled={summary.canceled}
+                averageDelay={summary.averageDelay}
+              />
+            )}
 
             <FlightsList date={selectedDate} />
           </div>

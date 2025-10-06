@@ -62,6 +62,7 @@ export interface SimplifiedFlightStatus {
 
 export interface FlightStatus extends Flight {
   id?: number
+  delayMinutes: number | null
   delayCategory: string | null
   lastUpdated: string
 }

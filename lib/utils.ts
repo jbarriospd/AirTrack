@@ -41,7 +41,10 @@ export function transformFlightStatus(flight: FlightStatusResponse): SimplifiedF
   }
 }
 
-export function calculateDelayCategory(etd: string, atd: string): string {
+export function calculateDelayCategory(
+  etd: string,
+  atd: string
+): { delayMinutes: number; delayCategory: string } {
   const [etdH, etdM] = etd.split(':').map(Number)
   const [atdH, atdM] = atd.split(':').map(Number)
 
@@ -59,28 +62,10 @@ export function calculateDelayCategory(etd: string, atd: string): string {
     delay = atdInMinutes + 1440 - etdInMinutes
   }
 
-  if (delay < 0) return `Early ${Math.abs(delay)} min`
-  if (delay === 0) return 'On time'
-  if (delay <= 15) return '0-15 min'
-  if (delay <= 30) return '15-30 min'
-  if (delay <= 45) return '30-45 min'
-  return '45+ min'
-}
-
-export function calculateFlightDelayCategory(flight: {
-  etd?: string
-  atd?: string
-  status: string
-}): string | null {
-  if (
-    (flight.status === 'Departed' || flight.status === 'Landed' || flight.status === 'Delayed') &&
-    flight.etd &&
-    flight.atd
-  ) {
-    return calculateDelayCategory(flight.etd, flight.atd)
+  return {
+    delayMinutes: delay,
+    delayCategory: delay > 0 ? `+ ${delay}` : `Early ${Math.abs(delay)}`,
   }
-
-  return null
 }
 
 export function shouldUpdateFlight(flight: {
