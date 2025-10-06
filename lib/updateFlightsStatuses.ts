@@ -57,7 +57,6 @@ export async function updateFlightsStatuses() {
           flight.date
         )
 
-        // Transformar la respuesta de la API al formato simplificado
         let refreshed
         if (apiResponse && Array.isArray(apiResponse) && apiResponse.length > 0) {
           refreshed = transformFlightStatus(apiResponse[0]) // Tomar el primer vuelo de la respuesta
@@ -73,24 +72,31 @@ export async function updateFlightsStatuses() {
         }
 
         let delayMinutes = flight.delayMinutes
+        let delayCategory = flight.delayCategory
 
-        // Si el nuevo estado es Departed o Landed, calcular el delay con los valores actualizados
-        if (refreshed.status === 'Departed' || refreshed.status === 'Landed') {
+        if (
+          refreshed.status === 'Departed' ||
+          refreshed.status === 'Landed' ||
+          refreshed.status === 'Delayed'
+        ) {
           console.info(
             `Calculating delay for flight ${flight.flightNumber} with ETD: ${refreshed.etd} and ATD: ${refreshed.atd}`
           )
-          delayMinutes = calculateDelayCategory(refreshed.etd, refreshed.atd)
+          const delayInfo = calculateDelayCategory(refreshed.etd, refreshed.atd)
+          delayMinutes = delayInfo.delayMinutes
+          delayCategory = delayInfo.delayCategory
         }
 
         return {
           ...flight,
           ...refreshed, // Esto actualiza status, atd y etd con el formato transformado
           delayMinutes,
+          delayCategory,
           lastUpdated: new Date().toISOString(),
         }
       } catch (error) {
         console.error(`Failed to update flight ${flight.flightNumber}:`, error)
-        // Retornar datos existentes con timestamp actualizado
+
         return {
           ...flight,
           lastUpdated: new Date().toISOString(),
