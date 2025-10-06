@@ -28,7 +28,7 @@ export async function updateFlightsStatuses() {
 
   // 1. Filtrar vuelos que necesitan ser actualizados (próximos a salir y que no han aterrizado)
   const flightsToUpdate = currentData.filter((f) => {
-    if (f.status === 'Landed' || f.status === 'Departed') return false
+    if (f.status === 'Landed' || f.status === 'Departed' || f.status === 'Delayed') return false
     if (!f.etd || !f.date) return false
     const etdDate = new Date(`${f.date}T${f.etd}:00`)
     if (isNaN(etdDate.getTime())) return false
@@ -89,7 +89,7 @@ export async function updateFlightsStatuses() {
 
         return {
           ...flight,
-          ...refreshed, // Esto actualiza status, atd y etd con el formato transformado
+          ...refreshed,
           delayMinutes,
           delayCategory,
           lastUpdated: new Date().toISOString(),

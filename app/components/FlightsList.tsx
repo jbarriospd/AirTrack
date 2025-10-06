@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useMemo } from 'react'
 import { PlaneTakeoff } from 'lucide-react'
 import { FlightStatus } from '@/lib/types'
 import { getFlights } from '@/app/actions/getFlights'
@@ -67,6 +67,18 @@ export default function FlightsList({ date }: FlightsListProps) {
       .finally(() => setLoading(false))
   }, [date])
 
+  // Memoize filtered and sorted flights to avoid recalculating on every render
+  // Must be called before any conditional returns (Rules of Hooks)
+  const sortedFlights = useMemo(() => {
+    const filteredFlights = filterFlightsByCategory(flights)
+    // Sort flights by delay: worst delays first, then on-time/early
+    return [...filteredFlights].sort((a, b) => {
+      const delayA = a.delayMinutes ?? 0
+      const delayB = b.delayMinutes ?? 0
+      return delayB - delayA
+    })
+  }, [flights, selectedFilter])
+
   if (loading) {
     return (
       <div className="text-zinc-600 dark:text-zinc-400 animate-pulse">
@@ -83,19 +95,10 @@ export default function FlightsList({ date }: FlightsListProps) {
     )
   }
 
-  const filteredFlights = filterFlightsByCategory(flights)
-  
-  // Sort flights by delay: worst delays first, then on-time/early
-  const sortedFlights = [...filteredFlights].sort((a, b) => {
-    const delayA = a.delayMinutes ?? 0
-    const delayB = b.delayMinutes ?? 0
-    return delayB - delayA
-  })
-
   return (
     <div className="w-full max-w-4xl mt-8">
-      <p className="text-lg font-bold text-zinc-600 dark:text-zinc-50 mb-4">Flights List</p>
-      <div className="flex justify-end items-center gap-2 mb-6">
+      <div className="flex justify-between items-center gap-2 mb-6">
+        <p className="text-lg font-bold text-zinc-600 dark:text-zinc-50">Flights List</p>
         <div className="flex gap-2">
           <button
             onClick={() => setSelectedFilter('all')}

@@ -42,7 +42,3 @@ next-env.d.ts
 
 # cloudflare
 .wrangler/
-
-/db/routes.json
-/db/flights.json
-/db/airports.json

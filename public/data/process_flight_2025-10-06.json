@@ -187,12 +187,12 @@
     "date": "2025-10-06",
     "from": "BOG-El Dorado Airport",
     "to": "EJA-Yariguies Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "15:16",
-    "atd": "15:16",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-06T17:48:37.414Z"
+    "atd": "15:18",
+    "delayMinutes": 2,
+    "delayCategory": "+ 2",
+    "lastUpdated": "2025-10-06T21:02:51.768Z"
   },
   {
     "id": 16,
@@ -293,10 +293,10 @@
     "to": "MDE-Jose Maria Cordova Airport",
     "status": "Delayed",
     "etd": "15:45",
-    "atd": "15:55",
-    "delayMinutes": 10,
-    "delayCategory": "+ 10",
-    "lastUpdated": "2025-10-06T17:48:37.414Z"
+    "atd": "16:15",
+    "delayMinutes": 30,
+    "delayCategory": "+ 30",
+    "lastUpdated": "2025-10-06T21:02:51.753Z"
   },
   {
     "id": 24,
@@ -356,12 +356,12 @@
     "date": "2025-10-06",
     "from": "BOG-El Dorado Airport",
     "to": "PPN-Guillermo Leon Valencia Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "15:54",
-    "atd": "15:54",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-06T17:48:37.414Z"
+    "atd": "15:51",
+    "delayMinutes": -3,
+    "delayCategory": "Early 3",
+    "lastUpdated": "2025-10-06T21:02:51.880Z"
   },
   {
     "id": 29,
@@ -421,12 +421,12 @@
     "date": "2025-10-06",
     "from": "BOG-El Dorado Airport",
     "to": "SCL-Arturo Merino Benítez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "15:30",
-    "atd": "15:30",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-06T17:48:37.414Z"
+    "atd": "15:32",
+    "delayMinutes": 2,
+    "delayCategory": "+ 2",
+    "lastUpdated": "2025-10-06T21:02:51.881Z"
   },
   {
     "id": 34,
@@ -460,12 +460,12 @@
     "date": "2025-10-06",
     "from": "BOG-El Dorado Airport",
     "to": "YYZ-Toronto Pearson Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "15:05",
-    "atd": "15:05",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-06T17:48:37.414Z"
+    "atd": "14:59",
+    "delayMinutes": -6,
+    "delayCategory": "Early 6",
+    "lastUpdated": "2025-10-06T21:02:51.880Z"
   },
   {
     "id": 37,
@@ -564,12 +564,12 @@
     "date": "2025-10-06",
     "from": "CUN-Cancun Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "15:45",
-    "atd": "15:45",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-06T17:48:37.414Z"
+    "atd": "15:43",
+    "delayMinutes": -2,
+    "delayCategory": "Early 2",
+    "lastUpdated": "2025-10-06T21:02:51.880Z"
   },
   {
     "id": 45,
@@ -642,12 +642,12 @@
     "date": "2025-10-06",
     "from": "FLL-Fort Lauderdale/Hollywood Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "15:20",
     "atd": "15:20",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-06T17:48:37.414Z"
+    "delayMinutes": 0,
+    "delayCategory": "Early 0",
+    "lastUpdated": "2025-10-06T21:02:51.880Z"
   },
   {
     "id": 51,
@@ -1232,7 +1232,7 @@
     "atd": "16:00",
     "delayMinutes": null,
     "delayCategory": null,
-    "lastUpdated": "2025-10-06T17:48:37.415Z"
+    "lastUpdated": "2025-10-06T21:02:52.049Z"
   },
   {
     "id": 96,
@@ -1258,7 +1258,7 @@
     "atd": "16:00",
     "delayMinutes": null,
     "delayCategory": null,
-    "lastUpdated": "2025-10-06T17:48:37.415Z"
+    "lastUpdated": "2025-10-06T21:02:51.961Z"
   },
   {
     "id": 98,
