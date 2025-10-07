@@ -1,7 +1,11 @@
 import { writeFile, readFile } from 'node:fs/promises'
 import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 
-const DB_PATH = path.join(process.cwd(), './public/data')
+// Get the project root directory reliably
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+const DB_PATH = path.join(__dirname, '../public/data')
 
 export async function readDBFile<T = unknown>(dbName: string): Promise<T> {
   const data = await readFile(`${DB_PATH}/${dbName}.json`, 'utf-8')
