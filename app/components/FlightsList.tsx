@@ -67,15 +67,12 @@ export default function FlightsList({ date }: FlightsListProps) {
       .finally(() => setLoading(false))
   }, [date])
 
-  // Memoize filtered and sorted flights to avoid recalculating on every render
-  // Must be called before any conditional returns (Rules of Hooks)
   const sortedFlights = useMemo(() => {
     const filteredFlights = filterFlightsByCategory(flights)
-    // Sort flights by delay: worst delays first, then on-time/early
     return [...filteredFlights].sort((a, b) => {
-      const delayA = a.delayMinutes ?? 0
-      const delayB = b.delayMinutes ?? 0
-      return delayB - delayA
+      if (a.status === 'Cancelled') return -1
+      if (b.status === 'Cancelled') return 1
+      return (b.delayMinutes ?? 0) - (a.delayMinutes ?? 0)
     })
   }, [flights, selectedFilter])
 

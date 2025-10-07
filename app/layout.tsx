@@ -2,14 +2,11 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 
-// App Config:
 import { appConfig } from '@/lib/utils'
 
-// Styles:
 import './globals.css'
 import { cn } from '@/lib/utils'
 
-// Fonts:
 const inter = Inter({
   variable: '--font-sans',
   subsets: ['latin'],
@@ -26,10 +23,8 @@ const jetbrainsMono = JetBrains_Mono({
   preload: true,
 })
 
-// Global layout & providers:
 import { ThemeProvider } from '@/app/ThemeProvider'
 
-// Metadata:
 export const metadata: Metadata = {
   description: appConfig.description,
   metadataBase: new URL(appConfig.prodUrl),

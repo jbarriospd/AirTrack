@@ -11,8 +11,6 @@ interface DateSelectorProps {
 function getMondayOfCurrentWeek(dateStr: string): string {
   const date = new Date(dateStr + 'T00:00:00')
   const day = date.getDay()
-  // Calculate days to subtract to get to Monday
-  // If Sunday (0), go back 6 days; otherwise go back (day - 1) days
   const diff = day === 0 ? -6 : -(day - 1)
   date.setDate(date.getDate() + diff)
   return date.toISOString().split('T')[0]

@@ -1,23 +1,38 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
 import BackgroundGradient from '@/app/components/BackgroungGradient'
 import { cn, getTodayString } from '@/lib/utils'
 import Footer from '@/app/components/Footer'
 import Logo from '@/app/components/ui/Logo'
 import DateSelector from '@/app/components/DateSelector'
-import FlightsList from '@/app/components/FlightsList'
+import FlightTable from '@/app/components/FlightTable'
 import DailySummary from '@/app/components/DailySummary'
 import { useFlightSummary } from '@/lib/hooks/useFlightSummary'
 
 export default function HomePage() {
+  const router = useRouter()
+  const searchParams = useSearchParams()
   const [selectedDate, setSelectedDate] = useState(getTodayString())
   const { summary, loading } = useFlightSummary(selectedDate)
+
+  useEffect(() => {
+    const dateParam = searchParams.get('date')
+    if (dateParam) {
+      setSelectedDate(dateParam)
+    }
+  }, [])
+
+  const handleDateChange = (newDate: string) => {
+    setSelectedDate(newDate)
+    router.push(`?date=${newDate}`, { scroll: false })
+  }
 
   return (
     <main className="relative min-h-screen pb-16">
       <BackgroundGradient />
-      <section className="relative flex w-full items-center justify-center px-4 py-8 md:px-4 lg:px-8 min-h-screen">
+      <section className="relative flex w-full justify-center px-4 py-8 md:px-4 lg:px-8 min-h-screen">
         <div className="w-full max-w-4xl items-center">
           <div className="flex flex-col items-center space-y-6 text-center">
             <Logo
@@ -44,7 +59,7 @@ export default function HomePage() {
 
             <DateSelector
               selectedDate={selectedDate}
-              onDateChange={setSelectedDate}
+              onDateChange={handleDateChange}
               className="animate-in fill-mode-backwards fade-in slide-in-from-bottom-2 delay-700 duration-500"
             />
             {!loading && (
@@ -57,7 +72,7 @@ export default function HomePage() {
               />
             )}
 
-            <FlightsList date={selectedDate} />
+            <FlightTable date={selectedDate} />
           </div>
         </div>
       </section>
