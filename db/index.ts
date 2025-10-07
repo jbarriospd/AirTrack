@@ -1,7 +1,7 @@
 import { writeFile, readFile } from 'node:fs/promises'
 import path from 'node:path'
 
-const DB_PATH = path.join(process.cwd(), 'public/data')
+const DB_PATH = path.join(process.cwd(), 'data')
 
 export async function readDBFile<T = unknown>(dbName: string): Promise<T> {
   const filePath = path.join(DB_PATH, `${dbName}.json`)
