@@ -30,30 +30,6 @@ export default function FlightTable({ date }: FlightTableProps) {
     return 'On time'
   }
 
-  const filterFlightsByCategory = (flights: FlightStatus[]): FlightStatus[] => {
-    if (selectedFilter === 'all') return flights
-
-    if (selectedFilter === 'on-time') {
-      return flights.filter(flight =>
-        flight.delayMinutes !== null && flight.delayMinutes <= 0
-      )
-    }
-
-    if (selectedFilter === 'delayed') {
-      return flights.filter(flight =>
-        flight.delayMinutes !== null && flight.delayMinutes > 0
-      )
-    }
-
-    if (selectedFilter === 'cancelled') {
-      return flights.filter(flight =>
-        flight.status === 'Cancelled'
-      )
-    }
-
-    return flights
-  }
-
   useEffect(() => {
     setLoading(true)
     getFlights(date)
@@ -68,7 +44,22 @@ export default function FlightTable({ date }: FlightTableProps) {
   }, [date])
 
   const sortedFlights = useMemo(() => {
-    const filteredFlights = filterFlightsByCategory(flights)
+    let filteredFlights = flights
+
+    if (selectedFilter === 'on-time') {
+      filteredFlights = flights.filter(flight =>
+        flight.delayMinutes !== null && flight.delayMinutes <= 0
+      )
+    } else if (selectedFilter === 'delayed') {
+      filteredFlights = flights.filter(flight =>
+        flight.delayMinutes !== null && flight.delayMinutes > 0
+      )
+    } else if (selectedFilter === 'cancelled') {
+      filteredFlights = flights.filter(flight =>
+        flight.status === 'Cancelled'
+      )
+    }
+
     return [...filteredFlights].sort((a, b) => {
       if (a.status === 'Cancelled') return -1
       if (b.status === 'Cancelled') return 1

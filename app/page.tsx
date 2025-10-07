@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import BackgroundGradient from '@/app/components/BackgroungGradient'
 import { cn, getTodayString } from '@/lib/utils'
@@ -11,7 +11,7 @@ import FlightTable from '@/app/components/FlightTable'
 import DailySummary from '@/app/components/DailySummary'
 import { useFlightSummary } from '@/lib/hooks/useFlightSummary'
 
-export default function HomePage() {
+function HomePageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [selectedDate, setSelectedDate] = useState(getTodayString())
@@ -22,7 +22,7 @@ export default function HomePage() {
     if (dateParam) {
       setSelectedDate(dateParam)
     }
-  }, [])
+  }, [searchParams])
 
   const handleDateChange = (newDate: string) => {
     setSelectedDate(newDate)
@@ -78,5 +78,13 @@ export default function HomePage() {
       </section>
       <Footer />
     </main>
+  )
+}
+
+export default function HomePage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <HomePageContent />
+    </Suspense>
   )
 }
