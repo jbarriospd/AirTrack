@@ -70,8 +70,9 @@ export function calculateDelayCategory(
 
   let delay = atdInMinutes - etdInMinutes
 
-  // Handle cross-midnight flights
+  // Handle cross-midnight flights: only when ETD is late at night and ATD is early morning next day
   if (delay < -720) {
+    // ETD is late at night, ATD is early morning next day
     delay = atdInMinutes + 1440 - etdInMinutes
   }
 

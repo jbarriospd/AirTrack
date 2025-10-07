@@ -10,9 +10,26 @@ import {
   getDateInColombia,
 } from './utils'
 
-export async function updateFlightsStatuses() {
-  const todayStr = getTodayString()
-  const currentFile = `process_flight_${todayStr}`
+export async function updateFlightsStatuses(targetDate?: string) {
+  const currentDate = getNowInColombia()
+
+  let dateToProcess: string
+  if (targetDate) {
+    dateToProcess = targetDate
+  } else {
+    const currentHour = currentDate.getHours()
+    if (currentHour < 6) {
+      const yesterday = new Date(currentDate)
+      yesterday.setDate(yesterday.getDate() - 1)
+      dateToProcess = yesterday.toLocaleDateString('sv-SE', {
+        timeZone: 'America/Bogota',
+      })
+    } else {
+      dateToProcess = getTodayString()
+    }
+  }
+
+  const currentFile = `process_flight_${dateToProcess}`
   let currentData: FlightStatus[] = []
 
   try {
@@ -29,7 +46,7 @@ export async function updateFlightsStatuses() {
   const oneHourAgo = new Date(now.getTime() - 1 * 60 * 60 * 1000)
 
   const flightsToUpdate = currentData.filter((f) => {
-    if (f.status === 'Landed' || f.status === 'Departed' || f.status === 'Delayed') return false
+    if (f.status === 'Landed' || f.status === 'Departed') return false
     if (!f.etd || !f.date) return false
     const etdDate = getDateInColombia(f.date, `${f.etd}:00`)
     if (isNaN(etdDate.getTime())) return false
@@ -38,7 +55,7 @@ export async function updateFlightsStatuses() {
 
   if (flightsToUpdate.length === 0) {
     console.info('✅ No flights need updating at this time', {
-      date: todayStr,
+      date: dateToProcess,
       updated: 0,
       total: currentData.length,
     })
@@ -138,7 +155,7 @@ export async function updateFlightsStatuses() {
         : `Updated ${updatedFlights.length} flights`
 
     console.info(`✅ ${successMessage}`, {
-      date: todayStr,
+      date: dateToProcess,
       updated: successfulUpdates,
       failed: failedFlights.length,
       total: finalData.length,
