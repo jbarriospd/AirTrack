@@ -12,7 +12,6 @@ export async function writeFlightsToGoogleSheet(
     const dateStr = date || getTodayString()
     const fileName = `process_flight_${dateStr}`
 
-    // Leer los datos de vuelos del archivo JSON
     let flights: FlightStatus[]
     try {
       flights = await readDBFile(fileName)
@@ -30,7 +29,6 @@ export async function writeFlightsToGoogleSheet(
       return
     }
 
-    // Escribir los datos a Google Sheets
     await writeFlightDataToSheet(spreadsheetId, flights, sheetName)
 
     console.info(`✅ Successfully wrote ${flights.length} flights to Google Sheet`, {

@@ -9,5 +9,4 @@ if (fs.existsSync(envPath)) {
 
 import { writeFlightsToGoogleSheet } from '../lib/exportData'
 
-// Ejecutar la función
 writeFlightsToGoogleSheet(process.env.GOOGLE_SPREADSHEET_ID!)

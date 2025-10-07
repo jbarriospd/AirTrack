@@ -7,7 +7,6 @@ export async function getFlights(date: string) {
   try {
     const flights = await readDBFile<FlightStatus[]>(`process_flight_${date}`)
 
-    // Filter out flights with status 'Returned' or 'Confirmed'
     const filteredFlights = flights.filter(
       (flight) =>
         flight.status !== 'Returned' &&

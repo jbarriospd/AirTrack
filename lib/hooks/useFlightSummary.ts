@@ -69,7 +69,6 @@ function calculateSummary(flights: FlightStatus[]): FlightSummary {
 
   const canceled = flights.filter((flight) => flight.status === 'Cancelled').length
 
-  // Calculate average delay in minutes
   const delayedFlights = flights.filter(
     (flight) => flight.delayMinutes !== null && flight.delayMinutes > 0
   )

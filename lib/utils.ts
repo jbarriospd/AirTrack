@@ -14,7 +14,6 @@ export function getTodayString(): string {
   })
 }
 
-// Get current date/time in Colombia timezone
 export function getNowInColombia(): Date {
   const now = new Date()
   const colombiaTimeStr = now.toLocaleString('en-US', {
@@ -23,7 +22,6 @@ export function getNowInColombia(): Date {
   return new Date(colombiaTimeStr)
 }
 
-// Get date in Colombia timezone from date string
 export function getDateInColombia(dateStr: string, timeStr?: string): Date {
   const fullDateStr = timeStr ? `${dateStr}T${timeStr}` : dateStr
   const date = new Date(fullDateStr)
@@ -73,11 +71,7 @@ export function calculateDelayCategory(
   let delay = atdInMinutes - etdInMinutes
 
   // Handle cross-midnight flights
-  if (delay > 720) {
-    // ATD is previous day, so subtract 24 hours (1440 minutes) from ATD
-    delay = atdInMinutes - 1440 - etdInMinutes
-  } else if (delay < -720) {
-    // ETD is previous day, so add 24 hours (1440 minutes) to ATD
+  if (delay < -720) {
     delay = atdInMinutes + 1440 - etdInMinutes
   }
 

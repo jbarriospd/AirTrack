@@ -5,13 +5,13 @@ import { SimplifiedFlightStatus } from '../lib/types'
 import { transformFlightStatus, getTodayString, getDateInColombia } from '../lib/utils'
 
 const dayToColumn: { [key: number]: string } = {
-  1: 'A', // Lunes
-  2: 'B', // Martes
-  3: 'C', // Miércoles
-  4: 'D', // Jueves
-  5: 'E', // Viernes
-  6: 'F', // Sábado
-  7: 'G', // Domingo
+  1: 'A',
+  2: 'B',
+  3: 'C',
+  4: 'D',
+  5: 'E',
+  6: 'F',
+  7: 'G',
 }
 
 /**
@@ -39,14 +39,11 @@ async function processFlightsInBatches(
       const flightNumber = batch[index]
       if (result.status === 'fulfilled') {
         if (result.value && Array.isArray(result.value) && result.value.length > 0) {
-          // Transforma cada vuelo al formato simplificado y añádelo
           const simplifiedFlights = result.value.map(transformFlightStatus)
           allStatuses.push(...simplifiedFlights)
         } else if (result.value === null) {
-          console.warn(`Flight ${flightNumber} returned null after retries - skipping`)
           unresolvedFlights.push(flightNumber)
         } else {
-          console.warn(`Flight ${flightNumber} returned unexpected data:`, result.value)
           unresolvedFlights.push(flightNumber)
         }
       } else if (result.status === 'rejected') {
@@ -54,7 +51,6 @@ async function processFlightsInBatches(
         unresolvedFlights.push(flightNumber)
       }
     })
-    // Opcional: Pausa entre lotes para no saturar la API
     await new Promise((resolve) => setTimeout(resolve, 2000))
   }
 
@@ -68,7 +64,7 @@ async function processFlightsInBatches(
 export async function downloadFlightsFromSheet() {
   try {
     const todayStr = getTodayString()
-    const dayOfWeek = getDateInColombia(todayStr).getDay() || 7 // Convierte 0 (Domingo) a 7
+    const dayOfWeek = getDateInColombia(todayStr).getDay() || 7
     const column = dayToColumn[dayOfWeek]
 
     if (!column) {

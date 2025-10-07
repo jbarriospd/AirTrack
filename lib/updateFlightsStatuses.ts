@@ -28,17 +28,14 @@ export async function updateFlightsStatuses() {
   const now = getNowInColombia()
   const oneHourAgo = new Date(now.getTime() - 1 * 60 * 60 * 1000)
 
-  // 1. Filtrar vuelos que necesitan ser actualizados (próximos a salir y que no han aterrizado)
   const flightsToUpdate = currentData.filter((f) => {
     if (f.status === 'Landed' || f.status === 'Departed' || f.status === 'Delayed') return false
     if (!f.etd || !f.date) return false
     const etdDate = getDateInColombia(f.date, `${f.etd}:00`)
     if (isNaN(etdDate.getTime())) return false
-    // Considerar vuelos en la próxima hora
     return etdDate >= oneHourAgo && etdDate <= now
   })
 
-  // Validación temprana: si no hay vuelos para actualizar
   if (flightsToUpdate.length === 0) {
     console.info('✅ No flights need updating at this time', {
       date: todayStr,
@@ -50,7 +47,6 @@ export async function updateFlightsStatuses() {
 
   console.info(`🔄 Updating ${flightsToUpdate.length} flights...`)
 
-  // 2. Hacer fetch y procesar solo los vuelos filtrados usando Promise.allSettled
   const flightResults = await Promise.allSettled(
     flightsToUpdate.map(async (flight) => {
       try {
@@ -61,9 +57,8 @@ export async function updateFlightsStatuses() {
 
         let refreshed
         if (apiResponse && Array.isArray(apiResponse) && apiResponse.length > 0) {
-          refreshed = transformFlightStatus(apiResponse[0]) // Tomar el primer vuelo de la respuesta
+          refreshed = transformFlightStatus(apiResponse[0])
         } else {
-          // Si no hay respuesta válida, mantener los datos actuales
           console.warn(
             `No valid API response for flight ${flight.flightNumber}, keeping current data`
           )
@@ -107,7 +102,6 @@ export async function updateFlightsStatuses() {
     })
   )
 
-  // 3. Procesar resultados y separar exitosos de fallidos
   const updatedFlights: FlightStatus[] = []
   const failedFlights: string[] = []
 
@@ -118,7 +112,6 @@ export async function updateFlightsStatuses() {
     } else {
       console.error(`Promise rejected for flight ${flight.flightNumber}:`, result.reason)
       failedFlights.push(flight.flightNumber)
-      // Mantener datos existentes para vuelos fallidos
       updatedFlights.push({
         ...flight,
         lastUpdated: getNowInColombia().toISOString(),
@@ -126,18 +119,15 @@ export async function updateFlightsStatuses() {
     }
   })
 
-  // 4. Crear un mapa de vuelos actualizados por ID para facilitar la búsqueda
   const updatedFlightsMap = new Map()
   updatedFlights.forEach((flight) => {
     updatedFlightsMap.set(flight.id, flight)
   })
 
-  // 5. Combinar los datos actualizados con los existentes
   const finalData = currentData.map((flight) => {
     return updatedFlightsMap.get(flight.id) || flight
   })
 
-  // 6. Guardar los datos actualizados
   try {
     await writeDBFile(currentFile, finalData)
 
