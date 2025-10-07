@@ -2,7 +2,7 @@ import { getSheetValues } from '../services/googleSheets'
 import { fetchFlightStatus } from '../lib/fetchData'
 import { writeDBFile } from '../db/index'
 import { SimplifiedFlightStatus } from '../lib/types'
-import { transformFlightStatus, getTodayString } from '../lib/utils'
+import { transformFlightStatus, getTodayString, getDateInColombia } from '../lib/utils'
 
 const dayToColumn: { [key: number]: string } = {
   1: 'A', // Lunes
@@ -68,7 +68,7 @@ async function processFlightsInBatches(
 export async function downloadFlightsFromSheet() {
   try {
     const todayStr = getTodayString()
-    const dayOfWeek = new Date(todayStr).getDay() || 7 // Convierte 0 (Domingo) a 7
+    const dayOfWeek = getDateInColombia(todayStr).getDay() || 7 // Convierte 0 (Domingo) a 7
     const column = dayToColumn[dayOfWeek]
 
     if (!column) {

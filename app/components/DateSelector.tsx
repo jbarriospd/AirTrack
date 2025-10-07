@@ -1,6 +1,6 @@
 'use client'
 
-import { cn } from '@/lib/utils'
+import { cn, getTodayString } from '@/lib/utils'
 
 interface DateSelectorProps {
   selectedDate: string
@@ -8,24 +8,13 @@ interface DateSelectorProps {
   className?: string
 }
 
-// Get Monday of current week
-function getMonday(date: Date): Date {
-  const d = new Date(date)
-  const day = d.getDay()
-  const diff = d.getDate() - day + (day === 0 ? -6 : 1) // Adjust when day is Sunday
-  return new Date(d.setDate(diff))
-}
-
-// Get Sunday of current week
-function getSunday(date: Date): Date {
-  const monday = getMonday(date)
-  const sunday = new Date(monday)
-  sunday.setDate(monday.getDate() + 6)
-  return sunday
-}
-
-// Format date as YYYY-MM-DD
-function formatDate(date: Date): string {
+function getMondayOfCurrentWeek(dateStr: string): string {
+  const date = new Date(dateStr + 'T00:00:00')
+  const day = date.getDay()
+  // Calculate days to subtract to get to Monday
+  // If Sunday (0), go back 6 days; otherwise go back (day - 1) days
+  const diff = day === 0 ? -6 : -(day - 1)
+  date.setDate(date.getDate() + diff)
   return date.toISOString().split('T')[0]
 }
 
@@ -34,12 +23,9 @@ export default function DateSelector({
   onDateChange,
   className,
 }: DateSelectorProps) {
-  const today = new Date()
-  const monday = getMonday(today)
-  const sunday = getSunday(today)
-
-  const minDate = formatDate(monday)
-  const maxDate = formatDate(sunday)
+  const today = getTodayString()
+  const minDate = getMondayOfCurrentWeek(today)
+  const maxDate = today
 
   return (
     <div className={cn('flex items-center gap-4', className)}>

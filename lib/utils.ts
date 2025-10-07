@@ -14,6 +14,25 @@ export function getTodayString(): string {
   })
 }
 
+// Get current date/time in Colombia timezone
+export function getNowInColombia(): Date {
+  const now = new Date()
+  const colombiaTimeStr = now.toLocaleString('en-US', {
+    timeZone: 'America/Bogota',
+  })
+  return new Date(colombiaTimeStr)
+}
+
+// Get date in Colombia timezone from date string
+export function getDateInColombia(dateStr: string, timeStr?: string): Date {
+  const fullDateStr = timeStr ? `${dateStr}T${timeStr}` : dateStr
+  const date = new Date(fullDateStr)
+  const colombiaTimeStr = date.toLocaleString('en-US', {
+    timeZone: 'America/Bogota',
+  })
+  return new Date(colombiaTimeStr)
+}
+
 export function getFlightStatusFileName(date?: string): string {
   const dateStr = date || getTodayString()
   return `flight_statuses_${dateStr}.json`
@@ -76,10 +95,10 @@ export function shouldUpdateFlight(flight: {
   if (flight.status === 'Landed' || flight.status === 'Departed') return false
   if (!flight.etd || !flight.date) return false
 
-  const etdDate = new Date(`${flight.date}T${flight.etd}:00`)
+  const etdDate = getDateInColombia(flight.date, `${flight.etd}:00`)
   if (isNaN(etdDate.getTime())) return false
 
-  const now = new Date()
+  const now = getNowInColombia()
   const oneHourAgo = new Date(now.getTime() - 1 * 60 * 60 * 1000)
 
   return etdDate >= oneHourAgo && etdDate <= now

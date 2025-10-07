@@ -1,5 +1,5 @@
 import { Flight, FlightStatus } from '../lib/types'
-import { calculateDelayCategory, getTodayString } from '../lib/utils'
+import { calculateDelayCategory, getTodayString, getNowInColombia } from '../lib/utils'
 import { writeDBFile, readDBFile } from '../db'
 
 export async function processFlightInitial() {
@@ -40,7 +40,7 @@ export async function processFlightInitial() {
       ...flight,
       delayMinutes: delayInfo.delayMinutes,
       delayCategory: delayInfo.delayCategory,
-      lastUpdated: new Date().toISOString(),
+      lastUpdated: getNowInColombia().toISOString(),
     }
   })
 

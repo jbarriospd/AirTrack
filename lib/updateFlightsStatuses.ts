@@ -6,6 +6,8 @@ import {
   getTodayString,
   extractFlightNumber,
   calculateDelayCategory,
+  getNowInColombia,
+  getDateInColombia,
 } from './utils'
 
 export async function updateFlightsStatuses() {
@@ -23,14 +25,14 @@ export async function updateFlightsStatuses() {
     return
   }
 
-  const now = new Date()
+  const now = getNowInColombia()
   const oneHourAgo = new Date(now.getTime() - 1 * 60 * 60 * 1000)
 
   // 1. Filtrar vuelos que necesitan ser actualizados (próximos a salir y que no han aterrizado)
   const flightsToUpdate = currentData.filter((f) => {
     if (f.status === 'Landed' || f.status === 'Departed' || f.status === 'Delayed') return false
     if (!f.etd || !f.date) return false
-    const etdDate = new Date(`${f.date}T${f.etd}:00`)
+    const etdDate = getDateInColombia(f.date, `${f.etd}:00`)
     if (isNaN(etdDate.getTime())) return false
     // Considerar vuelos en la próxima hora
     return etdDate >= oneHourAgo && etdDate <= now
@@ -67,7 +69,7 @@ export async function updateFlightsStatuses() {
           )
           return {
             ...flight,
-            lastUpdated: new Date().toISOString(),
+            lastUpdated: getNowInColombia().toISOString(),
           }
         }
 
@@ -92,14 +94,14 @@ export async function updateFlightsStatuses() {
           ...refreshed,
           delayMinutes,
           delayCategory,
-          lastUpdated: new Date().toISOString(),
+          lastUpdated: getNowInColombia().toISOString(),
         }
       } catch (error) {
         console.error(`Failed to update flight ${flight.flightNumber}:`, error)
 
         return {
           ...flight,
-          lastUpdated: new Date().toISOString(),
+          lastUpdated: getNowInColombia().toISOString(),
         }
       }
     })
@@ -119,7 +121,7 @@ export async function updateFlightsStatuses() {
       // Mantener datos existentes para vuelos fallidos
       updatedFlights.push({
         ...flight,
-        lastUpdated: new Date().toISOString(),
+        lastUpdated: getNowInColombia().toISOString(),
       })
     }
   })
