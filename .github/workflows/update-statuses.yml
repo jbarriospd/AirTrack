@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 7 * * *'
+    - cron: '0 20 * * *'
 
 jobs:
   update-flights:
@@ -26,5 +27,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add db/*.json
+          git add .
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update flight statuses $(date +'%Y-%m-%d')" && git push).
