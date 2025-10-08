@@ -30,9 +30,9 @@ function HomePageContent() {
   }
 
   return (
-    <main className="relative min-h-screen pb-16">
+    <main className="relative min-h-screen">
       <BackgroundGradient />
-      <section className="relative flex w-full justify-center px-4 py-8 md:px-4 lg:px-8 min-h-screen">
+      <section className="relative flex w-full justify-center px-4 py-8 md:px-4 lg:px-8">
         <div className="w-full max-w-4xl items-center">
           <div className="flex flex-col items-center space-y-6 text-center">
             <Logo
@@ -46,7 +46,7 @@ function HomePageContent() {
                 'animate-in fill-mode-backwards fade-in slide-in-from-bottom-2 delay-200 duration-500'
               )}
             >
-              Flight status Avianca
+              AirTrack
             </h1>
             <p
               className={cn(
@@ -54,7 +54,7 @@ function HomePageContent() {
                 'animate-in fill-mode-backwards fade-in slide-in-from-bottom-2 delay-500 duration-500'
               )}
             >
-              Get flight status Avianca
+              Daily Statistics and Status for Avianca Flights
             </p>
 
             <DateSelector

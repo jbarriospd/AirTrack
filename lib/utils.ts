@@ -23,7 +23,7 @@ export function getNowInColombia(): Date {
 }
 
 export function getDateInColombia(dateStr: string, timeStr?: string): Date {
-  const fullDateStr = timeStr ? `${dateStr}T${timeStr}` : dateStr
+  const fullDateStr = timeStr ? `${dateStr}T${timeStr}` : `${dateStr}T12:00:00`
   const date = new Date(fullDateStr)
   const colombiaTimeStr = date.toLocaleString('en-US', {
     timeZone: 'America/Bogota',
@@ -100,8 +100,9 @@ export function shouldUpdateFlight(flight: {
 }
 
 export const appConfig = {
-  title: 'FlightScope',
-  description: 'Real-time flight status tracking for Avianca flights.',
-  prodUrl: 'http://localhost:3000',
-  repositoryUrl: 'https://github.com/josebarrios/aviancafail',
+  title: 'AirTrack: Daily Statistics and Status for Avianca Flights',
+  description:
+    "Stay informed with up-to-date performance indicators for Avianca flights — punctuality, delay trends, active routes, and more. Explore today's flight data in one place on AirTrack.",
+  prodUrl: 'https://air-track-seven.vercel.app/',
+  repositoryUrl: 'https://github.com/josebarrios/airtrack',
 }
