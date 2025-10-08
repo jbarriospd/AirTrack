@@ -21,9 +21,7 @@ export async function updateFlightsStatuses(targetDate?: string) {
     if (currentHour < 6) {
       const yesterday = new Date(currentDate)
       yesterday.setDate(yesterday.getDate() - 1)
-      dateToProcess = yesterday.toLocaleDateString('sv-SE', {
-        timeZone: 'America/Bogota',
-      })
+      dateToProcess = yesterday.toISOString().split('T')[0]
     } else {
       dateToProcess = getTodayString()
     }
