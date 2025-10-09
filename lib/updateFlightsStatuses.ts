@@ -45,6 +45,7 @@ export async function updateFlightsStatuses(targetDate?: string) {
 
   const flightsToUpdate = currentData.filter((f) => {
     if (f.status === 'Landed' || f.status === 'Departed') return false
+    if (f.status === 'Confirmed') return true
     if (!f.etd || !f.date) return false
     const etdDate = getDateInColombia(f.date, `${f.etd}:00`)
     if (isNaN(etdDate.getTime())) return false

@@ -96,12 +96,12 @@
     "date": "2025-10-08",
     "from": "BGA-Palonegro Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "21:41",
-    "atd": "21:41",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-08T23:18:01.000Z"
+    "atd": "21:36",
+    "delayMinutes": -5,
+    "delayCategory": "Early 5",
+    "lastUpdated": "2025-10-09T14:18:22.000Z"
   },
   {
     "id": 9,
@@ -1331,12 +1331,12 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "23:25",
-    "atd": "23:25",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-08T23:18:01.000Z"
+    "atd": "23:22",
+    "delayMinutes": -3,
+    "delayCategory": "Early 3",
+    "lastUpdated": "2025-10-09T14:18:22.000Z"
   },
   {
     "id": 104,
@@ -1370,12 +1370,12 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "23:30",
-    "atd": "23:30",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-08T23:18:01.000Z"
+    "atd": "23:19",
+    "delayMinutes": -11,
+    "delayCategory": "Early 11",
+    "lastUpdated": "2025-10-09T14:18:22.000Z"
   },
   {
     "id": 107,
@@ -2176,12 +2176,12 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "BOS-Logan Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "23:55",
-    "atd": "23:55",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-08T23:18:01.000Z"
+    "atd": "00:45",
+    "delayMinutes": 50,
+    "delayCategory": "+ 50",
+    "lastUpdated": "2025-10-09T14:18:22.000Z"
   },
   {
     "id": 169,
@@ -3021,12 +3021,12 @@
     "date": "2025-10-08",
     "from": "SAL-El Salvador Airport",
     "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:55",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-08T23:18:01.000Z"
+    "atd": "22:40",
+    "delayMinutes": -15,
+    "delayCategory": "Early 15",
+    "lastUpdated": "2025-10-09T14:18:22.000Z"
   },
   {
     "id": 234,
