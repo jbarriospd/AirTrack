@@ -4,25 +4,43 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "AEP-Jorge Newbery Airfield",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "21:15",
-    "atd": "21:15"
+    "atd": "21:13"
+  },
+  {
+    "flightNumber": "1633",
+    "date": "2025-10-08",
+    "from": "GPS-Seymour Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "11:36",
+    "atd": "11:14"
+  },
+  {
+    "flightNumber": "1633",
+    "date": "2025-10-08",
+    "from": "GYE-José Joaquín de Olmedo Airport",
+    "to": "UIO-Mariscal Sucre Airport",
+    "status": "Landed",
+    "etd": "15:20",
+    "atd": "15:15"
   },
   {
     "flightNumber": "8441",
     "date": "2025-10-08",
     "from": "ADZ-Gustavo Rojas Pinilla Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:12",
-    "atd": "14:12"
+    "atd": "14:09"
   },
   {
     "flightNumber": "154",
     "date": "2025-10-08",
     "from": "AEP-Jorge Newbery Airfield",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "07:00",
     "atd": "07:42"
   },
@@ -31,7 +49,7 @@
     "date": "2025-10-08",
     "from": "AXM-El Eden Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Cancelled",
     "etd": "22:31",
     "atd": "22:31"
   },
@@ -40,7 +58,7 @@
     "date": "2025-10-08",
     "from": "BCN-Barcelona Intl Airport ",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "14:00",
     "atd": "14:09"
   },
@@ -58,9 +76,9 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "ADZ-Gustavo Rojas Pinilla Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "11:37",
-    "atd": "11:37"
+    "atd": "11:26"
   },
   {
     "flightNumber": "4887",
@@ -76,9 +94,9 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "BGA-Palonegro Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "18:27",
-    "atd": "18:27"
+    "atd": "18:24"
   },
   {
     "flightNumber": "8409",
@@ -94,25 +112,25 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "CTG-Rafael Nuñez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:16",
-    "atd": "12:16"
+    "atd": "12:28"
   },
   {
     "flightNumber": "9298",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "CUC-Camilo Daza Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:45",
-    "atd": "14:45"
+    "atd": "14:51"
   },
   {
     "flightNumber": "68",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "CUN-Cancun Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "10:55",
     "atd": "10:48"
   },
@@ -121,25 +139,25 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "CUR-Hato Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:40",
-    "atd": "13:40"
+    "atd": "13:51"
   },
   {
     "flightNumber": "9701",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "EJA-Yariguies Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:16",
-    "atd": "15:16"
+    "atd": "15:19"
   },
   {
     "flightNumber": "36",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "FLL-Fort Lauderdale/Hollywood Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "09:00",
     "atd": "09:22"
   },
@@ -148,7 +166,7 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "GRU-Sao Pablo- Guarulhos Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "07:15",
     "atd": "07:15"
   },
@@ -157,9 +175,9 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "IBE-Perales Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:57",
-    "atd": "14:57"
+    "atd": "14:56"
   },
   {
     "flightNumber": "4812",
@@ -175,16 +193,16 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:54",
-    "atd": "15:54"
+    "atd": "15:53"
   },
   {
     "flightNumber": "9486",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "LET-Alfredo Vasquez Cobo Airport",
-    "status": "Delayed",
+    "status": "Landed",
     "etd": "09:02",
     "atd": "08:57"
   },
@@ -193,7 +211,7 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "MCO-Orlando Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "09:20",
     "atd": "09:15"
   },
@@ -202,34 +220,34 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:45",
-    "atd": "15:45"
+    "atd": "15:47"
   },
   {
     "flightNumber": "8500",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "MTR-Los Garzones Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:40",
-    "atd": "14:40"
+    "atd": "14:43"
   },
   {
     "flightNumber": "4877",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "NVA-Benito Salas Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:15",
-    "atd": "16:15"
+    "atd": "16:14"
   },
   {
     "flightNumber": "262",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "07:00",
     "atd": "06:58"
   },
@@ -247,27 +265,27 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "PPN-Guillermo Leon Valencia Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:54",
-    "atd": "15:54"
+    "atd": "16:10"
   },
   {
     "flightNumber": "9401",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "PSO-Antonio Nariño Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "11:44",
-    "atd": "11:44"
+    "atd": "11:43"
   },
   {
     "flightNumber": "60",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "PTY-Tocumen Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:40",
-    "atd": "14:40"
+    "atd": "14:36"
   },
   {
     "flightNumber": "128",
@@ -283,7 +301,7 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "RCH-Almirante Padilla Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "10:20",
     "atd": "10:18"
   },
@@ -301,9 +319,9 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "SCL-Arturo Merino Benítez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:30",
-    "atd": "15:30"
+    "atd": "15:28"
   },
   {
     "flightNumber": "8484",
@@ -315,29 +333,29 @@
     "atd": "08:15"
   },
   {
-    "flightNumber": "4880",
+    "flightNumber": "4826",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "VVC-La Vanguardia Airport",
-    "status": "Departed",
-    "etd": "09:10",
-    "atd": "10:24"
+    "status": "Landed",
+    "etd": "15:17",
+    "atd": "15:16"
   },
   {
     "flightNumber": "204",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "YYZ-Toronto Pearson Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:05",
-    "atd": "15:05"
+    "atd": "15:01"
   },
   {
     "flightNumber": "229",
     "date": "2025-10-08",
     "from": "CDG-Paris Charles de Gaulle Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "08:45",
     "atd": "08:46"
   },
@@ -355,90 +373,99 @@
     "date": "2025-10-08",
     "from": "CLO-Alfonso Bonilla Aragón Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "18:30",
-    "atd": "18:30"
+    "atd": "19:02"
   },
   {
     "flightNumber": "8559",
     "date": "2025-10-08",
     "from": "CTG-Rafael Nuñez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:54",
-    "atd": "13:54"
+    "atd": "13:48"
   },
   {
     "flightNumber": "9791",
     "date": "2025-10-08",
     "from": "CTG-Rafael Nuñez Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:38",
-    "atd": "14:38"
+    "atd": "14:50"
   },
   {
     "flightNumber": "9389",
     "date": "2025-10-08",
     "from": "CTG-Rafael Nuñez Airport",
-    "to": "PEI-Matecaña Airport",
-    "status": "Confirmed",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
     "etd": "14:45",
-    "atd": "14:45"
+    "atd": "14:58"
+  },
+  {
+    "flightNumber": "9389",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "PEI-Matecaña Airport",
+    "status": "Landed",
+    "etd": "18:05",
+    "atd": "18:45"
   },
   {
     "flightNumber": "9453",
     "date": "2025-10-08",
     "from": "CUC-Camilo Daza Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:38",
-    "atd": "16:38"
+    "atd": "16:33"
   },
   {
     "flightNumber": "69",
     "date": "2025-10-08",
     "from": "CUN-Cancun Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:45",
-    "atd": "15:45"
+    "atd": "15:36"
   },
   {
     "flightNumber": "269",
     "date": "2025-10-08",
     "from": "CUN-Cancun Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:45",
-    "atd": "12:45"
+    "atd": "12:35"
   },
   {
     "flightNumber": "79",
     "date": "2025-10-08",
     "from": "CUR-Hato Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "17:50",
-    "atd": "17:50"
+    "atd": "17:44"
   },
   {
     "flightNumber": "9700",
     "date": "2025-10-08",
     "from": "EJA-Yariguies Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:59",
-    "atd": "16:59"
+    "atd": "16:53"
   },
   {
     "flightNumber": "4873",
     "date": "2025-10-08",
     "from": "EYP-El Alcaravan Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "19:26",
-    "atd": "19:26"
+    "atd": "19:18"
   },
   {
     "flightNumber": "218",
@@ -463,16 +490,16 @@
     "date": "2025-10-08",
     "from": "FLL-Fort Lauderdale/Hollywood Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:20",
-    "atd": "15:20"
+    "atd": "15:30"
   },
   {
     "flightNumber": "260",
     "date": "2025-10-08",
     "from": "GIG-Galeao Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "07:25",
     "atd": "07:25"
   },
@@ -481,25 +508,25 @@
     "date": "2025-10-08",
     "from": "GRU-Sao Pablo- Guarulhos Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:50",
-    "atd": "16:50"
+    "atd": "16:48"
   },
   {
     "flightNumber": "4848",
     "date": "2025-10-08",
     "from": "IBE-Perales Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:33",
-    "atd": "16:33"
+    "atd": "16:31"
   },
   {
     "flightNumber": "4811",
     "date": "2025-10-08",
     "from": "IPI-San Luis Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "10:38",
     "atd": "10:43"
   },
@@ -526,18 +553,18 @@
     "date": "2025-10-08",
     "from": "LET-Alfredo Vasquez Cobo Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "11:50",
-    "atd": "11:50"
+    "atd": "11:58"
   },
   {
     "flightNumber": "121",
     "date": "2025-10-08",
     "from": "LHR-Heathrow Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:06",
-    "atd": "22:06"
+    "atd": "22:01"
   },
   {
     "flightNumber": "102",
@@ -562,7 +589,7 @@
     "date": "2025-10-08",
     "from": "MAD- Adolfo Suárez Barajas",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "09:40",
     "atd": "10:01"
   },
@@ -571,34 +598,34 @@
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "ADZ-Gustavo Rojas Pinilla Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "11:39",
-    "atd": "11:39"
+    "atd": "11:38"
   },
   {
     "flightNumber": "9309",
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "17:30",
-    "atd": "17:30"
+    "atd": "17:33"
   },
   {
     "flightNumber": "9253",
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "CLO-Alfonso Bonilla Aragón Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:44",
-    "atd": "16:44"
+    "atd": "17:02"
   },
   {
     "flightNumber": "9820",
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "CTG-Rafael Nuñez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:46",
     "atd": "12:46"
   },
@@ -607,16 +634,16 @@
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "CUC-Camilo Daza Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:44",
-    "atd": "16:44"
+    "atd": "17:22"
   },
   {
     "flightNumber": "268",
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "CUN-Cancun Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "08:15",
     "atd": "08:09"
   },
@@ -625,16 +652,16 @@
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MIA-Miami Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:35",
-    "atd": "12:35"
+    "atd": "12:33"
   },
   {
     "flightNumber": "220",
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "PUJ-Punta Cana Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "09:30",
     "atd": "09:32"
   },
@@ -643,7 +670,7 @@
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "SJU-Luis Muñoz Marin Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "11:15",
     "atd": "11:10"
   },
@@ -670,70 +697,70 @@
     "date": "2025-10-08",
     "from": "MTR-Los Garzones Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:37",
-    "atd": "13:37"
+    "atd": "13:35"
   },
   {
     "flightNumber": "4834",
     "date": "2025-10-08",
     "from": "NVA-Benito Salas Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:38",
-    "atd": "14:38"
+    "atd": "14:28"
   },
   {
     "flightNumber": "263",
     "date": "2025-10-08",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:35",
-    "atd": "14:35"
+    "atd": "14:53"
   },
   {
     "flightNumber": "8560",
     "date": "2025-10-08",
     "from": "PEI-Matecaña Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "11:19",
-    "atd": "11:19"
+    "atd": "11:24"
   },
   {
     "flightNumber": "9388",
     "date": "2025-10-08",
     "from": "PEI-Matecaña Airport",
     "to": "CTG-Rafael Nuñez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:46",
-    "atd": "16:46"
+    "atd": "20:51"
   },
   {
     "flightNumber": "8598",
     "date": "2025-10-08",
     "from": "PSO-Antonio Nariño Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:46",
-    "atd": "13:46"
+    "atd": "14:00"
   },
   {
     "flightNumber": "61",
     "date": "2025-10-08",
     "from": "PTY-Tocumen Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "17:25",
-    "atd": "17:25"
+    "atd": "17:23"
   },
   {
     "flightNumber": "129",
     "date": "2025-10-08",
     "from": "PUJ-Punta Cana Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "11:45",
     "atd": "11:33"
   },
@@ -742,34 +769,34 @@
     "date": "2025-10-08",
     "from": "PUJ-Punta Cana Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:05",
-    "atd": "14:05"
+    "atd": "14:01"
   },
   {
     "flightNumber": "8591",
     "date": "2025-10-08",
     "from": "RCH-Almirante Padilla Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:02",
-    "atd": "15:02"
+    "atd": "15:10"
   },
   {
     "flightNumber": "71",
     "date": "2025-10-08",
     "from": "SAL-El Salvador Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Delayed",
+    "status": "Landed",
     "etd": "10:15",
-    "atd": "10:48"
+    "atd": "11:23"
   },
   {
     "flightNumber": "98",
     "date": "2025-10-08",
     "from": "SCL-Arturo Merino Benítez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "07:10",
     "atd": "07:00"
   },
@@ -778,27 +805,27 @@
     "date": "2025-10-08",
     "from": "SJU-Luis Muñoz Marin Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:25",
-    "atd": "16:25"
+    "atd": "16:16"
   },
   {
     "flightNumber": "9763",
     "date": "2025-10-08",
     "from": "SMR-Simon Bolivar Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "10:24",
     "atd": "10:21"
   },
   {
-    "flightNumber": "4881",
+    "flightNumber": "4809",
     "date": "2025-10-08",
     "from": "VVC-La Vanguardia Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
-    "etd": "11:54",
-    "atd": "11:54"
+    "status": "Landed",
+    "etd": "16:44",
+    "atd": "16:45"
   },
   {
     "flightNumber": "166",
@@ -808,6 +835,15 @@
     "status": "Landed",
     "etd": "02:50",
     "atd": "02:46"
+  },
+  {
+    "flightNumber": "105",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "07:40",
+    "atd": "07:37"
   },
   {
     "flightNumber": "8545",
@@ -823,9 +859,9 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "BAQ-Ernesto Cortissoz Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:44",
-    "atd": "16:44"
+    "atd": "16:42"
   },
   {
     "flightNumber": "8546",
@@ -841,45 +877,45 @@
     "date": "2025-10-08",
     "from": "ADZ-Gustavo Rojas Pinilla Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "20:51",
-    "atd": "20:51"
+    "atd": "21:10"
   },
   {
     "flightNumber": "18",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "BCN-Barcelona Intl Airport ",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "16:00",
-    "atd": "16:00"
+    "atd": "16:16"
   },
   {
     "flightNumber": "228",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "CDG-Paris Charles de Gaulle Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "13:35",
-    "atd": "13:35"
+    "atd": "13:34"
   },
   {
     "flightNumber": "217",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "EZE-Ezeiza Ministro Pistarini Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:00",
-    "atd": "15:45"
+    "atd": "15:38"
   },
   {
     "flightNumber": "261",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "GIG-Galeao Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:05",
-    "atd": "22:05"
+    "atd": "22:03"
   },
   {
     "flightNumber": "120",
@@ -895,18 +931,18 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "LIM-Jorge Chavez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "21:25",
-    "atd": "21:25"
+    "atd": "21:28"
   },
   {
     "flightNumber": "10",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "MAD- Adolfo Suárez Barajas",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "21:35",
-    "atd": "21:35"
+    "atd": "22:07"
   },
   {
     "flightNumber": "44",
@@ -922,52 +958,52 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "VVI-Viru Viru Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "20:50",
-    "atd": "20:50"
+    "atd": "20:49"
   },
   {
     "flightNumber": "9511",
     "date": "2025-10-08",
     "from": "CUC-Camilo Daza Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "18:36",
-    "atd": "18:36"
+    "atd": "19:07"
   },
   {
     "flightNumber": "219",
     "date": "2025-10-08",
     "from": "MCO-Orlando Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:25",
-    "atd": "16:25"
+    "atd": "16:18"
   },
   {
     "flightNumber": "111",
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "EZE-Ezeiza Ministro Pistarini Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "16:50",
-    "atd": "16:50"
+    "atd": "16:51"
   },
   {
     "flightNumber": "42",
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:25",
-    "atd": "22:25"
+    "atd": "22:24"
   },
   {
     "flightNumber": "234",
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:30",
     "atd": "22:30"
   },
@@ -976,7 +1012,7 @@
     "date": "2025-10-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "PEI-Matecaña Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "19:17",
     "atd": "19:17"
   },
@@ -985,36 +1021,45 @@
     "date": "2025-10-08",
     "from": "MIA-Miami Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "18:50",
-    "atd": "18:50"
+    "atd": "18:51"
   },
   {
     "flightNumber": "9618",
     "date": "2025-10-08",
     "from": "PEI-Matecaña Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "20:46",
-    "atd": "20:46"
+    "atd": "20:52"
   },
   {
     "flightNumber": "429",
     "date": "2025-10-08",
     "from": "SAL-El Salvador Airport",
     "to": "LIM-Jorge Chavez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:10",
-    "atd": "22:10"
+    "atd": "22:01"
   },
   {
     "flightNumber": "8581",
     "date": "2025-10-08",
     "from": "VUP-Alfonso Lopez Pumarejo Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "21:07",
-    "atd": "21:07"
+    "atd": "21:03"
+  },
+  {
+    "flightNumber": "34",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "GUA-La Aurora Airport",
+    "status": "Landed",
+    "etd": "13:15",
+    "atd": "13:11"
   },
   {
     "flightNumber": "9535",
@@ -1030,9 +1075,18 @@
     "date": "2025-10-08",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:50",
-    "atd": "23:50"
+    "atd": "23:46"
+  },
+  {
+    "flightNumber": "35",
+    "date": "2025-10-08",
+    "from": "GUA-La Aurora Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "16:35",
+    "atd": "16:29"
   },
   {
     "flightNumber": "4803",
@@ -1048,27 +1102,27 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "SDQ-Aeropuerto de las Americas",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:35",
-    "atd": "13:35"
+    "atd": "13:46"
   },
   {
     "flightNumber": "251",
     "date": "2025-10-08",
     "from": "SDQ-Aeropuerto de las Americas",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "18:10",
-    "atd": "18:10"
+    "atd": "18:17"
   },
   {
     "flightNumber": "1670",
     "date": "2025-10-08",
     "from": "UIO-Mariscal Sucre Airport",
     "to": "GYE-José Joaquín de Olmedo Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "20:38",
-    "atd": "20:38"
+    "atd": "20:54"
   },
   {
     "flightNumber": "5",
@@ -1084,7 +1138,7 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "VUP-Alfonso Lopez Pumarejo Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "10:01",
     "atd": "10:14"
   },
@@ -1093,9 +1147,9 @@
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "MIA-Miami Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:50",
-    "atd": "12:50"
+    "atd": "12:47"
   },
   {
     "flightNumber": "1691",
@@ -1116,15 +1170,6 @@
     "atd": "05:51"
   },
   {
-    "flightNumber": "1671",
-    "date": "2025-10-08",
-    "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Landed",
-    "etd": "06:00",
-    "atd": "05:50"
-  },
-  {
     "flightNumber": "82",
     "date": "2025-10-08",
     "from": "MAO-Eduardo Gomes Airport",
@@ -1134,31 +1179,31 @@
     "atd": "03:22"
   },
   {
+    "flightNumber": "8551",
+    "date": "2025-10-08",
+    "from": "AUC-Santiago Pérez Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Cancelled",
+    "etd": "10:24",
+    "atd": "10:24"
+  },
+  {
+    "flightNumber": "8550",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "AUC-Santiago Pérez Airport",
+    "status": "Cancelled",
+    "etd": "08:25",
+    "atd": "08:25"
+  },
+  {
     "flightNumber": "81",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "MAO-Eduardo Gomes Airport",
-    "status": "Confirmed",
-    "etd": "22:45",
-    "atd": "22:15"
-  },
-  {
-    "flightNumber": "8384",
-    "date": "2025-10-08",
-    "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "BOG-El Dorado Airport",
     "status": "Departed",
-    "etd": "09:45",
-    "atd": "09:41"
-  },
-  {
-    "flightNumber": "8384",
-    "date": "2025-10-08",
-    "from": "BOG-El Dorado Airport",
-    "to": "AUA-Queen Beatrix Airport",
-    "status": "Confirmed",
-    "etd": "13:10",
-    "atd": "13:10"
+    "etd": "22:45",
+    "atd": "22:12"
   },
   {
     "flightNumber": "24",
@@ -1174,27 +1219,225 @@
     "date": "2025-10-08",
     "from": "SJO-Juan Santamaria Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
-    "etd": "11:00",
-    "atd": "11:00"
-  },
-  {
-    "flightNumber": "105",
-    "date": "2025-10-08",
-    "from": "BOG-El Dorado Airport",
-    "to": "CUZ-Alejandro Velasco Astete Airport",
     "status": "Landed",
-    "etd": "07:40",
-    "atd": "07:37"
+    "etd": "11:00",
+    "atd": "10:59"
   },
   {
-    "flightNumber": "34",
+    "flightNumber": "9613",
+    "date": "2025-10-08",
+    "from": "ADZ-Gustavo Rojas Pinilla Airport",
+    "to": "CLO-Alfonso Bonilla Aragón Airport",
+    "status": "Landed",
+    "etd": "13:37",
+    "atd": "13:31"
+  },
+  {
+    "flightNumber": "8566",
+    "date": "2025-10-08",
+    "from": "AXM-El Eden Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "18:27",
+    "atd": "18:49"
+  },
+  {
+    "flightNumber": "9800",
+    "date": "2025-10-08",
+    "from": "BGA-Palonegro Airport",
+    "to": "CTG-Rafael Nuñez Airport",
+    "status": "Landed",
+    "etd": "21:56",
+    "atd": "21:46"
+  },
+  {
+    "flightNumber": "188",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
+    "to": "DFW-Dallas/Fort Worth Airport",
+    "status": "Landed",
+    "etd": "07:30",
+    "atd": "07:32"
+  },
+  {
+    "flightNumber": "8391",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "21:25",
+    "atd": "21:22"
+  },
+  {
+    "flightNumber": "109",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "MVD-Carrasco Airport",
+    "status": "Departed",
+    "etd": "21:25",
+    "atd": "21:22"
+  },
+  {
+    "flightNumber": "194",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "TPA-Topp Of Tampa Airport",
+    "status": "Landed",
+    "etd": "07:15",
+    "atd": "07:21"
+  },
+  {
+    "flightNumber": "67",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "UIO-Mariscal Sucre Airport",
+    "status": "Departed",
+    "etd": "22:59",
+    "atd": "22:52"
+  },
+  {
+    "flightNumber": "200",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "YUL-Montreal-Pierre Elliott Trudeau Airport",
+    "status": "Landed",
+    "etd": "14:25",
+    "atd": "14:25"
+  },
+  {
+    "flightNumber": "9614",
+    "date": "2025-10-08",
+    "from": "CLO-Alfonso Bonilla Aragón Airport",
+    "to": "ADZ-Gustavo Rojas Pinilla Airport",
+    "status": "Landed",
+    "etd": "11:00",
+    "atd": "10:56"
+  },
+  {
+    "flightNumber": "8570",
+    "date": "2025-10-08",
+    "from": "CLO-Alfonso Bonilla Aragón Airport",
+    "to": "CTG-Rafael Nuñez Airport",
+    "status": "Landed",
+    "etd": "06:23",
+    "atd": "06:18"
+  },
+  {
+    "flightNumber": "9222",
+    "date": "2025-10-08",
+    "from": "CLO-Alfonso Bonilla Aragón Airport",
+    "to": "SMR-Simon Bolivar Airport",
+    "status": "Landed",
+    "etd": "16:16",
+    "atd": "16:14"
+  },
+  {
+    "flightNumber": "9841",
+    "date": "2025-10-08",
+    "from": "CTG-Rafael Nuñez Airport",
+    "to": "BGA-Palonegro Airport",
+    "status": "Landed",
+    "etd": "20:05",
+    "atd": "19:58"
+  },
+  {
+    "flightNumber": "8569",
+    "date": "2025-10-08",
+    "from": "CTG-Rafael Nuñez Airport",
+    "to": "CLO-Alfonso Bonilla Aragón Airport",
+    "status": "Landed",
+    "etd": "08:46",
+    "atd": "08:39"
+  },
+  {
+    "flightNumber": "152",
+    "date": "2025-10-08",
+    "from": "CTG-Rafael Nuñez Airport",
+    "to": "SJO-Juan Santamaria Airport",
+    "status": "Landed",
+    "etd": "16:40",
+    "atd": "16:44"
+  },
+  {
+    "flightNumber": "189",
+    "date": "2025-10-08",
+    "from": "DFW-Dallas/Fort Worth Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "14:50",
+    "atd": "15:22"
+  },
+  {
+    "flightNumber": "701",
+    "date": "2025-10-08",
+    "from": "FRS-Mundo Maya Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
-    "etd": "13:15",
-    "atd": "13:15"
+    "status": "Landed",
+    "etd": "20:00",
+    "atd": "19:44"
+  },
+  {
+    "flightNumber": "700",
+    "date": "2025-10-08",
+    "from": "GUA-La Aurora Airport",
+    "to": "FRS-Mundo Maya Airport",
+    "status": "Landed",
+    "etd": "18:10",
+    "atd": "17:58"
+  },
+  {
+    "flightNumber": "17",
+    "date": "2025-10-08",
+    "from": "MAD- Adolfo Suárez Barajas",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "17:00",
+    "atd": "17:08"
+  },
+  {
+    "flightNumber": "16",
+    "date": "2025-10-08",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "MAD- Adolfo Suárez Barajas",
+    "status": "Departed",
+    "etd": "23:00",
+    "atd": "22:56"
+  },
+  {
+    "flightNumber": "153",
+    "date": "2025-10-08",
+    "from": "SJO-Juan Santamaria Airport",
+    "to": "CTG-Rafael Nuñez Airport",
+    "status": "Landed",
+    "etd": "18:20",
+    "atd": "18:21"
+  },
+  {
+    "flightNumber": "9225",
+    "date": "2025-10-08",
+    "from": "SMR-Simon Bolivar Airport",
+    "to": "CLO-Alfonso Bonilla Aragón Airport",
+    "status": "Landed",
+    "etd": "18:32",
+    "atd": "18:28"
+  },
+  {
+    "flightNumber": "195",
+    "date": "2025-10-08",
+    "from": "TPA-Topp Of Tampa Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "14:15",
+    "atd": "14:01"
+  },
+  {
+    "flightNumber": "201",
+    "date": "2025-10-08",
+    "from": "YUL-Montreal-Pierre Elliott Trudeau Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "23:25",
+    "atd": "23:34"
   },
   {
     "flightNumber": "224",
@@ -1206,220 +1449,40 @@
     "atd": "03:12"
   },
   {
-    "flightNumber": "35",
+    "flightNumber": "258",
     "date": "2025-10-08",
-    "from": "GUA-La Aurora Airport",
+    "from": "BOG-El Dorado Airport",
+    "to": "SJU-Luis Muñoz Marin Airport",
+    "status": "Landed",
+    "etd": "12:54",
+    "atd": "12:46"
+  },
+  {
+    "flightNumber": "259",
+    "date": "2025-10-08",
+    "from": "SJU-Luis Muñoz Marin Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
-    "etd": "16:35",
-    "atd": "16:35"
+    "status": "Landed",
+    "etd": "18:15",
+    "atd": "18:05"
   },
   {
     "flightNumber": "239",
     "date": "2025-10-08",
     "from": "BOG-El Dorado Airport",
     "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "21:25",
-    "atd": "21:25"
-  },
-  {
-    "flightNumber": "626",
-    "date": "2025-10-08",
-    "from": "SJO-Juan Santamaria Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Landed",
-    "etd": "05:05",
-    "atd": "05:03"
-  },
-  {
-    "flightNumber": "626",
-    "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "YYZ-Toronto Pearson Airport",
-    "status": "Departed",
-    "etd": "08:10",
-    "atd": "08:08"
-  },
-  {
-    "flightNumber": "627",
-    "date": "2025-10-08",
-    "from": "YYZ-Toronto Pearson Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "17:10",
-    "atd": "17:10"
-  },
-  {
-    "flightNumber": "627",
-    "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "22:25",
-    "atd": "22:25"
-  },
-  {
-    "flightNumber": "246",
-    "date": "2025-10-08",
-    "from": "BOG-El Dorado Airport",
-    "to": "IAD-Washington Dulles Airport",
-    "status": "Departed",
-    "etd": "07:30",
-    "atd": "07:29"
-  },
-  {
-    "flightNumber": "247",
-    "date": "2025-10-08",
-    "from": "IAD-Washington Dulles Airport",
-    "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
-    "etd": "15:20",
-    "atd": "15:20"
-  },
-  {
-    "flightNumber": "1607",
-    "date": "2025-10-08",
-    "from": "CUE-Mariscal Lamar Internacional Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
-    "etd": "20:30",
-    "atd": "20:30"
-  },
-  {
-    "flightNumber": "583",
-    "date": "2025-10-08",
-    "from": "IAD-Washington Dulles Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "17:05",
-    "atd": "17:05"
-  },
-  {
-    "flightNumber": "582",
-    "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "IAD-Washington Dulles Airport",
-    "status": "Departed",
-    "etd": "09:30",
-    "atd": "09:21"
-  },
-  {
-    "flightNumber": "1606",
-    "date": "2025-10-08",
-    "from": "UIO-Mariscal Sucre Airport",
-    "to": "CUE-Mariscal Lamar Internacional Airport",
-    "status": "Confirmed",
-    "etd": "18:40",
-    "atd": "18:40"
-  },
-  {
-    "flightNumber": "7392",
-    "date": "2025-10-08",
-    "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
-    "etd": "16:10",
-    "atd": "16:10"
-  },
-  {
-    "flightNumber": "9295",
-    "date": "2025-10-08",
-    "from": "CLO-Alfonso Bonilla Aragón Airport",
-    "to": "PSO-Antonio Nariño Airport",
-    "status": "Confirmed",
-    "etd": "15:12",
-    "atd": "15:12"
-  },
-  {
-    "flightNumber": "7393",
-    "date": "2025-10-08",
-    "from": "JFK-John F Kennedy",
-    "to": "GYE-José Joaquín de Olmedo Airport",
-    "status": "Landed",
-    "etd": "02:00",
-    "atd": "01:59"
-  },
-  {
-    "flightNumber": "9294",
-    "date": "2025-10-08",
-    "from": "PSO-Antonio Nariño Airport",
-    "to": "CLO-Alfonso Bonilla Aragón Airport",
-    "status": "Confirmed",
-    "etd": "16:50",
-    "atd": "16:50"
-  },
-  {
-    "flightNumber": "448",
-    "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "XPL-Palmerola International Airport",
-    "status": "Confirmed",
-    "etd": "17:50",
-    "atd": "17:50"
-  },
-  {
-    "flightNumber": "523",
-    "date": "2025-10-08",
-    "from": "LAX-Los Angeles Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "13:50",
-    "atd": "13:50"
-  },
-  {
-    "flightNumber": "522",
-    "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "LAX-Los Angeles Airport",
-    "status": "Departed",
-    "etd": "08:00",
-    "atd": "08:04"
-  },
-  {
-    "flightNumber": "560",
-    "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "SFO-San Francisco Airport",
-    "status": "Confirmed",
-    "etd": "17:40",
-    "atd": "17:40"
-  },
-  {
-    "flightNumber": "441",
-    "date": "2025-10-08",
-    "from": "DFW-Dallas/Fort Worth Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "13:50",
-    "atd": "13:50"
-  },
-  {
-    "flightNumber": "8467",
-    "date": "2025-10-08",
-    "from": "PEI-Matecaña Airport",
-    "to": "SMR-Simon Bolivar Airport",
-    "status": "Confirmed",
-    "etd": "14:30",
-    "atd": "14:30"
+    "atd": "21:27"
   },
   {
     "flightNumber": "322",
     "date": "2025-10-08",
     "from": "PTY-Tocumen Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "15:40",
-    "atd": "15:40"
-  },
-  {
-    "flightNumber": "440",
-    "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "DFW-Dallas/Fort Worth Airport",
-    "status": "Departed",
-    "etd": "07:40",
-    "atd": "07:33"
+    "atd": "15:29"
   },
   {
     "flightNumber": "323",
@@ -1431,211 +1494,229 @@
     "atd": "07:23"
   },
   {
-    "flightNumber": "617",
+    "flightNumber": "212",
     "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
+    "from": "ASU-Silvio Pettirossi Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "08:10",
+    "atd": "07:58"
+  },
+  {
+    "flightNumber": "222",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "BOS-Logan Airport",
+    "status": "Confirmed",
+    "etd": "23:55",
+    "atd": "23:55"
+  },
+  {
+    "flightNumber": "698",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
     "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "17:35",
-    "atd": "17:35"
+    "status": "Landed",
+    "etd": "14:25",
+    "atd": "14:20"
   },
   {
-    "flightNumber": "616",
+    "flightNumber": "8516",
+    "date": "2025-10-08",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "RCH-Almirante Padilla Airport",
+    "status": "Landed",
+    "etd": "09:30",
+    "atd": "09:23"
+  },
+  {
+    "flightNumber": "8517",
+    "date": "2025-10-08",
+    "from": "RCH-Almirante Padilla Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "11:41",
+    "atd": "11:40"
+  },
+  {
+    "flightNumber": "697",
     "date": "2025-10-08",
     "from": "SJO-Juan Santamaria Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "19:45",
-    "atd": "19:45"
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "10:10",
+    "atd": "10:19"
   },
   {
-    "flightNumber": "8466",
+    "flightNumber": "246",
     "date": "2025-10-08",
-    "from": "SMR-Simon Bolivar Airport",
-    "to": "PEI-Matecaña Airport",
-    "status": "Confirmed",
-    "etd": "16:50",
-    "atd": "16:50"
+    "from": "BOG-El Dorado Airport",
+    "to": "IAD-Washington Dulles Airport",
+    "status": "Landed",
+    "etd": "07:30",
+    "atd": "07:29"
   },
   {
-    "flightNumber": "449",
+    "flightNumber": "247",
     "date": "2025-10-08",
-    "from": "XPL-Palmerola International Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "19:40",
-    "atd": "19:40"
+    "from": "IAD-Washington Dulles Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "15:20",
+    "atd": "15:15"
   },
   {
-    "flightNumber": "431",
+    "flightNumber": "1607",
     "date": "2025-10-08",
-    "from": "MEX-Benito Juarez Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "16:50",
-    "atd": "16:50"
-  },
-  {
-    "flightNumber": "632",
-    "date": "2025-10-08",
-    "from": "SJO-Juan Santamaria Airport",
-    "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
-    "etd": "12:20",
-    "atd": "12:20"
-  },
-  {
-    "flightNumber": "7397",
-    "date": "2025-10-08",
-    "from": "JFK-John F Kennedy",
+    "from": "CUE-Mariscal Lamar Internacional Airport",
     "to": "UIO-Mariscal Sucre Airport",
     "status": "Landed",
-    "etd": "01:20",
-    "atd": "01:24"
+    "etd": "20:30",
+    "atd": "21:14"
   },
   {
-    "flightNumber": "367",
+    "flightNumber": "583",
     "date": "2025-10-08",
-    "from": "IAH-George Bush Intercontinental Airport",
-    "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "14:05",
-    "atd": "14:05"
-  },
-  {
-    "flightNumber": "642",
-    "date": "2025-10-08",
-    "from": "PTY-Tocumen Airport",
-    "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "13:30",
-    "atd": "13:30"
-  },
-  {
-    "flightNumber": "368",
-    "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "IAH-George Bush Intercontinental Airport",
-    "status": "Departed",
-    "etd": "08:00",
-    "atd": "07:55"
-  },
-  {
-    "flightNumber": "643",
-    "date": "2025-10-08",
-    "from": "SJO-Juan Santamaria Airport",
-    "to": "PTY-Tocumen Airport",
-    "status": "Confirmed",
-    "etd": "10:15",
-    "atd": "10:15"
-  },
-  {
-    "flightNumber": "314",
-    "date": "2025-10-08",
-    "from": "MGA-Augusto C. Sandino Airport",
+    "from": "IAD-Washington Dulles Airport",
     "to": "SAL-El Salvador Airport",
     "status": "Landed",
-    "etd": "05:25",
-    "atd": "05:16"
+    "etd": "17:05",
+    "atd": "17:05"
   },
   {
-    "flightNumber": "1689",
+    "flightNumber": "582",
     "date": "2025-10-08",
-    "from": "GPS-Seymour Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
-    "etd": "13:05",
-    "atd": "13:05"
+    "from": "SAL-El Salvador Airport",
+    "to": "IAD-Washington Dulles Airport",
+    "status": "Landed",
+    "etd": "09:30",
+    "atd": "09:21"
   },
   {
-    "flightNumber": "575",
+    "flightNumber": "1606",
+    "date": "2025-10-08",
+    "from": "UIO-Mariscal Sucre Airport",
+    "to": "CUE-Mariscal Lamar Internacional Airport",
+    "status": "Landed",
+    "etd": "18:40",
+    "atd": "19:37"
+  },
+  {
+    "flightNumber": "535",
     "date": "2025-10-08",
     "from": "SAP-Ramon Villeda Morales Airport",
     "to": "SAL-El Salvador Airport",
     "status": "Landed",
-    "etd": "04:30",
-    "atd": "04:25"
+    "etd": "20:10",
+    "atd": "19:54"
+  },
+  {
+    "flightNumber": "9295",
+    "date": "2025-10-08",
+    "from": "CLO-Alfonso Bonilla Aragón Airport",
+    "to": "PSO-Antonio Nariño Airport",
+    "status": "Landed",
+    "etd": "15:12",
+    "atd": "15:11"
+  },
+  {
+    "flightNumber": "8565",
+    "date": "2025-10-08",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "AXM-El Eden Airport",
+    "status": "Landed",
+    "etd": "16:57",
+    "atd": "17:19"
+  },
+  {
+    "flightNumber": "9294",
+    "date": "2025-10-08",
+    "from": "PSO-Antonio Nariño Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "16:50",
+    "atd": "17:00"
+  },
+  {
+    "flightNumber": "9294",
+    "date": "2025-10-08",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "CLO-Alfonso Bonilla Aragón Airport",
+    "status": "Landed",
+    "etd": "19:10",
+    "atd": "19:14"
+  },
+  {
+    "flightNumber": "7392",
+    "date": "2025-10-08",
+    "from": "GYE-José Joaquín de Olmedo Airport",
+    "to": "JFK-John F Kennedy",
+    "status": "Landed",
+    "etd": "16:10",
+    "atd": "16:03"
   },
   {
     "flightNumber": "1688",
     "date": "2025-10-08",
     "from": "UIO-Mariscal Sucre Airport",
     "to": "GPS-Seymour Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "11:10",
     "atd": "11:10"
   },
   {
-    "flightNumber": "563",
+    "flightNumber": "7393",
+    "date": "2025-10-08",
+    "from": "JFK-John F Kennedy",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "02:00",
+    "atd": "01:59"
+  },
+  {
+    "flightNumber": "561",
     "date": "2025-10-08",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
-    "etd": "14:20",
-    "atd": "14:20"
-  },
-  {
-    "flightNumber": "1630",
-    "date": "2025-10-08",
-    "from": "UIO-Mariscal Sucre Airport",
-    "to": "GYE-José Joaquín de Olmedo Airport",
     "status": "Landed",
-    "etd": "09:25",
-    "atd": "09:24"
+    "etd": "00:05",
+    "atd": "00:03"
   },
   {
-    "flightNumber": "1630",
-    "date": "2025-10-08",
-    "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "SCY-San Cristóbal Airport",
-    "status": "Confirmed",
-    "etd": "11:25",
-    "atd": "11:25"
-  },
-  {
-    "flightNumber": "641",
+    "flightNumber": "523",
     "date": "2025-10-08",
     "from": "LAX-Los Angeles Airport",
-    "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
-    "etd": "14:50",
-    "atd": "14:50"
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "13:50",
+    "atd": "13:57"
   },
   {
-    "flightNumber": "1631",
-    "date": "2025-10-08",
-    "from": "SCY-San Cristóbal Airport",
-    "to": "GYE-José Joaquín de Olmedo Airport",
-    "status": "Confirmed",
-    "etd": "13:05",
-    "atd": "13:05"
-  },
-  {
-    "flightNumber": "1631",
-    "date": "2025-10-08",
-    "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
-    "etd": "16:40",
-    "atd": "16:40"
-  },
-  {
-    "flightNumber": "578",
+    "flightNumber": "522",
     "date": "2025-10-08",
     "from": "SAL-El Salvador Airport",
-    "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
-    "etd": "22:20",
-    "atd": "22:20"
+    "to": "LAX-Los Angeles Airport",
+    "status": "Landed",
+    "etd": "08:00",
+    "atd": "08:04"
   },
   {
-    "flightNumber": "315",
+    "flightNumber": "448",
     "date": "2025-10-08",
     "from": "SAL-El Salvador Airport",
-    "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
-    "etd": "22:35",
-    "atd": "22:35"
+    "to": "XPL-Palmerola International Airport",
+    "status": "Landed",
+    "etd": "17:50",
+    "atd": "18:20"
+  },
+  {
+    "flightNumber": "560",
+    "date": "2025-10-08",
+    "from": "SAL-El Salvador Airport",
+    "to": "SFO-San Francisco Airport",
+    "status": "Departed",
+    "etd": "17:40",
+    "atd": "17:44"
   },
   {
     "flightNumber": "579",
@@ -1645,6 +1726,123 @@
     "status": "Landed",
     "etd": "05:20",
     "atd": "05:09"
+  },
+  {
+    "flightNumber": "534",
+    "date": "2025-10-08",
+    "from": "SAL-El Salvador Airport",
+    "to": "SAP-Ramon Villeda Morales Airport",
+    "status": "Landed",
+    "etd": "17:45",
+    "atd": "17:34"
+  },
+  {
+    "flightNumber": "8456",
+    "date": "2025-10-08",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "MTR-Los Garzones Airport",
+    "status": "Landed",
+    "etd": "18:11",
+    "atd": "18:15"
+  },
+  {
+    "flightNumber": "8457",
+    "date": "2025-10-08",
+    "from": "MTR-Los Garzones Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "19:44",
+    "atd": "19:50"
+  },
+  {
+    "flightNumber": "441",
+    "date": "2025-10-08",
+    "from": "DFW-Dallas/Fort Worth Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "13:50",
+    "atd": "13:45"
+  },
+  {
+    "flightNumber": "8467",
+    "date": "2025-10-08",
+    "from": "PEI-Matecaña Airport",
+    "to": "SMR-Simon Bolivar Airport",
+    "status": "Landed",
+    "etd": "14:30",
+    "atd": "14:49"
+  },
+  {
+    "flightNumber": "440",
+    "date": "2025-10-08",
+    "from": "SAL-El Salvador Airport",
+    "to": "DFW-Dallas/Fort Worth Airport",
+    "status": "Landed",
+    "etd": "07:40",
+    "atd": "07:33"
+  },
+  {
+    "flightNumber": "578",
+    "date": "2025-10-08",
+    "from": "SAL-El Salvador Airport",
+    "to": "GUA-La Aurora Airport",
+    "status": "Departed",
+    "etd": "22:20",
+    "atd": "22:15"
+  },
+  {
+    "flightNumber": "617",
+    "date": "2025-10-08",
+    "from": "SAL-El Salvador Airport",
+    "to": "SJO-Juan Santamaria Airport",
+    "status": "Landed",
+    "etd": "17:35",
+    "atd": "17:25"
+  },
+  {
+    "flightNumber": "616",
+    "date": "2025-10-08",
+    "from": "SJO-Juan Santamaria Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "19:45",
+    "atd": "19:36"
+  },
+  {
+    "flightNumber": "8466",
+    "date": "2025-10-08",
+    "from": "SMR-Simon Bolivar Airport",
+    "to": "PEI-Matecaña Airport",
+    "status": "Landed",
+    "etd": "16:50",
+    "atd": "16:51"
+  },
+  {
+    "flightNumber": "449",
+    "date": "2025-10-08",
+    "from": "XPL-Palmerola International Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "19:40",
+    "atd": "20:07"
+  },
+  {
+    "flightNumber": "431",
+    "date": "2025-10-08",
+    "from": "MEX-Benito Juarez Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "16:50",
+    "atd": "16:57"
+  },
+  {
+    "flightNumber": "632",
+    "date": "2025-10-08",
+    "from": "SJO-Juan Santamaria Airport",
+    "to": "MEX-Benito Juarez Airport",
+    "status": "Landed",
+    "etd": "12:20",
+    "atd": "12:31"
   },
   {
     "flightNumber": "655",
@@ -1665,31 +1863,49 @@
     "atd": "05:58"
   },
   {
-    "flightNumber": "457",
+    "flightNumber": "225",
     "date": "2025-10-08",
-    "from": "SAL-El Salvador Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
-    "etd": "22:50",
-    "atd": "22:50"
+    "from": "BOG-El Dorado Airport",
+    "to": "GEO-Cheddi Jagan International Airport",
+    "status": "Departed",
+    "etd": "22:55",
+    "atd": "22:52"
   },
   {
-    "flightNumber": "1633",
-    "date": "2025-10-08",
-    "from": "GPS-Seymour Airport",
-    "to": "GYE-José Joaquín de Olmedo Airport",
-    "status": "Confirmed",
-    "etd": "11:36",
-    "atd": "11:36"
-  },
-  {
-    "flightNumber": "1633",
+    "flightNumber": "7373",
     "date": "2025-10-08",
     "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
-    "etd": "15:20",
-    "atd": "15:20"
+    "to": "EZE-Ezeiza Ministro Pistarini Airport",
+    "status": "Departed",
+    "etd": "22:00",
+    "atd": "21:59"
+  },
+  {
+    "flightNumber": "367",
+    "date": "2025-10-08",
+    "from": "IAH-George Bush Intercontinental Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "14:05",
+    "atd": "13:59"
+  },
+  {
+    "flightNumber": "314",
+    "date": "2025-10-08",
+    "from": "MGA-Augusto C. Sandino Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "05:25",
+    "atd": "05:16"
+  },
+  {
+    "flightNumber": "368",
+    "date": "2025-10-08",
+    "from": "SAL-El Salvador Airport",
+    "to": "IAH-George Bush Intercontinental Airport",
+    "status": "Landed",
+    "etd": "08:00",
+    "atd": "07:55"
   },
   {
     "flightNumber": "1632",
@@ -1705,27 +1921,117 @@
     "date": "2025-10-08",
     "from": "GYE-José Joaquín de Olmedo Airport",
     "to": "GPS-Seymour Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "09:56",
     "atd": "09:43"
   },
   {
-    "flightNumber": "650",
+    "flightNumber": "642",
     "date": "2025-10-08",
-    "from": "SJO-Juan Santamaria Airport",
-    "to": "GUA-La Aurora Airport",
+    "from": "PTY-Tocumen Airport",
+    "to": "SJO-Juan Santamaria Airport",
     "status": "Landed",
-    "etd": "06:10",
-    "atd": "06:07"
+    "etd": "13:30",
+    "atd": "13:29"
   },
   {
-    "flightNumber": "650",
+    "flightNumber": "643",
     "date": "2025-10-08",
-    "from": "GUA-La Aurora Airport",
-    "to": "CUN-Cancun Airport",
-    "status": "Departed",
+    "from": "SJO-Juan Santamaria Airport",
+    "to": "PTY-Tocumen Airport",
+    "status": "Landed",
     "etd": "10:15",
-    "atd": "10:03"
+    "atd": "10:13"
+  },
+  {
+    "flightNumber": "1630",
+    "date": "2025-10-08",
+    "from": "UIO-Mariscal Sucre Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "09:25",
+    "atd": "09:24"
+  },
+  {
+    "flightNumber": "1630",
+    "date": "2025-10-08",
+    "from": "GYE-José Joaquín de Olmedo Airport",
+    "to": "SCY-San Cristóbal Airport",
+    "status": "Landed",
+    "etd": "11:25",
+    "atd": "11:24"
+  },
+  {
+    "flightNumber": "1631",
+    "date": "2025-10-08",
+    "from": "SCY-San Cristóbal Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "13:05",
+    "atd": "13:01"
+  },
+  {
+    "flightNumber": "1631",
+    "date": "2025-10-08",
+    "from": "GYE-José Joaquín de Olmedo Airport",
+    "to": "UIO-Mariscal Sucre Airport",
+    "status": "Landed",
+    "etd": "16:40",
+    "atd": "16:33"
+  },
+  {
+    "flightNumber": "641",
+    "date": "2025-10-08",
+    "from": "LAX-Los Angeles Airport",
+    "to": "GUA-La Aurora Airport",
+    "status": "Landed",
+    "etd": "14:50",
+    "atd": "14:48"
+  },
+  {
+    "flightNumber": "445",
+    "date": "2025-10-08",
+    "from": "BOS-Logan Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "16:50",
+    "atd": "16:49"
+  },
+  {
+    "flightNumber": "444",
+    "date": "2025-10-08",
+    "from": "SAL-El Salvador Airport",
+    "to": "BOS-Logan Airport",
+    "status": "Landed",
+    "etd": "07:45",
+    "atd": "08:23"
+  },
+  {
+    "flightNumber": "8343",
+    "date": "2025-10-08",
+    "from": "GYE-José Joaquín de Olmedo Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "18:25",
+    "atd": "18:25"
+  },
+  {
+    "flightNumber": "8343",
+    "date": "2025-10-08",
+    "from": "BOG-El Dorado Airport",
+    "to": "COR-Ingeniero Ambrosio Taravella Airport",
+    "status": "Departed",
+    "etd": "22:25",
+    "atd": "22:23"
+  },
+  {
+    "flightNumber": "456",
+    "date": "2025-10-08",
+    "from": "UIO-Mariscal Sucre Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "03:15",
+    "atd": "03:10"
   },
   {
     "flightNumber": "396",
@@ -1741,62 +2047,89 @@
     "date": "2025-10-08",
     "from": "MGA-Augusto C. Sandino Airport",
     "to": "MIA-Miami Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "09:20",
     "atd": "09:50"
   },
   {
-    "flightNumber": "701",
+    "flightNumber": "602",
     "date": "2025-10-08",
-    "from": "FRS-Mundo Maya Airport",
-    "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
-    "etd": "20:00",
-    "atd": "20:00"
+    "from": "SJO-Juan Santamaria Airport",
+    "to": "MGA-Augusto C. Sandino Airport",
+    "status": "Landed",
+    "etd": "17:25",
+    "atd": "17:14"
   },
   {
-    "flightNumber": "700",
+    "flightNumber": "602",
     "date": "2025-10-08",
-    "from": "GUA-La Aurora Airport",
-    "to": "FRS-Mundo Maya Airport",
-    "status": "Confirmed",
-    "etd": "18:10",
-    "atd": "18:10"
+    "from": "MGA-Augusto C. Sandino Airport",
+    "to": "MIA-Miami Airport",
+    "status": "Landed",
+    "etd": "19:25",
+    "atd": "19:10"
   },
   {
-    "flightNumber": "633",
+    "flightNumber": "134",
     "date": "2025-10-08",
-    "from": "MEX-Benito Juarez Airport",
-    "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "12:55",
-    "atd": "12:55"
+    "from": "GYE-José Joaquín de Olmedo Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "13:35",
+    "atd": "13:32"
   },
   {
-    "flightNumber": "430",
+    "flightNumber": "135",
+    "date": "2025-10-08",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "18:35",
+    "atd": "18:31"
+  },
+  {
+    "flightNumber": "568",
     "date": "2025-10-08",
     "from": "SAL-El Salvador Airport",
-    "to": "MEX-Benito Juarez Airport",
-    "status": "Departed",
-    "etd": "08:40",
-    "atd": "08:28"
-  },
-  {
-    "flightNumber": "651",
-    "date": "2025-10-08",
-    "from": "CUN-Cancun Airport",
-    "to": "GUA-La Aurora Airport",
+    "to": "JFK-John F Kennedy",
     "status": "Confirmed",
-    "etd": "14:10",
-    "atd": "14:10"
+    "etd": "22:55",
+    "atd": "22:55"
   },
   {
-    "flightNumber": "651",
+    "flightNumber": "640",
     "date": "2025-10-08",
     "from": "GUA-La Aurora Airport",
-    "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "21:45",
-    "atd": "21:45"
+    "to": "LAX-Los Angeles Airport",
+    "status": "Landed",
+    "etd": "09:00",
+    "atd": "08:53"
+  },
+  {
+    "flightNumber": "592",
+    "date": "2025-10-08",
+    "from": "GYE-José Joaquín de Olmedo Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "03:15",
+    "atd": "02:58"
+  },
+  {
+    "flightNumber": "370",
+    "date": "2025-10-08",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "14:10",
+    "atd": "14:01"
+  },
+  {
+    "flightNumber": "369",
+    "date": "2025-10-08",
+    "from": "SAL-El Salvador Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "09:00",
+    "atd": "08:55"
   }
 ]
