@@ -1,0 +1,101 @@
+[
+  {
+    "flightNumber": "561",
+    "date": "2025-10-10",
+    "from": "SFO-San Francisco Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "00:05",
+    "atd": "23:59"
+  },
+  {
+    "flightNumber": "673",
+    "date": "2025-10-10",
+    "from": "LAX-Los Angeles Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "01:00",
+    "atd": "00:57"
+  },
+  {
+    "flightNumber": "7393",
+    "date": "2025-10-10",
+    "from": "JFK-John F Kennedy",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "02:00",
+    "atd": "03:06"
+  },
+  {
+    "flightNumber": "314",
+    "date": "2025-10-10",
+    "from": "MGA-Augusto C. Sandino Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "05:25",
+    "atd": "05:09"
+  },
+  {
+    "flightNumber": "603",
+    "date": "2025-10-10",
+    "from": "MIA-Miami Airport",
+    "to": "MGA-Augusto C. Sandino Airport",
+    "status": "Landed",
+    "etd": "05:35",
+    "atd": "05:32"
+  },
+  {
+    "flightNumber": "603",
+    "date": "2025-10-10",
+    "from": "MGA-Augusto C. Sandino Airport",
+    "to": "SJO-Juan Santamaria Airport",
+    "status": "Landed",
+    "etd": "07:00",
+    "atd": "06:42"
+  },
+  {
+    "flightNumber": "396",
+    "date": "2025-10-10",
+    "from": "SAL-El Salvador Airport",
+    "to": "MGA-Augusto C. Sandino Airport",
+    "status": "Landed",
+    "etd": "07:30",
+    "atd": "07:36"
+  },
+  {
+    "flightNumber": "396",
+    "date": "2025-10-10",
+    "from": "MGA-Augusto C. Sandino Airport",
+    "to": "MIA-Miami Airport",
+    "status": "Departed",
+    "etd": "09:20",
+    "atd": "09:12"
+  },
+  {
+    "flightNumber": "323",
+    "date": "2025-10-10",
+    "from": "SAL-El Salvador Airport",
+    "to": "PTY-Tocumen Airport",
+    "status": "Landed",
+    "etd": "07:30",
+    "atd": "07:23"
+  },
+  {
+    "flightNumber": "440",
+    "date": "2025-10-10",
+    "from": "SAL-El Salvador Airport",
+    "to": "DFW-Dallas/Fort Worth Airport",
+    "status": "Departed",
+    "etd": "07:40",
+    "atd": "07:37"
+  },
+  {
+    "flightNumber": "1688",
+    "date": "2025-10-10",
+    "from": "UIO-Mariscal Sucre Airport",
+    "to": "GPS-Seymour Airport",
+    "status": "Landed",
+    "etd": "07:00",
+    "atd": "07:12"
+  }
+]
