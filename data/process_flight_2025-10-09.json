@@ -1331,12 +1331,12 @@
     "date": "2025-10-09",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-09T23:17:38.000Z"
+    "atd": "23:23",
+    "delayMinutes": -2,
+    "delayCategory": "Early 2",
+    "lastUpdated": "2025-10-10T02:12:59.000Z"
   },
   {
     "id": 104,
@@ -2917,12 +2917,12 @@
     "date": "2025-10-09",
     "from": "SAL-El Salvador Airport",
     "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:35",
-    "atd": "22:35",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-09T23:17:38.000Z"
+    "atd": "22:29",
+    "delayMinutes": -6,
+    "delayCategory": "Early 6",
+    "lastUpdated": "2025-10-10T02:13:00.000Z"
   },
   {
     "id": 226,
@@ -2930,12 +2930,12 @@
     "date": "2025-10-09",
     "from": "ONT-LA/Ontario International Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-09T23:17:38.000Z"
+    "atd": "23:26",
+    "delayMinutes": 1,
+    "delayCategory": "+ 1",
+    "lastUpdated": "2025-10-10T02:12:59.000Z"
   },
   {
     "id": 227,
