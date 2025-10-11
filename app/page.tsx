@@ -62,15 +62,14 @@ function HomePageContent() {
               onDateChange={handleDateChange}
               className="animate-in fill-mode-backwards fade-in slide-in-from-bottom-2 delay-700 duration-500"
             />
-            {!loading && (
-              <DailySummary
-                totalFlights={summary.totalFlights}
-                onTime={summary.onTime}
-                delayed={summary.delayed}
-                canceled={summary.canceled}
-                averageDelay={summary.averageDelay}
-              />
-            )}
+            <DailySummary
+              totalFlights={summary.totalFlights}
+              onTime={summary.onTime}
+              delayed={summary.delayed}
+              canceled={summary.canceled}
+              averageDelay={summary.averageDelay}
+              loading={loading}
+            />
 
             <FlightTable date={selectedDate} />
           </div>

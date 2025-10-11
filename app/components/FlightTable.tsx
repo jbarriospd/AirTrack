@@ -26,6 +26,18 @@ export default function FlightTable({ date }: FlightTableProps) {
   const formatDelayDisplay = (delayMinutes: number | null, status: string): string => {
     if (status === 'Cancelled') return 'Cancelled'
     if (delayMinutes === null) return '-'
+
+    if (Math.abs(delayMinutes) >= 60) {
+      const hours = Math.floor(Math.abs(delayMinutes) / 60)
+      const mins = Math.abs(delayMinutes) % 60
+      const sign = delayMinutes > 0 ? '+' : ''
+
+      if (mins === 0) {
+        return `${sign}${hours} ${hours === 1 ? 'hour' : 'hours'}`
+      }
+      return `${sign}${hours}h ${mins}m`
+    }
+
     if (delayMinutes > 0) return `+${delayMinutes} min`
     if (delayMinutes < 0) return `${delayMinutes} min`
     return 'On time'
@@ -311,7 +323,7 @@ export default function FlightTable({ date }: FlightTableProps) {
                         {getStatusBadge(flight.delayMinutes, flight.status)}
                         {flight.delayMinutes !== null && flight.delayMinutes > 0 && (
                           <span className={`text-xs font-medium ${getDelayColor(flight.delayMinutes)}`}>
-                            +{flight.delayMinutes}m
+                            {formatDelayDisplay(flight.delayMinutes, flight.status)}
                           </span>
                         )}
                       </div>
@@ -376,7 +388,7 @@ export default function FlightTable({ date }: FlightTableProps) {
                 {flight.delayMinutes !== null && flight.delayMinutes > 0 && (
                   <div className="mt-3 pl-2 pt-3 border-t border-zinc-100 dark:border-zinc-800">
                     <span className={`text-xs font-semibold ${getDelayColor(flight.delayMinutes)}`}>
-                      Delayed by {flight.delayMinutes} minutes
+                      Delayed by {formatDelayDisplay(flight.delayMinutes, flight.status).replace(/^\+/, '')}
                     </span>
                   </div>
                 )}

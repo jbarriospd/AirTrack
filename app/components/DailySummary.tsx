@@ -6,6 +6,30 @@ interface DailySummaryProps {
     delayed: number
     canceled: number
     averageDelay: number
+    loading?: boolean
+}
+
+export function DailySummarySkeleton() {
+    return (
+        <div className="w-full space-y-4">
+            <div className="h-7 w-40 bg-zinc-200 dark:bg-zinc-800 rounded animate-pulse" />
+            <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                {[1, 2, 3, 4, 5].map((i) => (
+                    <div
+                        key={i}
+                        className={`p-4 bg-zinc-100 dark:bg-zinc-800/50 rounded-lg border border-zinc-200 dark:border-zinc-700/50 ${i === 5 ? 'col-span-2 md:col-span-1' : ''}`}
+                    >
+                        <div className="flex items-center justify-between mb-2">
+                            <div className="h-4 w-20 bg-zinc-200 dark:bg-zinc-700 rounded animate-pulse" />
+                            <div className="w-4 h-4 bg-zinc-200 dark:bg-zinc-700 rounded animate-pulse" />
+                        </div>
+                        <div className="h-9 w-16 bg-zinc-200 dark:bg-zinc-700 rounded animate-pulse mb-2" />
+                        <div className="h-3 w-24 bg-zinc-200 dark:bg-zinc-700 rounded animate-pulse" />
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
 }
 
 export default function DailySummary({
@@ -14,7 +38,11 @@ export default function DailySummary({
     delayed,
     canceled,
     averageDelay,
+    loading = false,
 }: DailySummaryProps) {
+    if (loading) {
+        return <DailySummarySkeleton />
+    }
     const onTimePercentage = totalFlights > 0 ? ((onTime / totalFlights) * 100).toFixed(1) : '0'
     const delayedPercentage = totalFlights > 0 ? ((delayed / totalFlights) * 100).toFixed(1) : '0'
     const canceledPercentage = totalFlights > 0 ? ((canceled / totalFlights) * 100).toFixed(1) : '0'
