@@ -10,11 +10,11 @@ interface DateSelectorProps {
   className?: string
 }
 
-function getMondayOfCurrentWeek(dateStr: string): string {
+function getSundayOfCurrentWeek(dateStr: string): string {
   const [year, month, day] = dateStr.split('-').map(Number)
   const date = new Date(year, month - 1, day)
   const dayOfWeek = date.getDay()
-  const diff = dayOfWeek === 0 ? -6 : -(dayOfWeek - 1)
+  const diff = dayOfWeek === 0 ? 0 : -dayOfWeek
   date.setDate(date.getDate() + diff)
   return date.toISOString().split('T')[0]
 }
@@ -50,7 +50,7 @@ export default function DateSelector({
   className,
 }: DateSelectorProps) {
   const today = getTodayString()
-  const minDate = getMondayOfCurrentWeek(today)
+  const minDate = getSundayOfCurrentWeek(today)
   const maxDate = today
   const [showPicker, setShowPicker] = useState(false)
 
