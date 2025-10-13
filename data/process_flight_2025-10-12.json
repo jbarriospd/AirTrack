@@ -1266,12 +1266,12 @@
     "date": "2025-10-12",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-12T23:18:20.000Z"
+    "atd": "23:24",
+    "delayMinutes": -1,
+    "delayCategory": "Early 1",
+    "lastUpdated": "2025-10-13T02:14:08.000Z"
   },
   {
     "id": 99,
