@@ -26,18 +26,74 @@ const jetbrainsMono = JetBrains_Mono({
 import { ThemeProvider } from '@/app/ThemeProvider'
 
 export const metadata: Metadata = {
-  description: appConfig.description,
   metadataBase: new URL(appConfig.prodUrl),
+  title: {
+    default: appConfig.title,
+    template: `%s | AirTrack`,
+  },
+  description: appConfig.description,
+  applicationName: 'AirTrack',
+  keywords: [
+    'Avianca',
+    'flight tracking',
+    'flight status',
+    'flight delays',
+    'airline statistics',
+    'on-time performance',
+    'Colombia flights',
+    'AirTrack',
+    'flight punctuality',
+    'aviation data',
+    'real-time flight tracking',
+  ],
+  authors: [{ name: 'AirTrack Team' }],
+  creator: 'AirTrack',
+  publisher: 'AirTrack',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   alternates: {
     canonical: '/',
   },
-  title: {
-    default: `${appConfig.title} - ${appConfig.description}`,
-    template: `%s - ${appConfig.title}`,
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: appConfig.prodUrl,
+    title: appConfig.title,
+    description: appConfig.description,
+    siteName: 'AirTrack',
+    images: [
+      {
+        url: '/logo_svg.svg',
+        width: 1200,
+        height: 630,
+        alt: 'AirTrack - Avianca Flight Statistics Dashboard',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: appConfig.title,
+    description: appConfig.description,
+    images: ['/logo_svg.svg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
   icons: [
     { rel: 'icon', url: '/logo_ico.ico' },
     { rel: 'icon', url: '/logo_svg.svg', type: 'image/svg+xml' },
+    { rel: 'apple-touch-icon', url: '/logo_svg.svg' },
   ],
 }
 
