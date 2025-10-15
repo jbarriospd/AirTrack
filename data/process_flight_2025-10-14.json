@@ -1448,12 +1448,12 @@
     "date": "2025-10-14",
     "from": "BOG-El Dorado Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:30",
-    "atd": "23:30",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-14T23:18:11.000Z"
+    "atd": "23:23",
+    "delayMinutes": -7,
+    "delayCategory": "Early 7",
+    "lastUpdated": "2025-10-15T02:13:48.000Z"
   },
   {
     "id": 113,
@@ -1669,12 +1669,12 @@
     "date": "2025-10-14",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:50",
-    "atd": "23:50",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-14T23:18:11.000Z"
+    "atd": "01:20",
+    "delayMinutes": 90,
+    "delayCategory": "+ 90",
+    "lastUpdated": "2025-10-15T02:13:48.000Z"
   },
   {
     "id": 130,
@@ -2566,12 +2566,12 @@
     "date": "2025-10-14",
     "from": "SAL-El Salvador Airport",
     "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:35",
-    "atd": "22:35",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-14T23:18:11.000Z"
+    "atd": "22:23",
+    "delayMinutes": -12,
+    "delayCategory": "Early 12",
+    "lastUpdated": "2025-10-15T02:13:48.000Z"
   },
   {
     "id": 199,
