@@ -1448,12 +1448,12 @@
     "date": "2025-10-15",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-15T23:18:00.000Z"
+    "atd": "23:22",
+    "delayMinutes": -3,
+    "delayCategory": "Early 3",
+    "lastUpdated": "2025-10-16T02:13:45.000Z"
   },
   {
     "id": 113,
@@ -1487,12 +1487,12 @@
     "date": "2025-10-15",
     "from": "BOG-El Dorado Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:30",
-    "atd": "23:30",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-15T23:18:00.000Z"
+    "atd": "23:54",
+    "delayMinutes": 24,
+    "delayCategory": "+ 24",
+    "lastUpdated": "2025-10-16T02:13:45.000Z"
   },
   {
     "id": 116,
@@ -1500,12 +1500,12 @@
     "date": "2025-10-15",
     "from": "BOG-El Dorado Airport",
     "to": "VVI-Viru Viru Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "20:50",
-    "atd": "23:00",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-15T23:18:00.000Z"
+    "atd": "23:39",
+    "delayMinutes": 169,
+    "delayCategory": "+ 169",
+    "lastUpdated": "2025-10-16T02:13:45.000Z"
   },
   {
     "id": 117,
@@ -2462,12 +2462,12 @@
     "date": "2025-10-15",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MAD- Adolfo Suárez Barajas",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:00",
-    "atd": "23:00",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-15T23:18:00.000Z"
+    "atd": "00:52",
+    "delayMinutes": 112,
+    "delayCategory": "+ 112",
+    "lastUpdated": "2025-10-16T02:13:45.000Z"
   },
   {
     "id": 191,
@@ -2735,12 +2735,12 @@
     "date": "2025-10-15",
     "from": "BOG-El Dorado Airport",
     "to": "BOS-Logan Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-15T23:18:00.000Z"
+    "atd": "23:58",
+    "delayMinutes": 3,
+    "delayCategory": "+ 3",
+    "lastUpdated": "2025-10-16T02:13:45.000Z"
   },
   {
     "id": 212,
@@ -2852,12 +2852,12 @@
     "date": "2025-10-15",
     "from": "SAL-El Salvador Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:20",
-    "atd": "22:20",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-15T23:18:00.000Z"
+    "atd": "22:17",
+    "delayMinutes": -3,
+    "delayCategory": "Early 3",
+    "lastUpdated": "2025-10-16T02:13:45.000Z"
   },
   {
     "id": 221,
