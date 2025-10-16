@@ -56,7 +56,7 @@ export default function DailySummary({
                         <p className="text-sm text-slate-500 dark:text-slate-400">Total Flights</p>
                         <Plane className="w-4 h-4 text-slate-400" />
                     </div>
-                    <p className="text-3xl font-bold">{totalFlights.toLocaleString()}</p>
+                    <p className="text-3xl font-bold font-tabular">{totalFlights.toLocaleString()}</p>
                 </div>
 
                 <div className="p-4 bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-800/50 hover:shadow-md transition-shadow">
@@ -64,10 +64,10 @@ export default function DailySummary({
                         <p className="text-sm text-green-600 dark:text-green-400">On-time</p>
                         <CheckCircle2 className="w-4 h-4 text-green-500" />
                     </div>
-                    <p className="text-3xl font-bold text-green-700 dark:text-green-300">
+                    <p className="text-3xl font-bold text-green-700 dark:text-green-300 font-tabular">
                         {onTime.toLocaleString()}
                     </p>
-                    <p className="text-xs text-green-600 dark:text-green-400 mt-1">
+                    <p className="text-xs text-green-600 dark:text-green-400 mt-1 tabular-nums">
                         {onTimePercentage}% of total
                     </p>
                 </div>
@@ -77,10 +77,10 @@ export default function DailySummary({
                         <p className="text-sm text-yellow-600 dark:text-yellow-400">Delayed</p>
                         <Clock className="w-4 h-4 text-yellow-500" />
                     </div>
-                    <p className="text-3xl font-bold text-yellow-700 dark:text-yellow-300">
+                    <p className="text-3xl font-bold text-yellow-700 dark:text-yellow-300 font-tabular">
                         {delayed.toLocaleString()}
                     </p>
-                    <p className="text-xs text-yellow-600 dark:text-yellow-400 mt-1">
+                    <p className="text-xs text-yellow-600 dark:text-yellow-400 mt-1 tabular-nums">
                         {delayedPercentage}% of total
                     </p>
                 </div>
@@ -90,10 +90,10 @@ export default function DailySummary({
                         <p className="text-sm text-red-600 dark:text-red-400">Canceled</p>
                         <XCircle className="w-4 h-4 text-red-500" />
                     </div>
-                    <p className="text-3xl font-bold text-red-700 dark:text-red-300">
+                    <p className="text-3xl font-bold text-red-700 dark:text-red-300 font-tabular">
                         {canceled.toLocaleString()}
                     </p>
-                    <p className="text-xs text-red-600 dark:text-red-400 mt-1">
+                    <p className="text-xs text-red-600 dark:text-red-400 mt-1 tabular-nums">
                         {canceledPercentage}% of total
                     </p>
                 </div>
@@ -103,7 +103,7 @@ export default function DailySummary({
                         <p className="text-sm text-blue-600 dark:text-blue-400">Avg Delay</p>
                         <TrendingUp className="w-4 h-4 text-blue-500" />
                     </div>
-                    <p className="text-3xl font-bold text-blue-700 dark:text-blue-300">
+                    <p className="text-3xl font-bold text-blue-700 dark:text-blue-300 font-tabular">
                         {averageDelay}
                     </p>
                     <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">minutes</p>

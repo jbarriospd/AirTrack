@@ -121,7 +121,7 @@ export default function DateSelector({
             aria-label="Select date"
           >
             <Calendar className="w-4 h-4 text-zinc-500 dark:text-zinc-400" />
-            <span className="text-sm font-medium min-w-[100px] text-left">
+            <span className="text-sm font-medium min-w-[100px] text-left font-tabular">
               {formatDateDisplay(selectedDate)}
             </span>
           </button>

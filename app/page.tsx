@@ -60,6 +60,7 @@ function HomePageContent() {
       <Script
         id="structured-data"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <main className="relative min-h-screen">
@@ -82,7 +83,7 @@ function HomePageContent() {
               </h1>
               <p
                 className={cn(
-                  'text-lg text-zinc-600 dark:text-zinc-400 font-mono',
+                  'text-lg text-zinc-600 dark:text-zinc-400',
                   'animate-in fill-mode-backwards fade-in slide-in-from-bottom-2 delay-500 duration-500'
                 )}
               >

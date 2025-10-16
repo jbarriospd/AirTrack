@@ -34,9 +34,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Content */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-          {/* Left Side - Branding */}
           <div className="text-center sm:text-left">
             <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
               AirTrack
@@ -46,7 +44,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Right Side - Actions */}
           <div className="flex items-center gap-2">
             <a
               href={appConfig.repositoryUrl}
@@ -77,11 +74,21 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright */}
         <div className="mt-6 pt-4 border-t border-zinc-200 dark:border-zinc-700">
-          <p className="text-xs text-center text-zinc-500 dark:text-zinc-400">
-            © {new Date().getFullYear()} AirTrack. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center gap-2">
+
+            <p className="text-xs text-center text-zinc-500 dark:text-zinc-400">
+              Built by{' '}
+              <a
+                href="https://github.com/jbarriospd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-zinc-700 dark:text-zinc-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline decoration-dotted underline-offset-2"
+              >
+                jbarriospd
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

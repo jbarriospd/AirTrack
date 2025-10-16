@@ -104,5 +104,5 @@ export const appConfig = {
   description:
     "Stay informed with up-to-date performance indicators for Avianca flights — punctuality, delay trends, active routes, and more. Explore today's flight data in one place on AirTrack.",
   prodUrl: 'https://air-track-seven.vercel.app/',
-  repositoryUrl: 'https://github.com/josebarrios/airtrack',
+  repositoryUrl: 'https://github.com/jbarriospd/AirTrack',
 }
