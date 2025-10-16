@@ -15,3 +15,15 @@
     var(--font-mono), ui-monospace, 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code',
     'Droid Sans Mono', 'Courier New', monospace;
 }
+
+/* Utility classes for numeric data */
+@layer utilities {
+  .font-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+  
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}

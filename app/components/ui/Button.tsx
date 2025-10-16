@@ -2,22 +2,28 @@ import React from 'react'
 import { cn } from '@/lib/utils'
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'danger'
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'danger' | 'filter'
+  filterColor?: 'blue' | 'green' | 'yellow' | 'red'
   size?: 'sm' | 'md' | 'lg'
   isLoading?: boolean
+  isActive?: boolean
+  icon?: React.ReactNode
 }
 
 export default function Button({
   className,
   children,
   variant = 'primary',
+  filterColor = 'blue',
   size = 'md',
   isLoading = false,
+  isActive = false,
+  icon,
   disabled,
   ...props
 }: ButtonProps) {
   const baseStyles =
-    'font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none'
+    'font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none'
 
   const variants = {
     primary: 'bg-purple-600 text-white hover:bg-purple-700 active:bg-purple-800',
@@ -28,24 +34,44 @@ export default function Button({
     ghost:
       'bg-transparent hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-100 dark:text-gray-100',
     danger: 'bg-red-600 text-white hover:bg-red-700',
+    filter: '',
+  }
+
+  const filterVariants = {
+    blue: isActive
+      ? 'bg-blue-600 text-white dark:bg-blue-500 shadow-lg scale-105 focus:ring-blue-500'
+      : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300 hover:scale-105 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 focus:ring-blue-500',
+    green: isActive
+      ? 'bg-green-600 text-white dark:bg-green-500 shadow-lg scale-105 focus:ring-green-500'
+      : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300 hover:scale-105 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 focus:ring-green-500',
+    yellow: isActive
+      ? 'bg-yellow-600 text-white dark:bg-yellow-600 shadow-lg scale-105 focus:ring-yellow-500'
+      : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300 hover:scale-105 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 focus:ring-yellow-500',
+    red: isActive
+      ? 'bg-red-600 text-white dark:bg-red-500 shadow-lg scale-105 focus:ring-red-500'
+      : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300 hover:scale-105 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 focus:ring-red-500',
   }
 
   const sizes = {
-    sm: 'h-8 px-3 text-xs rounded-md',
-    md: 'h-10 px-4 py-2 text-sm rounded-md',
-    lg: 'h-12 px-6 py-3 text-base rounded-lg',
+    sm: 'px-3 py-2 text-xs rounded-lg',
+    md: 'px-4 py-2 text-sm rounded-lg',
+    lg: 'px-6 py-3 text-base rounded-lg',
   }
+
+  const variantStyles = variant === 'filter' ? filterVariants[filterColor] : variants[variant]
 
   return (
     <button
       className={cn(
         baseStyles,
-        variants[variant],
+        variantStyles,
         sizes[size],
+        variant === 'filter' && 'flex items-center gap-1.5',
         isLoading && 'opacity-70 cursor-not-allowed',
         className
       )}
       disabled={disabled || isLoading}
+      aria-pressed={variant === 'filter' ? isActive : undefined}
       {...props}
     >
       {isLoading ? (
@@ -73,7 +99,10 @@ export default function Button({
           <span>Loading...</span>
         </div>
       ) : (
-        children
+        <>
+          {icon && icon}
+          {children}
+        </>
       )}
     </button>
   )

@@ -4,6 +4,7 @@ import { useEffect, useState, useMemo } from 'react'
 import { FlightStatus } from '@/lib/types'
 import { getFlights } from '@/app/actions/getFlights'
 import { CheckCircle2, Clock, XCircle, List, Plane, MapPin, Calendar, AlertCircle } from 'lucide-react'
+import Button from '@/app/components/ui/Button'
 
 interface FlightTableProps {
   date: string
@@ -195,54 +196,54 @@ export default function FlightTable({ date }: FlightTableProps) {
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
         <h2 className="text-lg font-bold text-zinc-600 dark:text-zinc-50">Flights Table</h2>
         <div className="flex flex-wrap gap-3 w-full sm:w-auto" role="group" aria-label="Filter flights by status">
-          <button
+          <Button
+            variant="filter"
+            filterColor="blue"
+            size="sm"
+            isActive={selectedFilter === 'all'}
             onClick={() => setSelectedFilter('all')}
             aria-label="Show all flights"
-            aria-pressed={selectedFilter === 'all'}
-            className={`flex items-center gap-1.5 px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-zinc-900 ${selectedFilter === 'all'
-              ? 'bg-blue-600 text-white dark:bg-blue-500 shadow-md scale-105'
-              : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 hover:scale-105 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700'
-              }`}
+            icon={<List className="w-3.5 h-3.5 sm:w-4 sm:h-4" />}
+            className="dark:focus:ring-offset-zinc-900"
           >
-            <List className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span>All</span>
-          </button>
-          <button
+            All
+          </Button>
+          <Button
+            variant="filter"
+            filterColor="green"
+            size="sm"
+            isActive={selectedFilter === 'on-time'}
             onClick={() => setSelectedFilter('on-time')}
             aria-label="Show on-time flights only"
-            aria-pressed={selectedFilter === 'on-time'}
-            className={`flex items-center gap-1.5 px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 dark:focus:ring-offset-zinc-900 ${selectedFilter === 'on-time'
-              ? 'bg-green-600 text-white dark:bg-green-500 shadow-md scale-105'
-              : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 hover:scale-105 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700'
-              }`}
+            icon={<CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />}
+            className="dark:focus:ring-offset-zinc-900"
           >
-            <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span>On-time</span>
-          </button>
-          <button
+            On-time
+          </Button>
+          <Button
+            variant="filter"
+            filterColor="yellow"
+            size="sm"
+            isActive={selectedFilter === 'delayed'}
             onClick={() => setSelectedFilter('delayed')}
             aria-label="Show delayed flights only"
-            aria-pressed={selectedFilter === 'delayed'}
-            className={`flex items-center gap-1.5 px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 dark:focus:ring-offset-zinc-900 ${selectedFilter === 'delayed'
-              ? 'bg-yellow-600 text-white dark:bg-yellow-500 shadow-md scale-105'
-              : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 hover:scale-105 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700'
-              }`}
+            icon={<Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4" />}
+            className="dark:focus:ring-offset-zinc-900"
           >
-            <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span>Delayed</span>
-          </button>
-          <button
+            Delayed
+          </Button>
+          <Button
+            variant="filter"
+            filterColor="red"
+            size="sm"
+            isActive={selectedFilter === 'cancelled'}
             onClick={() => setSelectedFilter('cancelled')}
             aria-label="Show cancelled flights only"
-            aria-pressed={selectedFilter === 'cancelled'}
-            className={`flex items-center gap-1.5 px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 dark:focus:ring-offset-zinc-900 ${selectedFilter === 'cancelled'
-              ? 'bg-red-600 text-white dark:bg-red-500 shadow-md scale-105'
-              : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 hover:scale-105 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700'
-              }`}
+            icon={<XCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4" />}
+            className="dark:focus:ring-offset-zinc-900"
           >
-            <XCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span>Cancelled</span>
-          </button>
+            Cancelled
+          </Button>
         </div>
       </div>
 
@@ -298,7 +299,7 @@ export default function FlightTable({ date }: FlightTableProps) {
                     <td className="px-4 py-4 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                       <div className="flex items-center gap-2">
                         <div className="w-1 h-8 rounded-full bg-blue-500 opacity-0 group-hover:opacity-100 transition-opacity" />
-                        {flight.flightNumber}
+                        <span className="font-tabular">AV{flight.flightNumber}</span>
                       </div>
                     </td>
                     <td className="px-4 py-4 text-sm text-zinc-700 dark:text-zinc-300">
@@ -308,10 +309,10 @@ export default function FlightTable({ date }: FlightTableProps) {
                         <span className="font-medium">{flight.to}</span>
                       </div>
                     </td>
-                    <td className="px-4 py-4 text-sm font-medium text-zinc-700 dark:text-zinc-300">
+                    <td className="px-4 py-4 text-sm font-medium text-zinc-700 dark:text-zinc-300 font-tabular">
                       {flight.etd}
                     </td>
-                    <td className="px-4 py-4 text-sm font-medium text-zinc-700 dark:text-zinc-300">
+                    <td className="px-4 py-4 text-sm font-medium text-zinc-700 dark:text-zinc-300 font-tabular">
                       {flight.status === 'Cancelled' ? (
                         <span className="text-zinc-400 dark:text-zinc-500">-</span>
                       ) : (
@@ -322,7 +323,7 @@ export default function FlightTable({ date }: FlightTableProps) {
                       <div className="flex items-center gap-2">
                         {getStatusBadge(flight.delayMinutes, flight.status)}
                         {flight.delayMinutes !== null && flight.delayMinutes > 0 && (
-                          <span className={`text-xs font-medium ${getDelayColor(flight.delayMinutes)}`}>
+                          <span className={`text-xs font-medium font-tabular ${getDelayColor(flight.delayMinutes)}`}>
                             {formatDelayDisplay(flight.delayMinutes, flight.status)}
                           </span>
                         )}
@@ -348,7 +349,7 @@ export default function FlightTable({ date }: FlightTableProps) {
                   <div className="flex-1">
                     <div className="flex items-center gap-2 mb-1">
                       <Plane className="w-4 h-4 text-zinc-500 dark:text-zinc-400" />
-                      <p className="font-bold text-lg text-zinc-900 dark:text-zinc-100">
+                      <p className="font-bold text-lg text-zinc-900 dark:text-zinc-100 font-tabular">
                         {flight.flightNumber}
                       </p>
                     </div>
@@ -368,14 +369,14 @@ export default function FlightTable({ date }: FlightTableProps) {
                       <Calendar className="w-3.5 h-3.5" />
                       <span>Scheduled</span>
                     </div>
-                    <p className="font-semibold text-zinc-900 dark:text-zinc-100">{flight.etd}</p>
+                    <p className="font-semibold text-zinc-900 dark:text-zinc-100 font-tabular">{flight.etd}</p>
                   </div>
                   <div>
                     <div className="flex items-center gap-1.5 text-zinc-500 dark:text-zinc-400 text-xs mb-1.5">
                       <Clock className="w-3.5 h-3.5" />
                       <span>Actual</span>
                     </div>
-                    <p className="font-semibold text-zinc-900 dark:text-zinc-100">
+                    <p className="font-semibold text-zinc-900 dark:text-zinc-100 font-tabular">
                       {flight.status === 'Cancelled' ? (
                         <span className="text-zinc-400 dark:text-zinc-500">-</span>
                       ) : (
@@ -387,7 +388,7 @@ export default function FlightTable({ date }: FlightTableProps) {
 
                 {flight.delayMinutes !== null && flight.delayMinutes > 0 && (
                   <div className="mt-3 pl-2 pt-3 border-t border-zinc-100 dark:border-zinc-800">
-                    <span className={`text-xs font-semibold ${getDelayColor(flight.delayMinutes)}`}>
+                    <span className={`text-xs font-semibold font-tabular ${getDelayColor(flight.delayMinutes)}`}>
                       Delayed by {formatDelayDisplay(flight.delayMinutes, flight.status).replace(/^\+/, '')}
                     </span>
                   </div>

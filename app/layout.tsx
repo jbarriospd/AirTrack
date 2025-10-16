@@ -11,8 +11,10 @@ const inter = Inter({
   variable: '--font-sans',
   subsets: ['latin'],
   display: 'swap',
-  weight: '400',
+  weight: ['400', '500', '600', '700'],
   preload: true,
+  fallback: ['system-ui', 'arial'],
+  adjustFontFallback: true,
 })
 
 const jetbrainsMono = JetBrains_Mono({
@@ -21,6 +23,8 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
   weight: '600',
   preload: true,
+  fallback: ['monospace'],
+  adjustFontFallback: true,
 })
 
 import { ThemeProvider } from '@/app/ThemeProvider'
