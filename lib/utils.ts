@@ -55,6 +55,7 @@ export function transformFlightStatus(flight: FlightStatusResponse): SimplifiedF
     status: flight.Status,
     etd: flight.EstimatedTimeDeparture,
     atd: flight.ConfirmedTimeDeparture,
+    airline: flight.airline,
   }
 }
 
@@ -70,33 +71,19 @@ export function calculateDelayCategory(
 
   let delay = atdInMinutes - etdInMinutes
 
-  // Handle cross-midnight flights: only when ETD is late at night and ATD is early morning next day
+  // Handle cross-midnight flights
   if (delay < -720) {
-    // ETD is late at night, ATD is early morning next day
+    // Flight departed after midnight - this is a delay
     delay = atdInMinutes + 1440 - etdInMinutes
+  } else if (delay > 720) {
+    // Flight departed before midnight - this is early
+    delay = atdInMinutes - (etdInMinutes + 1440)
   }
 
   return {
     delayMinutes: delay,
     delayCategory: delay > 0 ? `+ ${delay}` : `Early ${Math.abs(delay)}`,
   }
-}
-
-export function shouldUpdateFlight(flight: {
-  status: string
-  etd?: string
-  date?: string
-}): boolean {
-  if (flight.status === 'Landed' || flight.status === 'Departed') return false
-  if (!flight.etd || !flight.date) return false
-
-  const etdDate = getDateInColombia(flight.date, `${flight.etd}:00`)
-  if (isNaN(etdDate.getTime())) return false
-
-  const now = getNowInColombia()
-  const oneHourAgo = new Date(now.getTime() - 1 * 60 * 60 * 1000)
-
-  return etdDate >= oneHourAgo && etdDate <= now
 }
 
 export const appConfig = {

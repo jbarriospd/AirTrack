@@ -6,8 +6,9 @@ export const FlightSchema = z.object({
   from: z.string(),
   to: z.string(),
   status: z.string(),
-  etd: z.string().optional(),
-  atd: z.string().optional(),
+  etd: z.string(),
+  atd: z.string(),
+  airline: z.string(),
 })
 
 export type Flight = z.infer<typeof FlightSchema>
@@ -45,7 +46,7 @@ export interface FlightStatusResponse {
   IataTo: string
   IataFrom: string
   AircraftType: string
-  OperatedBy: string
+  airline: string
   SecondsActual: string
   SecondsSchedule: string
 }
@@ -58,6 +59,7 @@ export interface SimplifiedFlightStatus {
   status: string
   etd: string // EstimatedTimeDeparture
   atd: string // ConfirmedTimeDeparture
+  airline: string
 }
 
 export interface FlightStatus extends Flight {
