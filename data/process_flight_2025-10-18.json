@@ -1487,12 +1487,12 @@
     "date": "2025-10-18",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-18T23:18:59.000Z"
+    "atd": "23:27",
+    "delayMinutes": 2,
+    "delayCategory": "+ 2",
+    "lastUpdated": "2025-10-19T02:11:16.000Z"
   },
   {
     "id": 116,
@@ -2501,12 +2501,12 @@
     "date": "2025-10-18",
     "from": "SAL-El Salvador Airport",
     "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "22:55",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-18T23:18:59.000Z"
+    "atd": "22:42",
+    "delayMinutes": -13,
+    "delayCategory": "Early 13",
+    "lastUpdated": "2025-10-19T02:11:16.000Z"
   },
   {
     "id": 194,
