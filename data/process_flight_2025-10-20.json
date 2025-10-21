@@ -1669,12 +1669,12 @@
     "date": "2025-10-20",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-20T23:17:57.000Z"
+    "atd": "23:23",
+    "delayMinutes": -2,
+    "delayCategory": "Early 2",
+    "lastUpdated": "2025-10-21T02:14:29.000Z"
   },
   {
     "id": 130,
@@ -1786,12 +1786,12 @@
     "date": "2025-10-20",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Delayed",
     "etd": "22:30",
-    "atd": "22:30",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-20T23:17:57.000Z"
+    "atd": "07:30",
+    "delayMinutes": 540,
+    "delayCategory": "+ 540",
+    "lastUpdated": "2025-10-21T02:14:29.000Z"
   },
   {
     "id": 139,
@@ -2930,12 +2930,12 @@
     "date": "2025-10-20",
     "from": "BOG-El Dorado Airport",
     "to": "BOS-Logan Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-20T23:17:57.000Z"
+    "atd": "00:04",
+    "delayMinutes": 9,
+    "delayCategory": "+ 9",
+    "lastUpdated": "2025-10-21T02:14:29.000Z"
   },
   {
     "id": 227,
