@@ -46,7 +46,7 @@ export interface FlightStatusResponse {
   IataTo: string
   IataFrom: string
   AircraftType: string
-  airline: string
+  Airline: string
   SecondsActual: string
   SecondsSchedule: string
 }

@@ -55,7 +55,7 @@ export function transformFlightStatus(flight: FlightStatusResponse): SimplifiedF
     status: flight.Status,
     etd: flight.EstimatedTimeDeparture,
     atd: flight.ConfirmedTimeDeparture,
-    airline: flight.airline,
+    airline: flight.Airline,
   }
 }
 
