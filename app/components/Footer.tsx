@@ -1,7 +1,6 @@
 'use client'
 
 import { appConfig } from '@/lib/utils'
-import { cn } from '@/lib/utils'
 import { ArrowUpRightIcon, Moon, Sun, Info, Github } from 'lucide-react'
 import { useTheme } from 'next-themes'
 
