@@ -124,7 +124,7 @@ export default function FlightTable({ date }: FlightTableProps) {
           <table className="w-full">
             <thead className="bg-zinc-100 dark:bg-zinc-800">
               <tr>
-                {['Flight No', 'Route', 'Scheduled Time', 'Actual Time', 'Delay'].map((header) => (
+                {['Flight No', 'Route', 'Operated By', 'Scheduled Time', 'Actual Time', 'Delay'].map((header) => (
                   <th key={header} className="px-4 py-3 text-left text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                     {header}
                   </th>
@@ -139,6 +139,9 @@ export default function FlightTable({ date }: FlightTableProps) {
                   </td>
                   <td className="px-4 py-3">
                     <div className="h-4 w-24 bg-zinc-200 dark:bg-zinc-800 rounded animate-pulse" />
+                  </td>
+                  <td className="px-4 py-3">
+                    <div className="h-4 w-20 bg-zinc-200 dark:bg-zinc-800 rounded animate-pulse" />
                   </td>
                   <td className="px-4 py-3">
                     <div className="h-4 w-20 bg-zinc-200 dark:bg-zinc-800 rounded animate-pulse" />
@@ -272,6 +275,12 @@ export default function FlightTable({ date }: FlightTableProps) {
                   </th>
                   <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                     <div className="flex items-center gap-2">
+                      <Plane className="w-4 h-4 text-zinc-500 dark:text-zinc-400" />
+                      Operated By
+                    </div>
+                  </th>
+                  <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                    <div className="flex items-center gap-2">
                       <Calendar className="w-4 h-4 text-zinc-500 dark:text-zinc-400" />
                       Scheduled
                     </div>
@@ -308,6 +317,9 @@ export default function FlightTable({ date }: FlightTableProps) {
                         <span className="text-zinc-400">→</span>
                         <span className="font-medium">{flight.to}</span>
                       </div>
+                    </td>
+                    <td className="px-4 py-4 text-sm text-zinc-600 dark:text-zinc-400">
+                      {flight.airline || '-'}
                     </td>
                     <td className="px-4 py-4 text-sm font-medium text-zinc-700 dark:text-zinc-300 font-tabular">
                       {flight.etd}
@@ -350,7 +362,7 @@ export default function FlightTable({ date }: FlightTableProps) {
                     <div className="flex items-center gap-2 mb-1">
                       <Plane className="w-4 h-4 text-zinc-500 dark:text-zinc-400" />
                       <p className="font-bold text-lg text-zinc-900 dark:text-zinc-100 font-tabular">
-                        {flight.flightNumber}
+                        AV{flight.flightNumber}
                       </p>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400">
@@ -359,6 +371,12 @@ export default function FlightTable({ date }: FlightTableProps) {
                       <span className="text-zinc-400">→</span>
                       <span className="font-medium">{flight.to}</span>
                     </div>
+                    {flight.airline && (
+                      <div className="flex items-center gap-2 text-xs text-zinc-500 dark:text-zinc-500 mt-1">
+                        <Plane className="w-3 h-3" />
+                        <span>Operated by {flight.airline}</span>
+                      </div>
+                    )}
                   </div>
                   {getStatusBadge(flight.delayMinutes, flight.status)}
                 </div>
