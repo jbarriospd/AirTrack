@@ -1825,12 +1825,12 @@
     "date": "2025-10-21",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-21T23:18:30.000Z"
+    "atd": "23:20",
+    "delayMinutes": -5,
+    "delayCategory": "Early 5",
+    "lastUpdated": "2025-10-22T02:13:42.000Z"
   },
   {
     "id": 142,
