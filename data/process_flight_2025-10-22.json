@@ -2147,13 +2147,13 @@
     "date": "2025-10-22",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:22",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-22T23:18:24.000Z"
+    "delayMinutes": -3,
+    "delayCategory": "Early 3",
+    "lastUpdated": "2025-10-23T02:13:51.000Z"
   },
   {
     "id": 155,
