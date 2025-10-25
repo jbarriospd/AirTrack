@@ -1,0 +1,612 @@
+[
+  {
+    "flightNumber": "561",
+    "date": "2025-10-25",
+    "from": "SFO-San Francisco Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "00:05",
+    "atd": "00:11",
+    "airline": "Taca"
+  },
+  {
+    "flightNumber": "245",
+    "date": "2025-10-25",
+    "from": "JFK-John F Kennedy",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "00:30",
+    "atd": "02:27",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "187",
+    "date": "2025-10-25",
+    "from": "MEX-Benito Juarez Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "00:40",
+    "atd": "00:49",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "218",
+    "date": "2025-10-25",
+    "from": "EZE-Ezeiza Ministro Pistarini Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "01:40",
+    "atd": "01:46",
+    "airline": "Wamos"
+  },
+  {
+    "flightNumber": "428",
+    "date": "2025-10-25",
+    "from": "LIM-Jorge Chavez Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "01:40",
+    "atd": "01:48",
+    "airline": "Taca"
+  },
+  {
+    "flightNumber": "248",
+    "date": "2025-10-25",
+    "from": "GRU-Sao Pablo- Guarulhos Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "01:45",
+    "atd": "02:14",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "7393",
+    "date": "2025-10-25",
+    "from": "JFK-John F Kennedy",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "02:00",
+    "atd": "01:58",
+    "airline": "Avianca Ecuador"
+  },
+  {
+    "flightNumber": "112",
+    "date": "2025-10-25",
+    "from": "EZE-Ezeiza Ministro Pistarini Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "02:30",
+    "atd": "03:19",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "66",
+    "date": "2025-10-25",
+    "from": "UIO-Mariscal Sucre Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "02:30",
+    "atd": "02:22",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "166",
+    "date": "2025-10-25",
+    "from": "VVI-Viru Viru Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "02:50",
+    "atd": "02:50",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "224",
+    "date": "2025-10-25",
+    "from": "LPB-El Alto Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "03:20",
+    "atd": "03:18",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "82",
+    "date": "2025-10-25",
+    "from": "MAO-Eduardo Gomes Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "04:05",
+    "atd": "03:41",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "9653",
+    "date": "2025-10-25",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "04:23",
+    "atd": "04:21",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "235",
+    "date": "2025-10-25",
+    "from": "MEX-Benito Juarez Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "05:00",
+    "atd": "05:02",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "8546",
+    "date": "2025-10-25",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "BAQ-Ernesto Cortissoz Airport",
+    "status": "Landed",
+    "etd": "05:00",
+    "atd": "04:56",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "8409",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "CLO-Alfonso Bonilla Aragón Airport",
+    "status": "Landed",
+    "etd": "05:10",
+    "atd": "05:03",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "8593",
+    "date": "2025-10-25",
+    "from": "CLO-Alfonso Bonilla Aragón Airport",
+    "to": "BAQ-Ernesto Cortissoz Airport",
+    "status": "Landed",
+    "etd": "05:20",
+    "atd": "05:10",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "1690",
+    "date": "2025-10-25",
+    "from": "UIO-Mariscal Sucre Airport",
+    "to": "MEC-Eloy Alfaro Airport",
+    "status": "Landed",
+    "etd": "06:00",
+    "atd": "05:47",
+    "airline": "Avianca Ecuador"
+  },
+  {
+    "flightNumber": "9491",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "LET-Alfredo Vasquez Cobo Airport",
+    "status": "Landed",
+    "etd": "06:10",
+    "atd": "06:11",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "640",
+    "date": "2025-10-25",
+    "from": "SJO-Juan Santamaria Airport",
+    "to": "GUA-La Aurora Airport",
+    "status": "Landed",
+    "etd": "06:10",
+    "atd": "06:01",
+    "airline": "Avianca Costa Rica"
+  },
+  {
+    "flightNumber": "640",
+    "date": "2025-10-25",
+    "from": "GUA-La Aurora Airport",
+    "to": "LAX-Los Angeles Airport",
+    "status": "Departed",
+    "etd": "09:00",
+    "atd": "08:54",
+    "airline": "Avianca Costa Rica"
+  },
+  {
+    "flightNumber": "49",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "LIM-Jorge Chavez Airport",
+    "status": "Landed",
+    "etd": "06:25",
+    "atd": "06:17",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "43",
+    "date": "2025-10-25",
+    "from": "JFK-John F Kennedy",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Departed",
+    "etd": "06:30",
+    "atd": "07:25",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "8397",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "06:40",
+    "atd": "06:40",
+    "airline": "Avianca Ecuador"
+  },
+  {
+    "flightNumber": "102",
+    "date": "2025-10-25",
+    "from": "LIM-Jorge Chavez Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "06:45",
+    "atd": "06:40",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "110",
+    "date": "2025-10-25",
+    "from": "MVD-Carrasco Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "06:55",
+    "atd": "06:54",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "8545",
+    "date": "2025-10-25",
+    "from": "BAQ-Ernesto Cortissoz Airport",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Landed",
+    "etd": "06:56",
+    "atd": "06:53",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "154",
+    "date": "2025-10-25",
+    "from": "AEP-Jorge Newbery Airfield",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "07:00",
+    "atd": "08:26",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "262",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "ORD-O'Hare Airport",
+    "status": "Departed",
+    "etd": "07:00",
+    "atd": "06:59",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "128",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "PUJ-Punta Cana Airport",
+    "status": "Landed",
+    "etd": "07:00",
+    "atd": "07:07",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "210",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "JFK-John F Kennedy",
+    "status": "Departed",
+    "etd": "07:00",
+    "atd": "07:19",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "98",
+    "date": "2025-10-25",
+    "from": "SCL-Arturo Merino Benítez Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "07:10",
+    "atd": "07:21",
+    "airline": "Wamos"
+  },
+  {
+    "flightNumber": "142",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "CCS-Maiquetía Simón Bolívar Airport",
+    "status": "Landed",
+    "etd": "07:10",
+    "atd": "07:28",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "185",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "GRU-Sao Pablo- Guarulhos Airport",
+    "status": "Departed",
+    "etd": "07:15",
+    "atd": "07:28",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "70",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "SAL-El Salvador Airport",
+    "status": "Landed",
+    "etd": "07:15",
+    "atd": "07:14",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "260",
+    "date": "2025-10-25",
+    "from": "GIG-Galeao Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "07:25",
+    "atd": "07:22",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "246",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "IAD-Washington Dulles Airport",
+    "status": "Departed",
+    "etd": "07:30",
+    "atd": "07:45",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "310",
+    "date": "2025-10-25",
+    "from": "SAL-El Salvador Airport",
+    "to": "MIA-Miami Airport",
+    "status": "Landed",
+    "etd": "07:35",
+    "atd": "07:40",
+    "airline": "Taca"
+  },
+  {
+    "flightNumber": "8342",
+    "date": "2025-10-25",
+    "from": "COR-Ingeniero Ambrosio Taravella Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "07:35",
+    "atd": "07:34",
+    "airline": "Avianca Ecuador"
+  },
+  {
+    "flightNumber": "8342",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "UIO-Mariscal Sucre Airport",
+    "status": "Confirmed",
+    "etd": "13:00",
+    "atd": "13:00",
+    "airline": "Avianca Ecuador"
+  },
+  {
+    "flightNumber": "105",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "07:40",
+    "atd": "07:41",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "105",
+    "date": "2025-10-25",
+    "from": "CUZ-Alejandro Velasco Astete Airport",
+    "to": "LPB-El Alto Airport",
+    "status": "Confirmed",
+    "etd": "12:05",
+    "atd": "12:05",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "1691",
+    "date": "2025-10-25",
+    "from": "MEC-Eloy Alfaro Airport",
+    "to": "UIO-Mariscal Sucre Airport",
+    "status": "Landed",
+    "etd": "07:40",
+    "atd": "07:25",
+    "airline": "Avianca Ecuador"
+  },
+  {
+    "flightNumber": "440",
+    "date": "2025-10-25",
+    "from": "SAL-El Salvador Airport",
+    "to": "DFW-Dallas/Fort Worth Airport",
+    "status": "Departed",
+    "etd": "07:40",
+    "atd": "07:40",
+    "airline": "Taca"
+  },
+  {
+    "flightNumber": "536",
+    "date": "2025-10-25",
+    "from": "SAL-El Salvador Airport",
+    "to": "SAP-Ramon Villeda Morales Airport",
+    "status": "Landed",
+    "etd": "07:40",
+    "atd": "07:42",
+    "airline": "Taca"
+  },
+  {
+    "flightNumber": "4883",
+    "date": "2025-10-25",
+    "from": "VVC-La Vanguardia Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "07:45",
+    "atd": "07:40",
+    "airline": "Clic para avianca Express"
+  },
+  {
+    "flightNumber": "5",
+    "date": "2025-10-25",
+    "from": "MIA-Miami Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "07:55",
+    "atd": "08:52",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "2",
+    "date": "2025-10-25",
+    "from": "BAQ-Ernesto Cortissoz Airport",
+    "to": "MIA-Miami Airport",
+    "status": "Landed",
+    "etd": "08:00",
+    "atd": "08:00",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "368",
+    "date": "2025-10-25",
+    "from": "SAL-El Salvador Airport",
+    "to": "IAH-George Bush Intercontinental Airport",
+    "status": "Departed",
+    "etd": "08:00",
+    "atd": "07:56",
+    "airline": "Taca"
+  },
+  {
+    "flightNumber": "522",
+    "date": "2025-10-25",
+    "from": "SAL-El Salvador Airport",
+    "to": "LAX-Los Angeles Airport",
+    "status": "Departed",
+    "etd": "08:00",
+    "atd": "08:00",
+    "airline": "Taca"
+  },
+  {
+    "flightNumber": "626",
+    "date": "2025-10-25",
+    "from": "SAL-El Salvador Airport",
+    "to": "YYZ-Toronto Pearson Airport",
+    "status": "Departed",
+    "etd": "08:10",
+    "atd": "08:02",
+    "airline": "Avianca Costa Rica"
+  },
+  {
+    "flightNumber": "8484",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "SMR-Simon Bolivar Airport",
+    "status": "Landed",
+    "etd": "08:14",
+    "atd": "08:12",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "268",
+    "date": "2025-10-25",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "CUN-Cancun Airport",
+    "status": "Departed",
+    "etd": "08:15",
+    "atd": "09:00",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "8550",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "AUC-Santiago Pérez Airport",
+    "status": "Landed",
+    "etd": "08:25",
+    "atd": "08:19",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "4812",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "IPI-San Luis Airport",
+    "status": "Landed",
+    "etd": "08:29",
+    "atd": "08:35",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "229",
+    "date": "2025-10-25",
+    "from": "CDG-Paris Charles de Gaulle Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "08:45",
+    "atd": "08:40",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "9492",
+    "date": "2025-10-25",
+    "from": "LET-Alfredo Vasquez Cobo Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "08:58",
+    "atd": "08:59",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "36",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "FLL-Fort Lauderdale/Hollywood Airport",
+    "status": "Departed",
+    "etd": "09:00",
+    "atd": "09:03",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "227",
+    "date": "2025-10-25",
+    "from": "BOS-Logan Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Departed",
+    "etd": "09:00",
+    "atd": "08:51",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "24",
+    "date": "2025-10-25",
+    "from": "MDE-Jose Maria Cordova Airport",
+    "to": "SJO-Juan Santamaria Airport",
+    "status": "Landed",
+    "etd": "09:05",
+    "atd": "09:05",
+    "airline": "Avianca"
+  },
+  {
+    "flightNumber": "4880",
+    "date": "2025-10-25",
+    "from": "BOG-El Dorado Airport",
+    "to": "VVC-La Vanguardia Airport",
+    "status": "Landed",
+    "etd": "09:10",
+    "atd": "09:15",
+    "airline": "Clic para avianca Express"
+  }
+]
