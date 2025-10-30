@@ -1139,13 +1139,13 @@
     "date": "2025-10-29",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "00:01",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-29T23:18:03.000Z"
+    "delayMinutes": 36,
+    "delayCategory": "+ 36",
+    "lastUpdated": "2025-10-30T02:13:05.000Z"
   },
   {
     "id": 83,
@@ -2049,13 +2049,13 @@
     "date": "2025-10-29",
     "from": "BOG-El Dorado Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:15",
-    "atd": "23:15",
+    "atd": "23:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-29T23:18:03.000Z"
+    "delayMinutes": 27,
+    "delayCategory": "+ 27",
+    "lastUpdated": "2025-10-30T02:13:05.000Z"
   },
   {
     "id": 148,
@@ -2287,13 +2287,13 @@
     "date": "2025-10-29",
     "from": "SAL-El Salvador Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "22:18",
     "airline": "Taca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-29T23:18:03.000Z"
+    "delayMinutes": -2,
+    "delayCategory": "Early 2",
+    "lastUpdated": "2025-10-30T02:13:05.000Z"
   },
   {
     "id": 165,
@@ -2301,13 +2301,13 @@
     "date": "2025-10-29",
     "from": "SAL-El Salvador Airport",
     "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:35",
-    "atd": "22:35",
+    "atd": "22:24",
     "airline": "Taca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-29T23:18:03.000Z"
+    "delayMinutes": -11,
+    "delayCategory": "Early 11",
+    "lastUpdated": "2025-10-30T02:13:05.000Z"
   },
   {
     "id": 166,
@@ -2567,13 +2567,13 @@
     "date": "2025-10-29",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:20",
-    "atd": "23:20",
+    "atd": "23:34",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-29T23:18:03.000Z"
+    "delayMinutes": 14,
+    "delayCategory": "+ 14",
+    "lastUpdated": "2025-10-30T02:13:05.000Z"
   },
   {
     "id": 185,
