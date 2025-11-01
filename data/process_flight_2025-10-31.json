@@ -1671,13 +1671,13 @@
     "date": "2025-10-31",
     "from": "BOG-El Dorado Airport",
     "to": "COR-Ingeniero Ambrosio Taravella Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:15",
-    "atd": "22:15",
+    "atd": "23:22",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-31T23:16:18.000Z"
+    "delayMinutes": 67,
+    "delayCategory": "+ 67",
+    "lastUpdated": "2025-11-01T02:12:02.000Z"
   },
   {
     "id": 121,
@@ -2553,13 +2553,13 @@
     "date": "2025-10-31",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:20",
-    "atd": "23:20",
+    "atd": "01:03",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-10-31T23:16:18.000Z"
+    "delayMinutes": 103,
+    "delayCategory": "+ 103",
+    "lastUpdated": "2025-11-01T02:12:02.000Z"
   },
   {
     "id": 184,
