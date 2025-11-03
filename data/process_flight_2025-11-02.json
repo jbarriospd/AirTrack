@@ -1153,13 +1153,13 @@
     "date": "2025-11-02",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:23",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-02T23:24:10.000Z"
+    "delayMinutes": -2,
+    "delayCategory": "Early 2",
+    "lastUpdated": "2025-11-03T02:14:00.000Z"
   },
   {
     "id": 84,
@@ -2175,13 +2175,13 @@
     "date": "2025-11-02",
     "from": "SAL-El Salvador Airport",
     "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:35",
-    "atd": "22:35",
+    "atd": "22:30",
     "airline": "Taca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-02T23:24:10.000Z"
+    "delayMinutes": -5,
+    "delayCategory": "Early 5",
+    "lastUpdated": "2025-11-03T02:14:01.000Z"
   },
   {
     "id": 157,
