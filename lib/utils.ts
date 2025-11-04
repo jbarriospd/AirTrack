@@ -59,10 +59,7 @@ export function transformFlightStatus(flight: FlightStatusResponse): SimplifiedF
   }
 }
 
-export function calculateDelayCategory(
-  etd: string,
-  atd: string
-): { delayMinutes: number; delayCategory: string } {
+export function calculateDelayCategory(etd: string, atd: string): { delayMinutes: number } {
   const [etdH, etdM] = etd.split(':').map(Number)
   const [atdH, atdM] = atd.split(':').map(Number)
 
@@ -82,7 +79,6 @@ export function calculateDelayCategory(
 
   return {
     delayMinutes: delay,
-    delayCategory: delay > 0 ? `+ ${delay}` : `Early ${Math.abs(delay)}`,
   }
 }
 

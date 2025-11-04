@@ -30,13 +30,12 @@ export async function processFlightInitial() {
     const delayInfo =
       flight.status === 'Departed' || flight.status === 'Landed' || flight.status === 'Delayed'
         ? calculateDelayCategory(flight.etd!, flight.atd!)
-        : { delayMinutes: null, delayCategory: null }
+        : { delayMinutes: null }
 
     return {
       id: idx + 1,
       ...flight,
       delayMinutes: delayInfo.delayMinutes,
-      delayCategory: delayInfo.delayCategory,
       lastUpdated: getNowInColombia().toISOString(),
     }
   })

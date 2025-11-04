@@ -13,8 +13,7 @@ export async function getFlights(date: string) {
 
     const filteredFlights = flights.filter(
       (flight) =>
-        flight.status !== 'Returned' &&
-        (flight.status === 'Cancelled' || flight.delayCategory !== null)
+        flight.status !== 'Returned' && (flight.status === 'Cancelled' || flight.delayMinutes !== 0)
     )
 
     return { success: true, data: filteredFlights }
