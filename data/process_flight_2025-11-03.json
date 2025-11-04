@@ -1181,13 +1181,13 @@
     "date": "2025-11-03",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:44",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-03T23:18:41.000Z"
+    "delayMinutes": 19,
+    "delayCategory": "+ 19",
+    "lastUpdated": "2025-11-04T02:13:38.000Z"
   },
   {
     "id": 86,
@@ -1559,13 +1559,13 @@
     "date": "2025-11-03",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "22:36",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-03T23:18:41.000Z"
+    "delayMinutes": 16,
+    "delayCategory": "+ 16",
+    "lastUpdated": "2025-11-04T02:13:38.000Z"
   },
   {
     "id": 113,
@@ -1587,13 +1587,13 @@
     "date": "2025-11-03",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:13",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-03T23:18:41.000Z"
+    "delayMinutes": 18,
+    "delayCategory": "+ 18",
+    "lastUpdated": "2025-11-04T02:13:38.000Z"
   },
   {
     "id": 115,
@@ -2105,13 +2105,13 @@
     "date": "2025-11-03",
     "from": "BOG-El Dorado Airport",
     "to": "BEL-Val De Cans Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:05",
-    "atd": "23:05",
+    "atd": "23:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-03T23:18:41.000Z"
+    "delayMinutes": 37,
+    "delayCategory": "+ 37",
+    "lastUpdated": "2025-11-04T02:13:38.000Z"
   },
   {
     "id": 152,
@@ -2777,13 +2777,13 @@
     "date": "2025-11-03",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
     "atd": "23:10",
     "airline": "Taca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-03T23:18:41.000Z"
+    "delayMinutes": 0,
+    "delayCategory": "Early 0",
+    "lastUpdated": "2025-11-04T02:13:39.000Z"
   },
   {
     "id": 200,
@@ -3197,13 +3197,13 @@
     "date": "2025-11-03",
     "from": "SAL-El Salvador Airport",
     "to": "XPL-Palmerola International Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:45",
     "airline": "Taca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-03T23:18:41.000Z"
+    "delayMinutes": -10,
+    "delayCategory": "Early 10",
+    "lastUpdated": "2025-11-04T02:13:38.000Z"
   },
   {
     "id": 230,
@@ -3239,13 +3239,13 @@
     "date": "2025-11-03",
     "from": "SAL-El Salvador Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:52",
     "airline": "Taca",
-    "delayMinutes": null,
-    "delayCategory": null,
-    "lastUpdated": "2025-11-03T23:18:41.000Z"
+    "delayMinutes": -3,
+    "delayCategory": "Early 3",
+    "lastUpdated": "2025-11-04T02:13:38.000Z"
   },
   {
     "id": 233,
