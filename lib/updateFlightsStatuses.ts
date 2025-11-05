@@ -85,7 +85,6 @@ export async function updateFlightsStatuses(targetDate?: string) {
         }
 
         let delayMinutes = flight.delayMinutes
-        let delayCategory = flight.delayCategory
 
         if (
           refreshed.status === 'Departed' ||
@@ -97,14 +96,12 @@ export async function updateFlightsStatuses(targetDate?: string) {
           )
           const delayInfo = calculateDelayCategory(refreshed.etd, refreshed.atd)
           delayMinutes = delayInfo.delayMinutes
-          delayCategory = delayInfo.delayCategory
         }
 
         return {
           ...flight,
           ...refreshed,
           delayMinutes,
-          delayCategory,
           lastUpdated: getNowInColombia().toISOString(),
         }
       } catch (error) {
