@@ -1383,12 +1383,12 @@
     "date": "2025-11-07",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "22:18",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-07T23:17:41.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2025-11-08T02:11:42.000Z"
   },
   {
     "id": 108,
@@ -1396,12 +1396,12 @@
     "date": "2025-11-07",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:03",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-07T23:17:41.000Z"
+    "delayMinutes": 8,
+    "lastUpdated": "2025-11-08T02:11:42.000Z"
   },
   {
     "id": 109,
@@ -1603,13 +1603,13 @@
     "flightNumber": "16",
     "date": "2025-11-07",
     "from": "MDE-Jose Maria Cordova Airport",
-    "to": "MAD- Adolfo Suárez Barajas",
-    "status": "Confirmed",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Returned",
     "etd": "22:05",
-    "atd": "22:50",
+    "atd": "22:09",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-07T23:17:41.000Z"
+    "lastUpdated": "2025-11-08T02:11:42.000Z"
   },
   {
     "id": 125,
@@ -2540,12 +2540,12 @@
     "date": "2025-11-07",
     "from": "SAL-El Salvador Airport",
     "to": "XPL-Palmerola International Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:39",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-07T23:17:41.000Z"
+    "delayMinutes": -16,
+    "lastUpdated": "2025-11-08T02:11:42.000Z"
   },
   {
     "id": 197,
