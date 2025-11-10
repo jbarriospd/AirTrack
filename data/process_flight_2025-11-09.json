@@ -1058,12 +1058,12 @@
     "date": "2025-11-09",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:27",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-09T23:23:33.000Z"
+    "delayMinutes": 2,
+    "lastUpdated": "2025-11-10T02:14:00.000Z"
   },
   {
     "id": 83,
@@ -1370,12 +1370,12 @@
     "date": "2025-11-09",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "22:30",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-09T23:23:33.000Z"
+    "delayMinutes": 10,
+    "lastUpdated": "2025-11-10T02:14:00.000Z"
   },
   {
     "id": 107,
@@ -2436,12 +2436,12 @@
     "date": "2025-11-09",
     "from": "SAL-El Salvador Airport",
     "to": "XPL-Palmerola International Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:46",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-09T23:23:33.000Z"
+    "delayMinutes": -9,
+    "lastUpdated": "2025-11-10T02:14:00.000Z"
   },
   {
     "id": 189,
@@ -2488,12 +2488,12 @@
     "date": "2025-11-09",
     "from": "SAL-El Salvador Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:46",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-09T23:23:33.000Z"
+    "delayMinutes": -9,
+    "lastUpdated": "2025-11-10T02:14:00.000Z"
   },
   {
     "id": 193,
