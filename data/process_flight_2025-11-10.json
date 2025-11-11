@@ -1201,12 +1201,12 @@
     "date": "2025-11-10",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:51",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-10T23:20:24.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2025-11-11T02:13:50.000Z"
   },
   {
     "id": 94,
@@ -1578,12 +1578,12 @@
     "date": "2025-11-10",
     "from": "YUL-Montreal-Pierre Elliott Trudeau Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:00",
-    "atd": "22:40",
+    "atd": "01:05",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-10T23:20:24.000Z"
+    "delayMinutes": 185,
+    "lastUpdated": "2025-11-11T02:13:50.000Z"
   },
   {
     "id": 123,
@@ -2137,12 +2137,12 @@
     "date": "2025-11-10",
     "from": "BOG-El Dorado Airport",
     "to": "MAO-Eduardo Gomes Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "23:15",
+    "atd": "23:24",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-10T23:20:24.000Z"
+    "delayMinutes": 29,
+    "lastUpdated": "2025-11-11T02:13:50.000Z"
   },
   {
     "id": 166,
