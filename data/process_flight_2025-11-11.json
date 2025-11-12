@@ -889,12 +889,12 @@
     "date": "2025-11-11",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
     "atd": "23:25",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-11T23:19:16.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2025-11-12T02:13:47.000Z"
   },
   {
     "id": 70,
@@ -1188,12 +1188,12 @@
     "date": "2025-11-11",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
     "atd": "23:55",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-11T23:19:16.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2025-11-12T02:13:47.000Z"
   },
   {
     "id": 93,
@@ -2709,11 +2709,11 @@
     "date": "2025-11-11",
     "from": "SAL-El Salvador Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:48",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-11T23:19:16.000Z"
+    "delayMinutes": -7,
+    "lastUpdated": "2025-11-12T02:13:47.000Z"
   }
 ]
