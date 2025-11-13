@@ -759,12 +759,12 @@
     "date": "2025-11-12",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:21",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-12T23:21:22.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2025-11-13T02:13:37.000Z"
   },
   {
     "id": 60,
@@ -1084,12 +1084,12 @@
     "date": "2025-11-12",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:28",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-12T23:21:22.000Z"
+    "delayMinutes": 33,
+    "lastUpdated": "2025-11-13T02:13:37.000Z"
   },
   {
     "id": 85,
@@ -2493,7 +2493,7 @@
     "atd": "23:10",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-12T23:21:22.000Z"
+    "lastUpdated": "2025-11-13T02:13:38.000Z"
   },
   {
     "id": 193,
@@ -2571,7 +2571,7 @@
     "atd": "23:55",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-12T23:21:22.000Z"
+    "lastUpdated": "2025-11-13T02:13:38.000Z"
   },
   {
     "id": 199,
@@ -2670,12 +2670,12 @@
     "date": "2025-11-12",
     "from": "SAL-El Salvador Airport",
     "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:35",
-    "atd": "22:35",
+    "atd": "22:29",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-12T23:21:22.000Z"
+    "delayMinutes": -6,
+    "lastUpdated": "2025-11-13T02:13:38.000Z"
   },
   {
     "id": 207,
