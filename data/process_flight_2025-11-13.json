@@ -733,12 +733,12 @@
     "date": "2025-11-13",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
     "atd": "23:25",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-13T23:19:22.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2025-11-14T02:13:32.000Z"
   },
   {
     "id": 58,
@@ -993,12 +993,12 @@
     "date": "2025-11-13",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:54",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-13T23:19:22.000Z"
+    "delayMinutes": -1,
+    "lastUpdated": "2025-11-14T02:13:32.000Z"
   },
   {
     "id": 78,
@@ -1045,12 +1045,12 @@
     "date": "2025-11-13",
     "from": "SAL-El Salvador Airport",
     "to": "LIM-Jorge Chavez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:10",
-    "atd": "22:10",
+    "atd": "22:00",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-13T23:19:22.000Z"
+    "delayMinutes": -10,
+    "lastUpdated": "2025-11-14T02:13:32.000Z"
   },
   {
     "id": 82,
@@ -1344,12 +1344,12 @@
     "date": "2025-11-13",
     "from": "BOG-El Dorado Airport",
     "to": "GEO-Cheddi Jagan International Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:00",
-    "atd": "23:00",
+    "atd": "23:46",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-13T23:19:22.000Z"
+    "delayMinutes": 46,
+    "lastUpdated": "2025-11-14T02:13:32.000Z"
   },
   {
     "id": 105,
@@ -1487,12 +1487,12 @@
     "date": "2025-11-13",
     "from": "CLO-Alfonso Bonilla Aragón Airport",
     "to": "MAD- Adolfo Suárez Barajas",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:05",
-    "atd": "23:09",
+    "atd": "23:26",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-13T23:19:22.000Z"
+    "delayMinutes": 81,
+    "lastUpdated": "2025-11-14T02:13:32.000Z"
   },
   {
     "id": 116,
@@ -2631,12 +2631,12 @@
     "date": "2025-11-13",
     "from": "SAL-El Salvador Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:30",
+    "atd": "22:20",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-13T23:19:22.000Z"
+    "delayMinutes": -35,
+    "lastUpdated": "2025-11-14T02:13:32.000Z"
   },
   {
     "id": 204,
@@ -2930,12 +2930,12 @@
     "date": "2025-11-13",
     "from": "ONT-LA/Ontario International Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:30",
-    "atd": "22:30",
+    "atd": "22:26",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-13T23:19:22.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2025-11-14T02:13:32.000Z"
   },
   {
     "id": 227,
