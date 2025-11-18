@@ -694,12 +694,12 @@
     "date": "2025-11-17",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:32",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-17T23:19:31.000Z"
+    "delayMinutes": 7,
+    "lastUpdated": "2025-11-18T02:13:28.000Z"
   },
   {
     "id": 55,
@@ -993,12 +993,12 @@
     "date": "2025-11-17",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:06",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-17T23:19:31.000Z"
+    "delayMinutes": 11,
+    "lastUpdated": "2025-11-18T02:13:28.000Z"
   },
   {
     "id": 78,
@@ -1630,12 +1630,12 @@
     "date": "2025-11-17",
     "from": "AXM-El Eden Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:25",
-    "atd": "22:56",
+    "atd": "22:48",
     "airline": "Clic para avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-17T23:19:31.000Z"
+    "delayMinutes": 23,
+    "lastUpdated": "2025-11-18T02:13:28.000Z"
   },
   {
     "id": 127,
@@ -2228,12 +2228,12 @@
     "date": "2025-11-17",
     "from": "SAL-El Salvador Airport",
     "to": "LIM-Jorge Chavez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:10",
-    "atd": "22:10",
+    "atd": "22:04",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-17T23:19:31.000Z"
+    "delayMinutes": -6,
+    "lastUpdated": "2025-11-18T02:13:28.000Z"
   },
   {
     "id": 173,
@@ -2397,12 +2397,12 @@
     "date": "2025-11-17",
     "from": "SAL-El Salvador Airport",
     "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:25",
-    "atd": "22:25",
+    "atd": "22:23",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-17T23:19:31.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2025-11-18T02:13:29.000Z"
   },
   {
     "id": 186,
@@ -2805,7 +2805,7 @@
     "atd": "23:20",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-17T23:19:31.000Z"
+    "lastUpdated": "2025-11-18T02:13:28.000Z"
   },
   {
     "id": 217,
@@ -2943,12 +2943,12 @@
     "date": "2025-11-17",
     "from": "SAL-El Salvador Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:43",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-17T23:19:31.000Z"
+    "delayMinutes": -12,
+    "lastUpdated": "2025-11-18T02:13:28.000Z"
   },
   {
     "id": 228,
@@ -3047,12 +3047,12 @@
     "date": "2025-11-17",
     "from": "SAL-El Salvador Airport",
     "to": "SAP-Ramon Villeda Morales Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:30",
-    "atd": "22:30",
+    "atd": "22:23",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-17T23:19:31.000Z"
+    "delayMinutes": -7,
+    "lastUpdated": "2025-11-18T02:13:28.000Z"
   },
   {
     "id": 236,
