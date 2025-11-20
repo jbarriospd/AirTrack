@@ -616,12 +616,12 @@
     "date": "2025-11-19",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
     "atd": "23:25",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-19T23:18:20.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2025-11-20T02:13:44.000Z"
   },
   {
     "id": 49,
@@ -876,12 +876,12 @@
     "date": "2025-11-19",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "23:02",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-19T23:18:20.000Z"
+    "delayMinutes": 42,
+    "lastUpdated": "2025-11-20T02:13:44.000Z"
   },
   {
     "id": 69,
@@ -889,12 +889,12 @@
     "date": "2025-11-19",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:02",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-19T23:18:20.000Z"
+    "delayMinutes": 7,
+    "lastUpdated": "2025-11-20T02:13:44.000Z"
   },
   {
     "id": 70,
@@ -1565,12 +1565,12 @@
     "date": "2025-11-19",
     "from": "AXM-El Eden Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:25",
-    "atd": "22:59",
+    "atd": "23:00",
     "airline": "Clic para avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-19T23:18:20.000Z"
+    "delayMinutes": 35,
+    "lastUpdated": "2025-11-20T02:13:44.000Z"
   },
   {
     "id": 122,
@@ -2189,12 +2189,12 @@
     "date": "2025-11-19",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "22:52",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-19T23:18:20.000Z"
+    "delayMinutes": -18,
+    "lastUpdated": "2025-11-20T02:13:45.000Z"
   },
   {
     "id": 170,
@@ -2813,12 +2813,12 @@
     "date": "2025-11-19",
     "from": "SAL-El Salvador Airport",
     "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:25",
-    "atd": "22:25",
+    "atd": "22:21",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-19T23:18:20.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2025-11-20T02:13:44.000Z"
   },
   {
     "id": 218,
