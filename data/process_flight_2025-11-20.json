@@ -538,12 +538,12 @@
     "date": "2025-11-20",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:41",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-20T23:19:15.000Z"
+    "delayMinutes": 16,
+    "lastUpdated": "2025-11-21T02:14:13.000Z"
   },
   {
     "id": 43,
@@ -759,12 +759,12 @@
     "date": "2025-11-20",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:08",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-20T23:19:15.000Z"
+    "delayMinutes": 13,
+    "lastUpdated": "2025-11-21T02:14:13.000Z"
   },
   {
     "id": 60,
@@ -1357,12 +1357,12 @@
     "date": "2025-11-20",
     "from": "BOG-El Dorado Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:20",
-    "atd": "23:20",
+    "atd": "23:34",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-20T23:19:15.000Z"
+    "delayMinutes": 14,
+    "lastUpdated": "2025-11-21T02:14:13.000Z"
   },
   {
     "id": 106,
@@ -2111,12 +2111,12 @@
     "date": "2025-11-20",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MIA-Miami Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:50",
-    "atd": "23:50",
+    "atd": "23:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-20T23:19:15.000Z"
+    "delayMinutes": -8,
+    "lastUpdated": "2025-11-21T02:14:12.000Z"
   },
   {
     "id": 164,
@@ -2475,12 +2475,12 @@
     "date": "2025-11-20",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:08",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-20T23:19:15.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2025-11-21T02:14:12.000Z"
   },
   {
     "id": 192,
