@@ -55,14 +55,14 @@
     "id": 5,
     "flightNumber": "267",
     "date": "2025-11-21",
-    "from": "BAQ-Ernesto Cortissoz Airport",
-    "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
-    "etd": "23:50",
-    "atd": "23:50",
+    "from": "MTY-Gen Mariano Escobedo Airport",
+    "to": "BAQ-Ernesto Cortissoz Airport",
+    "status": "Landed",
+    "etd": "13:50",
+    "atd": "17:44",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-21T23:17:03.000Z"
+    "delayMinutes": 234,
+    "lastUpdated": "2025-11-22T02:12:08.000Z"
   },
   {
     "id": 6,
@@ -577,12 +577,12 @@
     "date": "2025-11-21",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "00:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-21T23:17:03.000Z"
+    "delayMinutes": 77,
+    "lastUpdated": "2025-11-22T02:12:08.000Z"
   },
   {
     "id": 46,
@@ -785,12 +785,12 @@
     "date": "2025-11-21",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:20",
     "atd": "22:20",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-21T23:17:03.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2025-11-22T02:12:08.000Z"
   },
   {
     "id": 62,
@@ -798,12 +798,12 @@
     "date": "2025-11-21",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:35",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-21T23:17:03.000Z"
+    "delayMinutes": 40,
+    "lastUpdated": "2025-11-22T02:12:08.000Z"
   },
   {
     "id": 63,
@@ -1981,12 +1981,12 @@
     "date": "2025-11-21",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MIA-Miami Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:50",
-    "atd": "23:50",
+    "atd": "23:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-21T23:17:03.000Z"
+    "delayMinutes": -8,
+    "lastUpdated": "2025-11-22T02:12:08.000Z"
   },
   {
     "id": 154,
@@ -2150,12 +2150,12 @@
     "date": "2025-11-21",
     "from": "BOG-El Dorado Airport",
     "to": "ASU-Silvio Pettirossi Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "21:45",
-    "atd": "22:45",
+    "atd": "23:31",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-21T23:17:03.000Z"
+    "delayMinutes": 106,
+    "lastUpdated": "2025-11-22T02:12:08.000Z"
   },
   {
     "id": 167,
