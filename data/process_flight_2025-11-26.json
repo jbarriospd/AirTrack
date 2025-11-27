@@ -824,12 +824,12 @@
     "date": "2025-11-26",
     "from": "AXM-El Eden Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:25",
-    "atd": "22:25",
+    "atd": "22:19",
     "airline": "Clic para avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": -6,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 65,
@@ -876,12 +876,12 @@
     "date": "2025-11-26",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
     "atd": "23:25",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 69,
@@ -1136,12 +1136,12 @@
     "date": "2025-11-26",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "22:32",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": 12,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 89,
@@ -1149,12 +1149,12 @@
     "date": "2025-11-26",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:58",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": 3,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 90,
@@ -1706,14 +1706,14 @@
     "id": 132,
     "flightNumber": "8396",
     "date": "2025-11-26",
-    "from": "BOG-El Dorado Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
-    "etd": "23:30",
-    "atd": "23:30",
+    "from": "EZE-Ezeiza Ministro Pistarini Airport",
+    "to": "BOG-El Dorado Airport",
+    "status": "Landed",
+    "etd": "16:55",
+    "atd": "16:53",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 133,
@@ -1734,12 +1734,12 @@
     "date": "2025-11-26",
     "from": "BOG-El Dorado Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:20",
-    "atd": "23:20",
+    "atd": "23:31",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": 11,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 135,
@@ -2280,12 +2280,12 @@
     "date": "2025-11-26",
     "from": "BOG-El Dorado Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:15",
-    "atd": "23:15",
+    "atd": "23:18",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": 3,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 177,
@@ -2597,7 +2597,7 @@
     "atd": "23:10",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "lastUpdated": "2025-11-27T02:15:24.000Z"
   },
   {
     "id": 201,
@@ -2683,12 +2683,12 @@
     "date": "2025-11-26",
     "from": "SAL-El Salvador Airport",
     "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:35",
-    "atd": "22:35",
+    "atd": "22:33",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2025-11-27T02:15:24.000Z"
   },
   {
     "id": 208,
@@ -2696,12 +2696,12 @@
     "date": "2025-11-26",
     "from": "SAL-El Salvador Airport",
     "to": "XPL-Palmerola International Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:41",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": -14,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 209,
@@ -2735,12 +2735,12 @@
     "date": "2025-11-26",
     "from": "SAL-El Salvador Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "23:00",
-    "atd": "23:00",
+    "atd": "22:44",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": -16,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 212,
@@ -2878,12 +2878,12 @@
     "date": "2025-11-26",
     "from": "SAL-El Salvador Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "22:22",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-26T23:19:51.000Z"
+    "delayMinutes": 2,
+    "lastUpdated": "2025-11-27T02:15:23.000Z"
   },
   {
     "id": 223,
