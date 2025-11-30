@@ -772,12 +772,12 @@
     "date": "2025-11-29",
     "from": "AXM-El Eden Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:25",
-    "atd": "23:22",
+    "atd": "23:20",
     "airline": "Clic para avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-29T23:30:59.000Z"
+    "delayMinutes": 55,
+    "lastUpdated": "2025-11-30T02:12:12.000Z"
   },
   {
     "id": 61,
@@ -1219,7 +1219,7 @@
     "atd": "07:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-29T23:30:59.000Z"
+    "lastUpdated": "2025-11-30T02:12:12.000Z"
   },
   {
     "id": 95,
@@ -1245,7 +1245,7 @@
     "atd": "12:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-29T23:30:59.000Z"
+    "lastUpdated": "2025-11-30T02:12:12.000Z"
   },
   {
     "id": 97,
@@ -2371,12 +2371,12 @@
     "date": "2025-11-29",
     "from": "SAL-El Salvador Airport",
     "to": "XPL-Palmerola International Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:43",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-29T23:30:59.000Z"
+    "delayMinutes": -12,
+    "lastUpdated": "2025-11-30T02:12:12.000Z"
   },
   {
     "id": 184,
@@ -2384,12 +2384,12 @@
     "date": "2025-11-29",
     "from": "SAL-El Salvador Airport",
     "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:40",
-    "atd": "22:40",
+    "atd": "22:37",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-29T23:30:59.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2025-11-30T02:12:12.000Z"
   },
   {
     "id": 185,
@@ -2553,12 +2553,12 @@
     "date": "2025-11-29",
     "from": "ONT-LA/Ontario International Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:30",
-    "atd": "22:30",
+    "atd": "22:46",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-29T23:30:59.000Z"
+    "delayMinutes": 16,
+    "lastUpdated": "2025-11-30T02:12:12.000Z"
   },
   {
     "id": 198,
