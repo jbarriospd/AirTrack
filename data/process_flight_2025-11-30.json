@@ -1219,7 +1219,7 @@
     "atd": "07:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-30T23:45:18.000Z"
+    "lastUpdated": "2025-12-01T02:17:55.000Z"
   },
   {
     "id": 95,
@@ -1245,7 +1245,7 @@
     "atd": "12:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-30T23:45:18.000Z"
+    "lastUpdated": "2025-12-01T02:17:55.000Z"
   },
   {
     "id": 97,
@@ -2415,7 +2415,7 @@
     "atd": "23:10",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2025-11-30T23:45:18.000Z"
+    "lastUpdated": "2025-12-01T02:17:55.000Z"
   },
   {
     "id": 187,
@@ -2501,12 +2501,12 @@
     "date": "2025-11-30",
     "from": "SAL-El Salvador Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "23:00",
-    "atd": "23:00",
+    "atd": "22:52",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-11-30T23:45:18.000Z"
+    "delayMinutes": -8,
+    "lastUpdated": "2025-12-01T02:17:55.000Z"
   },
   {
     "id": 194,
