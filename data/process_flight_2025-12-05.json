@@ -1058,12 +1058,12 @@
     "date": "2025-12-05",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:35",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "delayMinutes": 10,
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   },
   {
     "id": 83,
@@ -1643,12 +1643,12 @@
     "date": "2025-12-05",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MAD- Adolfo Suárez Barajas",
-    "status": "Confirmed",
+    "status": "Delayed",
     "etd": "22:05",
-    "atd": "22:05",
+    "atd": "11:00",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "delayMinutes": -665,
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   },
   {
     "id": 128,
@@ -1746,13 +1746,13 @@
     "flightNumber": "263",
     "date": "2025-12-05",
     "from": "ORD-O'Hare Airport",
-    "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "to": "ORD-O'Hare Airport",
+    "status": "Returned",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "00:32",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   },
   {
     "id": 136,
@@ -1838,12 +1838,12 @@
     "date": "2025-12-05",
     "from": "BOG-El Dorado Airport",
     "to": "BEL-Val De Cans Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:05",
-    "atd": "23:05",
+    "atd": "23:49",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "delayMinutes": 44,
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   },
   {
     "id": 143,
@@ -2176,12 +2176,12 @@
     "date": "2025-12-05",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:05",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "delayMinutes": -5,
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   },
   {
     "id": 169,
@@ -2350,7 +2350,7 @@
     "atd": "07:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   },
   {
     "id": 182,
@@ -2363,7 +2363,7 @@
     "atd": "12:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   },
   {
     "id": 183,
@@ -2436,12 +2436,12 @@
     "date": "2025-12-05",
     "from": "BOG-El Dorado Airport",
     "to": "MAO-Eduardo Gomes Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "23:11",
+    "atd": "23:17",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "delayMinutes": 22,
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   },
   {
     "id": 189,
@@ -2488,12 +2488,12 @@
     "date": "2025-12-05",
     "from": "SAL-El Salvador Airport",
     "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:35",
-    "atd": "22:35",
+    "atd": "22:29",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "delayMinutes": -6,
+    "lastUpdated": "2025-12-06T02:12:32.000Z"
   },
   {
     "id": 193,
@@ -2839,11 +2839,11 @@
     "date": "2025-12-05",
     "from": "SJO-Juan Santamaria Airport",
     "to": "SAP-Ramon Villeda Morales Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:45",
-    "atd": "22:45",
+    "atd": "22:31",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-05T23:17:36.000Z"
+    "delayMinutes": -14,
+    "lastUpdated": "2025-12-06T02:12:31.000Z"
   }
 ]
