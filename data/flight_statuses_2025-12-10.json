@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "flightNumber": "155",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -8,12 +7,9 @@
     "status": "Departed",
     "etd": "21:15",
     "atd": "21:26",
-    "airline": "Avianca",
-    "delayMinutes": 11,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 2,
     "flightNumber": "154",
     "date": "2025-12-10",
     "from": "AEP-Jorge Newbery Airfield",
@@ -21,12 +17,9 @@
     "status": "Landed",
     "etd": "07:00",
     "atd": "06:57",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 3,
     "flightNumber": "4831",
     "date": "2025-12-10",
     "from": "AUC-Santiago Pérez Airport",
@@ -34,12 +27,9 @@
     "status": "Landed",
     "etd": "12:25",
     "atd": "12:40",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": 15,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 4,
     "flightNumber": "19",
     "date": "2025-12-10",
     "from": "BCN-Barcelona Intl Airport ",
@@ -47,12 +37,9 @@
     "status": "Landed",
     "etd": "12:50",
     "atd": "13:05",
-    "airline": "Avianca",
-    "delayMinutes": 15,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 5,
     "flightNumber": "4832",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -60,12 +47,9 @@
     "status": "Landed",
     "etd": "10:30",
     "atd": "10:10",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -20,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 6,
     "flightNumber": "256",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -73,12 +57,9 @@
     "status": "Landed",
     "etd": "07:45",
     "atd": "07:45",
-    "airline": "Avianca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 7,
     "flightNumber": "4873",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -86,12 +67,9 @@
     "status": "Landed",
     "etd": "17:35",
     "atd": "17:24",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -11,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 8,
     "flightNumber": "217",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -99,12 +77,9 @@
     "status": "Landed",
     "etd": "16:05",
     "atd": "16:07",
-    "airline": "Avianca",
-    "delayMinutes": 2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 9,
     "flightNumber": "197",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -112,12 +87,9 @@
     "status": "Landed",
     "etd": "16:05",
     "atd": "16:59",
-    "airline": "Avianca",
-    "delayMinutes": 54,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 10,
     "flightNumber": "161",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -125,12 +97,9 @@
     "status": "Landed",
     "etd": "17:20",
     "atd": "17:15",
-    "airline": "Avianca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 11,
     "flightNumber": "51",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -138,12 +107,9 @@
     "status": "Landed",
     "etd": "17:45",
     "atd": "18:15",
-    "airline": "Avianca",
-    "delayMinutes": 30,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 12,
     "flightNumber": "46",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -151,12 +117,9 @@
     "status": "Landed",
     "etd": "07:45",
     "atd": "07:59",
-    "airline": "Avianca",
-    "delayMinutes": 14,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 13,
     "flightNumber": "22",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -164,12 +127,9 @@
     "status": "Landed",
     "etd": "14:15",
     "atd": "14:15",
-    "airline": "Avianca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 14,
     "flightNumber": "4835",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -177,12 +137,9 @@
     "status": "Landed",
     "etd": "13:00",
     "atd": "12:56",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 15,
     "flightNumber": "4803",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -190,12 +147,9 @@
     "status": "Landed",
     "etd": "16:30",
     "atd": "16:26",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 16,
     "flightNumber": "60",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -203,12 +157,9 @@
     "status": "Landed",
     "etd": "15:00",
     "atd": "14:56",
-    "airline": "Avianca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 17,
     "flightNumber": "241",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -216,12 +167,9 @@
     "status": "Landed",
     "etd": "16:20",
     "atd": "16:17",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 18,
     "flightNumber": "4840",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -229,12 +177,9 @@
     "status": "Landed",
     "etd": "09:00",
     "atd": "08:51",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 19,
     "flightNumber": "4826",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -242,12 +187,9 @@
     "status": "Landed",
     "etd": "14:20",
     "atd": "14:45",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": 25,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 20,
     "flightNumber": "229",
     "date": "2025-12-10",
     "from": "CDG-Paris Charles de Gaulle Airport",
@@ -255,12 +197,9 @@
     "status": "Landed",
     "etd": "09:30",
     "atd": "09:20",
-    "airline": "Avianca",
-    "delayMinutes": -10,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 21,
     "flightNumber": "257",
     "date": "2025-12-10",
     "from": "CUN-Cancun Airport",
@@ -268,12 +207,9 @@
     "status": "Landed",
     "etd": "12:35",
     "atd": "12:30",
-    "airline": "Avianca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 22,
     "flightNumber": "269",
     "date": "2025-12-10",
     "from": "CUN-Cancun Airport",
@@ -281,12 +217,9 @@
     "status": "Landed",
     "etd": "12:35",
     "atd": "12:54",
-    "airline": "Avianca",
-    "delayMinutes": 19,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 23,
     "flightNumber": "4854",
     "date": "2025-12-10",
     "from": "EYP-El Alcaravan Airport",
@@ -294,12 +227,9 @@
     "status": "Landed",
     "etd": "14:55",
     "atd": "14:57",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": 2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 24,
     "flightNumber": "218",
     "date": "2025-12-10",
     "from": "EZE-Ezeiza Ministro Pistarini Airport",
@@ -307,12 +237,9 @@
     "status": "Landed",
     "etd": "01:40",
     "atd": "01:40",
-    "airline": "Avianca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 25,
     "flightNumber": "260",
     "date": "2025-12-10",
     "from": "GIG-Galeao Airport",
@@ -320,12 +247,9 @@
     "status": "Landed",
     "etd": "07:30",
     "atd": "07:35",
-    "airline": "Avianca",
-    "delayMinutes": 5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 26,
     "flightNumber": "184",
     "date": "2025-12-10",
     "from": "GRU-Sao Pablo- Guarulhos Airport",
@@ -333,12 +257,9 @@
     "status": "Departed",
     "etd": "17:25",
     "atd": "21:07",
-    "airline": "Avianca",
-    "delayMinutes": 222,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 27,
     "flightNumber": "121",
     "date": "2025-12-10",
     "from": "LHR-Heathrow Airport",
@@ -346,12 +267,9 @@
     "status": "Departed",
     "etd": "21:41",
     "atd": "21:46",
-    "airline": "Avianca",
-    "delayMinutes": 5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 28,
     "flightNumber": "50",
     "date": "2025-12-10",
     "from": "LIM-Jorge Chavez Airport",
@@ -359,12 +277,9 @@
     "status": "Landed",
     "etd": "11:45",
     "atd": "12:08",
-    "airline": "Avianca",
-    "delayMinutes": 23,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 29,
     "flightNumber": "47",
     "date": "2025-12-10",
     "from": "MAD- Adolfo Suárez Barajas",
@@ -372,12 +287,9 @@
     "status": "Landed",
     "etd": "01:20",
     "atd": "01:15",
-    "airline": "Avianca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 30,
     "flightNumber": "268",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -385,12 +297,9 @@
     "status": "Landed",
     "etd": "08:15",
     "atd": "08:12",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 31,
     "flightNumber": "220",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -398,12 +307,9 @@
     "status": "Landed",
     "etd": "08:55",
     "atd": "08:54",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 32,
     "flightNumber": "187",
     "date": "2025-12-10",
     "from": "MEX-Benito Juarez Airport",
@@ -411,12 +317,9 @@
     "status": "Landed",
     "etd": "00:40",
     "atd": "00:46",
-    "airline": "Avianca",
-    "delayMinutes": 6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 33,
     "flightNumber": "235",
     "date": "2025-12-10",
     "from": "MEX-Benito Juarez Airport",
@@ -424,12 +327,9 @@
     "status": "Landed",
     "etd": "05:00",
     "atd": "05:17",
-    "airline": "Avianca",
-    "delayMinutes": 17,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 34,
     "flightNumber": "4802",
     "date": "2025-12-10",
     "from": "PEI-Matecaña Airport",
@@ -437,12 +337,9 @@
     "status": "Landed",
     "etd": "18:00",
     "atd": "17:59",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 35,
     "flightNumber": "57",
     "date": "2025-12-10",
     "from": "PTY-Tocumen Airport",
@@ -450,12 +347,9 @@
     "status": "Landed",
     "etd": "17:50",
     "atd": "17:49",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 36,
     "flightNumber": "221",
     "date": "2025-12-10",
     "from": "PUJ-Punta Cana Airport",
@@ -463,12 +357,9 @@
     "status": "Landed",
     "etd": "13:45",
     "atd": "13:41",
-    "airline": "Avianca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 37,
     "flightNumber": "116",
     "date": "2025-12-10",
     "from": "SCL-Arturo Merino Benítez Airport",
@@ -476,12 +367,9 @@
     "status": "Landed",
     "etd": "16:25",
     "atd": "17:38",
-    "airline": "Avianca",
-    "delayMinutes": 73,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 38,
     "flightNumber": "4841",
     "date": "2025-12-10",
     "from": "UIB-El Caraño Airport",
@@ -489,12 +377,9 @@
     "status": "Landed",
     "etd": "11:20",
     "atd": "11:14",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 39,
     "flightNumber": "8376",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -502,12 +387,9 @@
     "status": "Landed",
     "etd": "19:05",
     "atd": "19:08",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": 3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 40,
     "flightNumber": "4827",
     "date": "2025-12-10",
     "from": "VVC-La Vanguardia Airport",
@@ -515,12 +397,9 @@
     "status": "Landed",
     "etd": "16:00",
     "atd": "15:58",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 41,
     "flightNumber": "166",
     "date": "2025-12-10",
     "from": "VVI-Viru Viru Airport",
@@ -528,12 +407,9 @@
     "status": "Landed",
     "etd": "03:40",
     "atd": "03:42",
-    "airline": "Avianca",
-    "delayMinutes": 2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 42,
     "flightNumber": "18",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -541,12 +417,9 @@
     "status": "Departed",
     "etd": "15:35",
     "atd": "15:53",
-    "airline": "Avianca",
-    "delayMinutes": 18,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 43,
     "flightNumber": "228",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -554,12 +427,9 @@
     "status": "Departed",
     "etd": "15:15",
     "atd": "15:28",
-    "airline": "Avianca",
-    "delayMinutes": 13,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 44,
     "flightNumber": "120",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -567,12 +437,9 @@
     "status": "Departed",
     "etd": "23:25",
     "atd": "23:25",
-    "airline": "Avianca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 45,
     "flightNumber": "167",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -580,12 +447,9 @@
     "status": "Departed",
     "etd": "21:30",
     "atd": "21:39",
-    "airline": "Avianca",
-    "delayMinutes": 9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 46,
     "flightNumber": "234",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -593,12 +457,9 @@
     "status": "Departed",
     "etd": "22:35",
     "atd": "22:33",
-    "airline": "Avianca",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 47,
     "flightNumber": "8373",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -606,12 +467,9 @@
     "status": "Landed",
     "etd": "16:10",
     "atd": "16:09",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 48,
     "flightNumber": "246",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -619,12 +477,9 @@
     "status": "Landed",
     "etd": "07:50",
     "atd": "07:53",
-    "airline": "Avianca",
-    "delayMinutes": 3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 49,
     "flightNumber": "210",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -632,12 +487,9 @@
     "status": "Landed",
     "etd": "07:05",
     "atd": "07:04",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 50,
     "flightNumber": "6",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -645,12 +497,9 @@
     "status": "Landed",
     "etd": "18:30",
     "atd": "18:27",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 51,
     "flightNumber": "204",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -658,12 +507,9 @@
     "status": "Landed",
     "etd": "16:15",
     "atd": "16:14",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 52,
     "flightNumber": "247",
     "date": "2025-12-10",
     "from": "IAD-Washington Dulles Airport",
@@ -671,12 +517,9 @@
     "status": "Landed",
     "etd": "14:35",
     "atd": "14:47",
-    "airline": "Avianca",
-    "delayMinutes": 12,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 53,
     "flightNumber": "21",
     "date": "2025-12-10",
     "from": "JFK-John F Kennedy",
@@ -684,12 +527,9 @@
     "status": "Landed",
     "etd": "06:30",
     "atd": "06:24",
-    "airline": "Avianca",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 54,
     "flightNumber": "43",
     "date": "2025-12-10",
     "from": "JFK-John F Kennedy",
@@ -697,12 +537,9 @@
     "status": "Landed",
     "etd": "06:15",
     "atd": "06:14",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 55,
     "flightNumber": "30",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -710,12 +547,9 @@
     "status": "Landed",
     "etd": "11:30",
     "atd": "11:26",
-    "airline": "Avianca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 56,
     "flightNumber": "7",
     "date": "2025-12-10",
     "from": "MIA-Miami Airport",
@@ -723,12 +557,9 @@
     "status": "Landed",
     "etd": "16:35",
     "atd": "16:56",
-    "airline": "Avianca",
-    "delayMinutes": 21,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 57,
     "flightNumber": "31",
     "date": "2025-12-10",
     "from": "MIA-Miami Airport",
@@ -736,12 +567,9 @@
     "status": "Landed",
     "etd": "18:35",
     "atd": "18:34",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 58,
     "flightNumber": "205",
     "date": "2025-12-10",
     "from": "YYZ-Toronto Pearson Airport",
@@ -749,12 +577,9 @@
     "status": "Confirmed",
     "etd": "23:55",
     "atd": "23:55",
-    "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 59,
     "flightNumber": "42",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -762,12 +587,9 @@
     "status": "Departed",
     "etd": "23:00",
     "atd": "23:08",
-    "airline": "Avianca",
-    "delayMinutes": 8,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 60,
     "flightNumber": "428",
     "date": "2025-12-10",
     "from": "LIM-Jorge Chavez Airport",
@@ -775,12 +597,9 @@
     "status": "Landed",
     "etd": "03:00",
     "atd": "02:54",
-    "airline": "Taca",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 61,
     "flightNumber": "429",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -788,12 +607,9 @@
     "status": "Departed",
     "etd": "22:10",
     "atd": "22:06",
-    "airline": "Taca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 62,
     "flightNumber": "258",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -801,12 +617,9 @@
     "status": "Landed",
     "etd": "13:15",
     "atd": "13:32",
-    "airline": "Avianca",
-    "delayMinutes": 17,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 63,
     "flightNumber": "259",
     "date": "2025-12-10",
     "from": "SJU-Luis Muñoz Marin Airport",
@@ -814,12 +627,9 @@
     "status": "Landed",
     "etd": "18:30",
     "atd": "18:44",
-    "airline": "Avianca",
-    "delayMinutes": 14,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 64,
     "flightNumber": "4834",
     "date": "2025-12-10",
     "from": "NVA-Benito Salas Airport",
@@ -827,12 +637,9 @@
     "status": "Landed",
     "etd": "14:40",
     "atd": "14:39",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 65,
     "flightNumber": "105",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -840,12 +647,9 @@
     "status": "Landed",
     "etd": "08:05",
     "atd": "08:04",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 66,
     "flightNumber": "7378",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -853,12 +657,9 @@
     "status": "Landed",
     "etd": "18:50",
     "atd": "18:39",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -11,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 67,
     "flightNumber": "7395",
     "date": "2025-12-10",
     "from": "JFK-John F Kennedy",
@@ -866,12 +667,9 @@
     "status": "Landed",
     "etd": "04:00",
     "atd": "03:57",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 68,
     "flightNumber": "81",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -879,12 +677,9 @@
     "status": "Departed",
     "etd": "22:55",
     "atd": "22:32",
-    "airline": "Avianca",
-    "delayMinutes": -23,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 69,
     "flightNumber": "17",
     "date": "2025-12-10",
     "from": "MAD- Adolfo Suárez Barajas",
@@ -892,12 +687,9 @@
     "status": "Landed",
     "etd": "15:25",
     "atd": "15:45",
-    "airline": "Avianca",
-    "delayMinutes": 20,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 70,
     "flightNumber": "16",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -905,12 +697,9 @@
     "status": "Departed",
     "etd": "22:05",
     "atd": "22:04",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 71,
     "flightNumber": "24",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -918,12 +707,9 @@
     "status": "Landed",
     "etd": "09:00",
     "atd": "08:55",
-    "airline": "Avianca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 72,
     "flightNumber": "110",
     "date": "2025-12-10",
     "from": "MVD-Carrasco Airport",
@@ -931,12 +717,9 @@
     "status": "Landed",
     "etd": "07:05",
     "atd": "06:58",
-    "airline": "Avianca",
-    "delayMinutes": -7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 73,
     "flightNumber": "25",
     "date": "2025-12-10",
     "from": "SJO-Juan Santamaria Airport",
@@ -944,12 +727,9 @@
     "status": "Landed",
     "etd": "10:55",
     "atd": "10:46",
-    "airline": "Avianca",
-    "delayMinutes": -9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 74,
     "flightNumber": "34",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -957,12 +737,9 @@
     "status": "Landed",
     "etd": "10:45",
     "atd": "10:51",
-    "airline": "Avianca",
-    "delayMinutes": 6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 75,
     "flightNumber": "262",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -970,12 +747,9 @@
     "status": "Landed",
     "etd": "14:50",
     "atd": "16:03",
-    "airline": "Avianca",
-    "delayMinutes": 73,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 76,
     "flightNumber": "35",
     "date": "2025-12-10",
     "from": "GUA-La Aurora Airport",
@@ -983,12 +757,9 @@
     "status": "Landed",
     "etd": "13:55",
     "atd": "14:28",
-    "airline": "Avianca",
-    "delayMinutes": 33,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 77,
     "flightNumber": "263",
     "date": "2025-12-10",
     "from": "ORD-O'Hare Airport",
@@ -996,12 +767,9 @@
     "status": "Delayed",
     "etd": "22:20",
     "atd": "23:05",
-    "airline": "Avianca",
-    "delayMinutes": 45,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 78,
     "flightNumber": "188",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1009,12 +777,9 @@
     "status": "Landed",
     "etd": "07:35",
     "atd": "07:35",
-    "airline": "Avianca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 79,
     "flightNumber": "200",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1022,12 +787,9 @@
     "status": "Landed",
     "etd": "13:45",
     "atd": "13:42",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 80,
     "flightNumber": "189",
     "date": "2025-12-10",
     "from": "DFW-Dallas/Fort Worth Airport",
@@ -1035,12 +797,9 @@
     "status": "Landed",
     "etd": "14:00",
     "atd": "14:33",
-    "airline": "Avianca",
-    "delayMinutes": 33,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 81,
     "flightNumber": "201",
     "date": "2025-12-10",
     "from": "YUL-Montreal-Pierre Elliott Trudeau Airport",
@@ -1048,12 +807,9 @@
     "status": "Confirmed",
     "etd": "22:00",
     "atd": "22:00",
-    "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 82,
     "flightNumber": "28",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1061,12 +817,9 @@
     "status": "Landed",
     "etd": "08:00",
     "atd": "07:59",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 83,
     "flightNumber": "29",
     "date": "2025-12-10",
     "from": "MCO-Orlando Airport",
@@ -1074,12 +827,9 @@
     "status": "Landed",
     "etd": "13:50",
     "atd": "13:57",
-    "airline": "Avianca",
-    "delayMinutes": 7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 84,
     "flightNumber": "213",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1087,12 +837,9 @@
     "status": "Departed",
     "etd": "21:45",
     "atd": "21:42",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 85,
     "flightNumber": "171",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1100,12 +847,9 @@
     "status": "Departed",
     "etd": "23:05",
     "atd": "23:00",
-    "airline": "Avianca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 86,
     "flightNumber": "139",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1113,12 +857,9 @@
     "status": "Departed",
     "etd": "22:15",
     "atd": "22:15",
-    "airline": "Avianca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 87,
     "flightNumber": "80",
     "date": "2025-12-10",
     "from": "CUZ-Alejandro Velasco Astete Airport",
@@ -1126,12 +867,9 @@
     "status": "Landed",
     "etd": "12:25",
     "atd": "12:29",
-    "airline": "Avianca",
-    "delayMinutes": 4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 88,
     "flightNumber": "203",
     "date": "2025-12-10",
     "from": "MCO-Orlando Airport",
@@ -1139,12 +877,9 @@
     "status": "Landed",
     "etd": "12:15",
     "atd": "12:07",
-    "airline": "Avianca",
-    "delayMinutes": -8,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 89,
     "flightNumber": "202",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -1152,12 +887,9 @@
     "status": "Landed",
     "etd": "06:35",
     "atd": "06:33",
-    "airline": "Avianca",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 90,
     "flightNumber": "194",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1165,12 +897,9 @@
     "status": "Landed",
     "etd": "09:10",
     "atd": "09:06",
-    "airline": "Avianca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 91,
     "flightNumber": "195",
     "date": "2025-12-10",
     "from": "TPA-Topp Of Tampa Airport",
@@ -1178,12 +907,9 @@
     "status": "Landed",
     "etd": "14:55",
     "atd": "14:53",
-    "airline": "Avianca",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 92,
     "flightNumber": "224",
     "date": "2025-12-10",
     "from": "LPB-El Alto Airport",
@@ -1191,12 +917,9 @@
     "status": "Landed",
     "etd": "03:20",
     "atd": "03:24",
-    "airline": "Avianca",
-    "delayMinutes": 4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 93,
     "flightNumber": "36",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1204,12 +927,9 @@
     "status": "Landed",
     "etd": "09:15",
     "atd": "09:22",
-    "airline": "Avianca",
-    "delayMinutes": 7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 94,
     "flightNumber": "239",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1217,12 +937,9 @@
     "status": "Departed",
     "etd": "21:25",
     "atd": "21:30",
-    "airline": "Avianca",
-    "delayMinutes": 5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 95,
     "flightNumber": "37",
     "date": "2025-12-10",
     "from": "FLL-Fort Lauderdale/Hollywood Airport",
@@ -1230,12 +947,9 @@
     "status": "Landed",
     "etd": "14:30",
     "atd": "14:47",
-    "airline": "Avianca",
-    "delayMinutes": 17,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 96,
     "flightNumber": "9445",
     "date": "2025-12-10",
     "from": "ADZ-Gustavo Rojas Pinilla Airport",
@@ -1243,12 +957,9 @@
     "status": "Landed",
     "etd": "09:15",
     "atd": "09:16",
-    "airline": "Avianca",
-    "delayMinutes": 1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 97,
     "flightNumber": "8441",
     "date": "2025-12-10",
     "from": "ADZ-Gustavo Rojas Pinilla Airport",
@@ -1256,12 +967,9 @@
     "status": "Landed",
     "etd": "18:20",
     "atd": "18:16",
-    "airline": "Avianca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 98,
     "flightNumber": "9523",
     "date": "2025-12-10",
     "from": "BAQ-Ernesto Cortissoz Airport",
@@ -1269,12 +977,9 @@
     "status": "Landed",
     "etd": "04:25",
     "atd": "04:22",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 99,
     "flightNumber": "9778",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1282,12 +987,9 @@
     "status": "Landed",
     "etd": "06:15",
     "atd": "06:18",
-    "airline": "Avianca",
-    "delayMinutes": 3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 100,
     "flightNumber": "8583",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1295,12 +997,9 @@
     "status": "Landed",
     "etd": "07:05",
     "atd": "07:17",
-    "airline": "Avianca",
-    "delayMinutes": 12,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 101,
     "flightNumber": "8410",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1308,12 +1007,9 @@
     "status": "Landed",
     "etd": "11:20",
     "atd": "11:54",
-    "airline": "Avianca",
-    "delayMinutes": 34,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 102,
     "flightNumber": "9551",
     "date": "2025-12-10",
     "from": "CTG-Rafael Nuñez Airport",
@@ -1321,12 +1017,9 @@
     "status": "Landed",
     "etd": "17:05",
     "atd": "18:08",
-    "airline": "Avianca",
-    "delayMinutes": 63,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 103,
     "flightNumber": "8461",
     "date": "2025-12-10",
     "from": "CTG-Rafael Nuñez Airport",
@@ -1334,12 +1027,9 @@
     "status": "Landed",
     "etd": "13:10",
     "atd": "13:36",
-    "airline": "Avianca",
-    "delayMinutes": 26,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 104,
     "flightNumber": "8440",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -1347,12 +1037,9 @@
     "status": "Landed",
     "etd": "15:35",
     "atd": "15:35",
-    "airline": "Avianca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 105,
     "flightNumber": "8415",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -1360,12 +1047,9 @@
     "status": "Landed",
     "etd": "19:00",
     "atd": "18:56",
-    "airline": "Avianca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 106,
     "flightNumber": "9617",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -1373,12 +1057,9 @@
     "status": "Landed",
     "etd": "18:55",
     "atd": "18:51",
-    "airline": "Avianca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 107,
     "flightNumber": "8460",
     "date": "2025-12-10",
     "from": "PEI-Matecaña Airport",
@@ -1386,12 +1067,9 @@
     "status": "Landed",
     "etd": "15:10",
     "atd": "15:52",
-    "airline": "Avianca",
-    "delayMinutes": 42,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 108,
     "flightNumber": "9618",
     "date": "2025-12-10",
     "from": "PEI-Matecaña Airport",
@@ -1399,12 +1077,9 @@
     "status": "Landed",
     "etd": "20:25",
     "atd": "20:24",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 109,
     "flightNumber": "8562",
     "date": "2025-12-10",
     "from": "PSO-Antonio Nariño Airport",
@@ -1412,12 +1087,9 @@
     "status": "Landed",
     "etd": "09:10",
     "atd": "09:30",
-    "airline": "Avianca",
-    "delayMinutes": 20,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 110,
     "flightNumber": "8429",
     "date": "2025-12-10",
     "from": "RCH-Almirante Padilla Airport",
@@ -1425,12 +1097,9 @@
     "status": "Landed",
     "etd": "13:30",
     "atd": "14:25",
-    "airline": "Avianca",
-    "delayMinutes": 55,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 111,
     "flightNumber": "8543",
     "date": "2025-12-10",
     "from": "BAQ-Ernesto Cortissoz Airport",
@@ -1438,12 +1107,9 @@
     "status": "Landed",
     "etd": "18:15",
     "atd": "18:41",
-    "airline": "Avianca",
-    "delayMinutes": 26,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 112,
     "flightNumber": "9532",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1451,12 +1117,9 @@
     "status": "Departed",
     "etd": "18:05",
     "atd": "21:57",
-    "airline": "Avianca",
-    "delayMinutes": 232,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 113,
     "flightNumber": "9766",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1464,12 +1127,9 @@
     "status": "Landed",
     "etd": "06:35",
     "atd": "06:37",
-    "airline": "Avianca",
-    "delayMinutes": 2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 114,
     "flightNumber": "8544",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -1477,12 +1137,9 @@
     "status": "Landed",
     "etd": "20:20",
     "atd": "20:47",
-    "airline": "Avianca",
-    "delayMinutes": 27,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 115,
     "flightNumber": "9763",
     "date": "2025-12-10",
     "from": "SMR-Simon Bolivar Airport",
@@ -1490,12 +1147,9 @@
     "status": "Landed",
     "etd": "09:00",
     "atd": "09:05",
-    "airline": "Avianca",
-    "delayMinutes": 5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 116,
     "flightNumber": "8380",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -1503,12 +1157,9 @@
     "status": "Landed",
     "etd": "03:30",
     "atd": "03:28",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 117,
     "flightNumber": "1607",
     "date": "2025-12-10",
     "from": "CUE-Mariscal Lamar Internacional Airport",
@@ -1516,12 +1167,9 @@
     "status": "Landed",
     "etd": "20:25",
     "atd": "20:20",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 118,
     "flightNumber": "1606",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -1529,12 +1177,9 @@
     "status": "Landed",
     "etd": "18:40",
     "atd": "18:37",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 119,
     "flightNumber": "8391",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1542,12 +1187,9 @@
     "status": "Departed",
     "etd": "21:40",
     "atd": "22:14",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": 34,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 120,
     "flightNumber": "1602",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -1555,12 +1197,9 @@
     "status": "Landed",
     "etd": "16:40",
     "atd": "16:43",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": 3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 121,
     "flightNumber": "8398",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -1568,12 +1207,9 @@
     "status": "Landed",
     "etd": "15:40",
     "atd": "15:31",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 122,
     "flightNumber": "8399",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -1581,12 +1217,9 @@
     "status": "Landed",
     "etd": "18:25",
     "atd": "18:22",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 123,
     "flightNumber": "9226",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1594,12 +1227,9 @@
     "status": "Landed",
     "etd": "07:00",
     "atd": "06:58",
-    "airline": "Avianca",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 124,
     "flightNumber": "8414",
     "date": "2025-12-10",
     "from": "CLO-Alfonso Bonilla Aragón Airport",
@@ -1607,12 +1237,9 @@
     "status": "Landed",
     "etd": "06:55",
     "atd": "07:13",
-    "airline": "Avianca",
-    "delayMinutes": 18,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 125,
     "flightNumber": "266",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1620,12 +1247,9 @@
     "status": "Landed",
     "etd": "08:10",
     "atd": "08:19",
-    "airline": "Avianca",
-    "delayMinutes": 9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 126,
     "flightNumber": "267",
     "date": "2025-12-10",
     "from": "MTY-Gen Mariano Escobedo Airport",
@@ -1633,12 +1257,9 @@
     "status": "Delayed",
     "etd": "13:50",
     "atd": "05:30",
-    "airline": "Avianca",
-    "delayMinutes": -500,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 127,
     "flightNumber": "9397",
     "date": "2025-12-10",
     "from": "MTR-Los Garzones Airport",
@@ -1646,12 +1267,9 @@
     "status": "Landed",
     "etd": "14:05",
     "atd": "14:02",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 128,
     "flightNumber": "9798",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1659,12 +1277,9 @@
     "status": "Landed",
     "etd": "17:05",
     "atd": "17:04",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 129,
     "flightNumber": "9373",
     "date": "2025-12-10",
     "from": "CTG-Rafael Nuñez Airport",
@@ -1672,12 +1287,9 @@
     "status": "Landed",
     "etd": "06:50",
     "atd": "06:44",
-    "airline": "Avianca",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 130,
     "flightNumber": "9696",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1685,12 +1297,9 @@
     "status": "Landed",
     "etd": "07:00",
     "atd": "07:00",
-    "airline": "Avianca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 131,
     "flightNumber": "9489",
     "date": "2025-12-10",
     "from": "LET-Alfredo Vasquez Cobo Airport",
@@ -1698,12 +1307,9 @@
     "status": "Landed",
     "etd": "09:45",
     "atd": "09:47",
-    "airline": "Avianca",
-    "delayMinutes": 2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 132,
     "flightNumber": "1690",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -1711,12 +1317,9 @@
     "status": "Landed",
     "etd": "05:55",
     "atd": "05:43",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -12,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 133,
     "flightNumber": "1697",
     "date": "2025-12-10",
     "from": "MEC-Eloy Alfaro Airport",
@@ -1724,12 +1327,9 @@
     "status": "Landed",
     "etd": "20:55",
     "atd": "20:44",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -11,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 134,
     "flightNumber": "1603",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -1737,12 +1337,9 @@
     "status": "Landed",
     "etd": "06:45",
     "atd": "06:35",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -10,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 135,
     "flightNumber": "9386",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -1750,12 +1347,9 @@
     "status": "Landed",
     "etd": "20:30",
     "atd": "20:34",
-    "airline": "Avianca",
-    "delayMinutes": 4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 136,
     "flightNumber": "9829",
     "date": "2025-12-10",
     "from": "BGA-Palonegro Airport",
@@ -1763,12 +1357,9 @@
     "status": "Landed",
     "etd": "18:35",
     "atd": "18:44",
-    "airline": "Avianca",
-    "delayMinutes": 9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 137,
     "flightNumber": "9482",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1776,12 +1367,9 @@
     "status": "Landed",
     "etd": "12:05",
     "atd": "12:56",
-    "airline": "Avianca",
-    "delayMinutes": 51,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 138,
     "flightNumber": "9457",
     "date": "2025-12-10",
     "from": "CUC-Camilo Daza Airport",
@@ -1789,12 +1377,9 @@
     "status": "Landed",
     "etd": "14:00",
     "atd": "14:58",
-    "airline": "Avianca",
-    "delayMinutes": 58,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 139,
     "flightNumber": "9830",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -1802,12 +1387,9 @@
     "status": "Landed",
     "etd": "17:05",
     "atd": "17:04",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 140,
     "flightNumber": "8493",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1815,12 +1397,9 @@
     "status": "Landed",
     "etd": "06:20",
     "atd": "06:34",
-    "airline": "Avianca",
-    "delayMinutes": 14,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 141,
     "flightNumber": "4815",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1828,12 +1407,9 @@
     "status": "Landed",
     "etd": "07:10",
     "atd": "07:09",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 142,
     "flightNumber": "4807",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1841,12 +1417,9 @@
     "status": "Landed",
     "etd": "06:00",
     "atd": "05:57",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 143,
     "flightNumber": "4828",
     "date": "2025-12-10",
     "from": "EJA-Yariguies Airport",
@@ -1854,12 +1427,9 @@
     "status": "Landed",
     "etd": "08:50",
     "atd": "08:44",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 144,
     "flightNumber": "4808",
     "date": "2025-12-10",
     "from": "IBE-Perales Airport",
@@ -1867,12 +1437,9 @@
     "status": "Landed",
     "etd": "07:20",
     "atd": "07:10",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": -10,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 145,
     "flightNumber": "9711",
     "date": "2025-12-10",
     "from": "BGA-Palonegro Airport",
@@ -1880,12 +1447,9 @@
     "status": "Landed",
     "etd": "12:50",
     "atd": "13:11",
-    "airline": "Avianca",
-    "delayMinutes": 21,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 146,
     "flightNumber": "4812",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1893,12 +1457,9 @@
     "status": "Landed",
     "etd": "06:20",
     "atd": "06:24",
-    "airline": "Avianca",
-    "delayMinutes": 4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 147,
     "flightNumber": "4811",
     "date": "2025-12-10",
     "from": "IPI-San Luis Airport",
@@ -1906,12 +1467,9 @@
     "status": "Landed",
     "etd": "08:30",
     "atd": "08:22",
-    "airline": "Avianca",
-    "delayMinutes": -8,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 148,
     "flightNumber": "5212",
     "date": "2025-12-10",
     "from": "AXM-El Eden Airport",
@@ -1919,12 +1477,9 @@
     "status": "Departed",
     "etd": "22:25",
     "atd": "22:30",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": 5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 149,
     "flightNumber": "5213",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -1932,12 +1487,9 @@
     "status": "Landed",
     "etd": "20:50",
     "atd": "21:05",
-    "airline": "Clic para Avianca Express",
-    "delayMinutes": 15,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Clic para Avianca Express"
   },
   {
-    "id": 150,
     "flightNumber": "9286",
     "date": "2025-12-10",
     "from": "CLO-Alfonso Bonilla Aragón Airport",
@@ -1945,12 +1497,9 @@
     "status": "Landed",
     "etd": "04:45",
     "atd": "04:41",
-    "airline": "Avianca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 151,
     "flightNumber": "9613",
     "date": "2025-12-10",
     "from": "ADZ-Gustavo Rojas Pinilla Airport",
@@ -1958,12 +1507,9 @@
     "status": "Landed",
     "etd": "13:35",
     "atd": "13:44",
-    "airline": "Avianca",
-    "delayMinutes": 9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 152,
     "flightNumber": "9614",
     "date": "2025-12-10",
     "from": "CLO-Alfonso Bonilla Aragón Airport",
@@ -1971,12 +1517,9 @@
     "status": "Landed",
     "etd": "10:55",
     "atd": "11:04",
-    "airline": "Avianca",
-    "delayMinutes": 9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 153,
     "flightNumber": "9504",
     "date": "2025-12-10",
     "from": "CLO-Alfonso Bonilla Aragón Airport",
@@ -1984,12 +1527,9 @@
     "status": "Landed",
     "etd": "16:20",
     "atd": "16:19",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 154,
     "flightNumber": "8426",
     "date": "2025-12-10",
     "from": "CTG-Rafael Nuñez Airport",
@@ -1997,12 +1537,9 @@
     "status": "Landed",
     "etd": "08:35",
     "atd": "08:44",
-    "airline": "Avianca",
-    "delayMinutes": 9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 155,
     "flightNumber": "1630",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -2010,12 +1547,9 @@
     "status": "Landed",
     "etd": "09:20",
     "atd": "09:15",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 156,
     "flightNumber": "1630",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -2023,12 +1557,9 @@
     "status": "Landed",
     "etd": "11:20",
     "atd": "11:15",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 157,
     "flightNumber": "207",
     "date": "2025-12-10",
     "from": "JFK-John F Kennedy",
@@ -2036,12 +1567,9 @@
     "status": "Landed",
     "etd": "02:15",
     "atd": "02:28",
-    "airline": "Avianca",
-    "delayMinutes": 13,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 158,
     "flightNumber": "8474",
     "date": "2025-12-10",
     "from": "PEI-Matecaña Airport",
@@ -2049,12 +1577,9 @@
     "status": "Landed",
     "etd": "14:15",
     "atd": "14:28",
-    "airline": "Avianca",
-    "delayMinutes": 13,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 159,
     "flightNumber": "1631",
     "date": "2025-12-10",
     "from": "SCY-San Cristóbal Airport",
@@ -2062,12 +1587,9 @@
     "status": "Landed",
     "etd": "13:05",
     "atd": "12:55",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -10,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 160,
     "flightNumber": "1631",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -2075,12 +1597,9 @@
     "status": "Landed",
     "etd": "16:40",
     "atd": "16:33",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 161,
     "flightNumber": "9505",
     "date": "2025-12-10",
     "from": "SMR-Simon Bolivar Airport",
@@ -2088,12 +1607,9 @@
     "status": "Landed",
     "etd": "18:35",
     "atd": "18:32",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 162,
     "flightNumber": "8473",
     "date": "2025-12-10",
     "from": "SMR-Simon Bolivar Airport",
@@ -2101,12 +1617,9 @@
     "status": "Landed",
     "etd": "16:30",
     "atd": "16:48",
-    "airline": "Avianca",
-    "delayMinutes": 18,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 163,
     "flightNumber": "1633",
     "date": "2025-12-10",
     "from": "GPS-Seymour Airport",
@@ -2114,12 +1627,9 @@
     "status": "Landed",
     "etd": "11:36",
     "atd": "11:32",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 164,
     "flightNumber": "1633",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -2127,12 +1637,9 @@
     "status": "Landed",
     "etd": "15:20",
     "atd": "15:15",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 165,
     "flightNumber": "1632",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -2140,12 +1647,9 @@
     "status": "Landed",
     "etd": "08:10",
     "atd": "08:05",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 166,
     "flightNumber": "1632",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -2153,12 +1657,9 @@
     "status": "Landed",
     "etd": "09:51",
     "atd": "09:53",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": 2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 167,
     "flightNumber": "9462",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -2166,12 +1667,9 @@
     "status": "Cancelled",
     "etd": "15:55",
     "atd": "15:55",
-    "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 168,
     "flightNumber": "9324",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -2179,12 +1677,9 @@
     "status": "Landed",
     "etd": "15:40",
     "atd": "15:57",
-    "airline": "Avianca",
-    "delayMinutes": 17,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 169,
     "flightNumber": "8406",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2192,12 +1687,9 @@
     "status": "Landed",
     "etd": "15:00",
     "atd": "14:55",
-    "airline": "Avianca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 170,
     "flightNumber": "9259",
     "date": "2025-12-10",
     "from": "SMR-Simon Bolivar Airport",
@@ -2205,12 +1697,9 @@
     "status": "Landed",
     "etd": "16:55",
     "atd": "16:43",
-    "airline": "Avianca",
-    "delayMinutes": -12,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 171,
     "flightNumber": "9409",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2218,12 +1707,9 @@
     "status": "Landed",
     "etd": "20:35",
     "atd": "20:34",
-    "airline": "Avianca",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 172,
     "flightNumber": "8595",
     "date": "2025-12-10",
     "from": "VUP-Alfonso Lopez Pumarejo Airport",
@@ -2231,12 +1717,9 @@
     "status": "Landed",
     "etd": "08:25",
     "atd": "08:19",
-    "airline": "Avianca",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 173,
     "flightNumber": "112",
     "date": "2025-12-10",
     "from": "EZE-Ezeiza Ministro Pistarini Airport",
@@ -2244,12 +1727,9 @@
     "status": "Landed",
     "etd": "02:40",
     "atd": "02:37",
-    "airline": "Avianca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 174,
     "flightNumber": "9821",
     "date": "2025-12-10",
     "from": "BGA-Palonegro Airport",
@@ -2257,12 +1737,9 @@
     "status": "Landed",
     "etd": "21:25",
     "atd": "21:15",
-    "airline": "Avianca",
-    "delayMinutes": -10,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 175,
     "flightNumber": "9820",
     "date": "2025-12-10",
     "from": "CTG-Rafael Nuñez Airport",
@@ -2270,12 +1747,9 @@
     "status": "Landed",
     "etd": "19:25",
     "atd": "19:19",
-    "airline": "Avianca",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 176,
     "flightNumber": "9200",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -2283,12 +1757,9 @@
     "status": "Landed",
     "etd": "15:20",
     "atd": "15:45",
-    "airline": "Avianca",
-    "delayMinutes": 25,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 177,
     "flightNumber": "111",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2296,12 +1767,9 @@
     "status": "Delayed",
     "etd": "17:00",
     "atd": "17:04",
-    "airline": "Avianca",
-    "delayMinutes": 4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 178,
     "flightNumber": "1688",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -2309,12 +1777,9 @@
     "status": "Landed",
     "etd": "11:10",
     "atd": "11:20",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": 10,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 179,
     "flightNumber": "226",
     "date": "2025-12-10",
     "from": "GEO-Cheddi Jagan International Airport",
@@ -2322,12 +1787,9 @@
     "status": "Landed",
     "etd": "04:00",
     "atd": "12:09",
-    "airline": "Avianca",
-    "delayMinutes": 489,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 180,
     "flightNumber": "70",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -2335,12 +1797,9 @@
     "status": "Landed",
     "etd": "09:10",
     "atd": "09:25",
-    "airline": "Avianca",
-    "delayMinutes": 15,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 181,
     "flightNumber": "565",
     "date": "2025-12-10",
     "from": "JFK-John F Kennedy",
@@ -2348,12 +1807,9 @@
     "status": "Landed",
     "etd": "17:05",
     "atd": "17:11",
-    "airline": "Taca",
-    "delayMinutes": 6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 182,
     "flightNumber": "4893",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -2361,12 +1817,9 @@
     "status": "Landed",
     "etd": "09:30",
     "atd": "09:32",
-    "airline": "Avianca",
-    "delayMinutes": 2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 183,
     "flightNumber": "4892",
     "date": "2025-12-10",
     "from": "PPN-Guillermo Leon Valencia Airport",
@@ -2374,12 +1827,9 @@
     "status": "Landed",
     "etd": "11:15",
     "atd": "11:37",
-    "airline": "Avianca",
-    "delayMinutes": 22,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 184,
     "flightNumber": "9519",
     "date": "2025-12-10",
     "from": "CUC-Camilo Daza Airport",
@@ -2387,12 +1837,9 @@
     "status": "Departed",
     "etd": "22:40",
     "atd": "22:44",
-    "airline": "Avianca",
-    "delayMinutes": 4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 185,
     "flightNumber": "9518",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2400,12 +1847,9 @@
     "status": "Landed",
     "etd": "20:55",
     "atd": "20:59",
-    "airline": "Avianca",
-    "delayMinutes": 4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 186,
     "flightNumber": "9295",
     "date": "2025-12-10",
     "from": "CLO-Alfonso Bonilla Aragón Airport",
@@ -2413,12 +1857,9 @@
     "status": "Landed",
     "etd": "14:40",
     "atd": "15:00",
-    "airline": "Avianca",
-    "delayMinutes": 20,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 187,
     "flightNumber": "9294",
     "date": "2025-12-10",
     "from": "PSO-Antonio Nariño Airport",
@@ -2426,12 +1867,9 @@
     "status": "Landed",
     "etd": "13:05",
     "atd": "13:34",
-    "airline": "Avianca",
-    "delayMinutes": 29,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 188,
     "flightNumber": "562",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2439,12 +1877,9 @@
     "status": "Landed",
     "etd": "07:45",
     "atd": "07:32",
-    "airline": "Taca",
-    "delayMinutes": -13,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 189,
     "flightNumber": "563",
     "date": "2025-12-10",
     "from": "SFO-San Francisco Airport",
@@ -2452,12 +1887,9 @@
     "status": "Landed",
     "etd": "13:20",
     "atd": "13:20",
-    "airline": "Taca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 190,
     "flightNumber": "1689",
     "date": "2025-12-10",
     "from": "GPS-Seymour Airport",
@@ -2465,12 +1897,9 @@
     "status": "Landed",
     "etd": "13:05",
     "atd": "13:05",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 191,
     "flightNumber": "431",
     "date": "2025-12-10",
     "from": "MEX-Benito Juarez Airport",
@@ -2478,12 +1907,9 @@
     "status": "Landed",
     "etd": "16:50",
     "atd": "16:45",
-    "airline": "Taca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 192,
     "flightNumber": "632",
     "date": "2025-12-10",
     "from": "SJO-Juan Santamaria Airport",
@@ -2491,12 +1917,9 @@
     "status": "Landed",
     "etd": "12:20",
     "atd": "12:09",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -11,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 193,
     "flightNumber": "8516",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2504,12 +1927,9 @@
     "status": "Landed",
     "etd": "09:25",
     "atd": "09:20",
-    "airline": "Avianca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 194,
     "flightNumber": "8517",
     "date": "2025-12-10",
     "from": "RCH-Almirante Padilla Airport",
@@ -2517,12 +1937,9 @@
     "status": "Landed",
     "etd": "11:40",
     "atd": "11:50",
-    "airline": "Avianca",
-    "delayMinutes": 10,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 195,
     "flightNumber": "7396",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -2530,12 +1947,9 @@
     "status": "Landed",
     "etd": "17:20",
     "atd": "17:16",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 196,
     "flightNumber": "243",
     "date": "2025-12-10",
     "from": "AUA-Queen Beatrix Airport",
@@ -2543,12 +1957,9 @@
     "status": "Landed",
     "etd": "12:05",
     "atd": "12:30",
-    "airline": "Avianca",
-    "delayMinutes": 25,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 197,
     "flightNumber": "242",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -2556,12 +1967,9 @@
     "status": "Landed",
     "etd": "08:10",
     "atd": "08:24",
-    "airline": "Avianca",
-    "delayMinutes": 14,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 198,
     "flightNumber": "7397",
     "date": "2025-12-10",
     "from": "JFK-John F Kennedy",
@@ -2569,12 +1977,9 @@
     "status": "Landed",
     "etd": "00:15",
     "atd": "00:14",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -1,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 199,
     "flightNumber": "683",
     "date": "2025-12-10",
     "from": "IAD-Washington Dulles Airport",
@@ -2582,12 +1987,9 @@
     "status": "Landed",
     "etd": "16:15",
     "atd": "16:13",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 200,
     "flightNumber": "9502",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2595,12 +1997,9 @@
     "status": "Landed",
     "etd": "18:15",
     "atd": "18:22",
-    "airline": "Avianca",
-    "delayMinutes": 7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 201,
     "flightNumber": "314",
     "date": "2025-12-10",
     "from": "MGA-Augusto C. Sandino Airport",
@@ -2608,12 +2007,9 @@
     "status": "Landed",
     "etd": "05:20",
     "atd": "05:08",
-    "airline": "Taca",
-    "delayMinutes": -12,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 202,
     "flightNumber": "9503",
     "date": "2025-12-10",
     "from": "MTR-Los Garzones Airport",
@@ -2621,12 +2017,9 @@
     "status": "Landed",
     "etd": "19:50",
     "atd": "19:55",
-    "airline": "Avianca",
-    "delayMinutes": 5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 203,
     "flightNumber": "682",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2634,12 +2027,9 @@
     "status": "Landed",
     "etd": "09:35",
     "atd": "09:26",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 204,
     "flightNumber": "7392",
     "date": "2025-12-10",
     "from": "GYE-José Joaquín de Olmedo Airport",
@@ -2647,12 +2037,9 @@
     "status": "Landed",
     "etd": "16:05",
     "atd": "16:02",
-    "airline": "Avianca Ecuador",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Ecuador"
   },
   {
-    "id": 205,
     "flightNumber": "392",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2660,12 +2047,9 @@
     "status": "Landed",
     "etd": "09:55",
     "atd": "09:42",
-    "airline": "Taca",
-    "delayMinutes": -13,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 206,
     "flightNumber": "392",
     "date": "2025-12-10",
     "from": "MGA-Augusto C. Sandino Airport",
@@ -2673,12 +2057,9 @@
     "status": "Landed",
     "etd": "11:45",
     "atd": "11:40",
-    "airline": "Taca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 207,
     "flightNumber": "393",
     "date": "2025-12-10",
     "from": "MIA-Miami Airport",
@@ -2686,12 +2067,9 @@
     "status": "Landed",
     "etd": "16:50",
     "atd": "16:53",
-    "airline": "Taca",
-    "delayMinutes": 3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 208,
     "flightNumber": "393",
     "date": "2025-12-10",
     "from": "MGA-Augusto C. Sandino Airport",
@@ -2699,12 +2077,9 @@
     "status": "Landed",
     "etd": "19:30",
     "atd": "19:09",
-    "airline": "Taca",
-    "delayMinutes": -21,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 209,
     "flightNumber": "311",
     "date": "2025-12-10",
     "from": "MIA-Miami Airport",
@@ -2712,12 +2087,9 @@
     "status": "Landed",
     "etd": "14:40",
     "atd": "14:43",
-    "airline": "Taca",
-    "delayMinutes": 3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 210,
     "flightNumber": "191",
     "date": "2025-12-10",
     "from": "FLL-Fort Lauderdale/Hollywood Airport",
@@ -2725,12 +2097,9 @@
     "status": "Departed",
     "etd": "18:10",
     "atd": "21:49",
-    "airline": "Avianca",
-    "delayMinutes": 219,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 211,
     "flightNumber": "190",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2738,12 +2107,9 @@
     "status": "Landed",
     "etd": "13:00",
     "atd": "16:58",
-    "airline": "Avianca",
-    "delayMinutes": 238,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 212,
     "flightNumber": "633",
     "date": "2025-12-10",
     "from": "MEX-Benito Juarez Airport",
@@ -2751,12 +2117,9 @@
     "status": "Landed",
     "etd": "12:55",
     "atd": "12:48",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 213,
     "flightNumber": "365",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2764,12 +2127,9 @@
     "status": "Departed",
     "etd": "22:05",
     "atd": "22:03",
-    "airline": "Taca",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 214,
     "flightNumber": "430",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2777,12 +2137,9 @@
     "status": "Landed",
     "etd": "09:05",
     "atd": "09:00",
-    "airline": "Taca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 215,
     "flightNumber": "8566",
     "date": "2025-12-10",
     "from": "AXM-El Eden Airport",
@@ -2790,12 +2147,9 @@
     "status": "Landed",
     "etd": "15:30",
     "atd": "15:24",
-    "airline": "Avianca",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 216,
     "flightNumber": "8565",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2803,12 +2157,9 @@
     "status": "Landed",
     "etd": "13:50",
     "atd": "13:55",
-    "airline": "Avianca",
-    "delayMinutes": 5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 217,
     "flightNumber": "564",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2816,12 +2167,9 @@
     "status": "Landed",
     "etd": "08:05",
     "atd": "08:00",
-    "airline": "Taca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 218,
     "flightNumber": "92",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -2829,12 +2177,9 @@
     "status": "Landed",
     "etd": "08:30",
     "atd": "08:28",
-    "airline": "Avianca",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 219,
     "flightNumber": "93",
     "date": "2025-12-10",
     "from": "CUR-Hato Airport",
@@ -2842,12 +2187,9 @@
     "status": "Landed",
     "etd": "12:35",
     "atd": "12:59",
-    "airline": "Avianca",
-    "delayMinutes": 24,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca"
   },
   {
-    "id": 220,
     "flightNumber": "370",
     "date": "2025-12-10",
     "from": "MDE-Jose Maria Cordova Airport",
@@ -2855,12 +2197,9 @@
     "status": "Landed",
     "etd": "14:10",
     "atd": "13:57",
-    "airline": "Taca",
-    "delayMinutes": -13,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 221,
     "flightNumber": "369",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2868,12 +2207,9 @@
     "status": "Landed",
     "etd": "09:05",
     "atd": "08:54",
-    "airline": "Taca",
-    "delayMinutes": -11,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 222,
     "flightNumber": "324",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2881,12 +2217,9 @@
     "status": "Landed",
     "etd": "08:15",
     "atd": "07:57",
-    "airline": "Taca",
-    "delayMinutes": -18,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 223,
     "flightNumber": "325",
     "date": "2025-12-10",
     "from": "YYZ-Toronto Pearson Airport",
@@ -2894,12 +2227,9 @@
     "status": "Landed",
     "etd": "16:00",
     "atd": "15:54",
-    "airline": "Taca",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 224,
     "flightNumber": "698",
     "date": "2025-12-10",
     "from": "BOG-El Dorado Airport",
@@ -2907,12 +2237,9 @@
     "status": "Landed",
     "etd": "14:00",
     "atd": "14:20",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": 20,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 225,
     "flightNumber": "697",
     "date": "2025-12-10",
     "from": "SJO-Juan Santamaria Airport",
@@ -2920,12 +2247,9 @@
     "status": "Landed",
     "etd": "09:45",
     "atd": "10:12",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": 27,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 226,
     "flightNumber": "640",
     "date": "2025-12-10",
     "from": "GUA-La Aurora Airport",
@@ -2933,12 +2257,9 @@
     "status": "Landed",
     "etd": "08:55",
     "atd": "08:43",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -12,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 227,
     "flightNumber": "641",
     "date": "2025-12-10",
     "from": "LAX-Los Angeles Airport",
@@ -2946,12 +2267,9 @@
     "status": "Landed",
     "etd": "13:50",
     "atd": "13:58",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": 8,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 228,
     "flightNumber": "529",
     "date": "2025-12-10",
     "from": "LAX-Los Angeles Airport",
@@ -2959,12 +2277,9 @@
     "status": "Confirmed",
     "etd": "23:20",
     "atd": "23:20",
-    "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 229,
     "flightNumber": "528",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -2972,12 +2287,9 @@
     "status": "Departed",
     "etd": "18:15",
     "atd": "18:12",
-    "airline": "Taca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 230,
     "flightNumber": "441",
     "date": "2025-12-10",
     "from": "DFW-Dallas/Fort Worth Airport",
@@ -2985,12 +2297,9 @@
     "status": "Landed",
     "etd": "12:50",
     "atd": "12:45",
-    "airline": "Taca",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 231,
     "flightNumber": "425",
     "date": "2025-12-10",
     "from": "IAH-George Bush Intercontinental Airport",
@@ -2998,12 +2307,9 @@
     "status": "Landed",
     "etd": "16:35",
     "atd": "16:33",
-    "airline": "Taca",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 232,
     "flightNumber": "440",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -3011,12 +2317,9 @@
     "status": "Landed",
     "etd": "07:35",
     "atd": "07:23",
-    "airline": "Taca",
-    "delayMinutes": -12,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 233,
     "flightNumber": "424",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -3024,12 +2327,9 @@
     "status": "Landed",
     "etd": "12:05",
     "atd": "11:56",
-    "airline": "Taca",
-    "delayMinutes": -9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 234,
     "flightNumber": "554",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -3037,12 +2337,9 @@
     "status": "Landed",
     "etd": "08:10",
     "atd": "08:03",
-    "airline": "Taca",
-    "delayMinutes": -7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 235,
     "flightNumber": "536",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -3050,12 +2347,9 @@
     "status": "Landed",
     "etd": "07:35",
     "atd": "07:27",
-    "airline": "Taca",
-    "delayMinutes": -8,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 236,
     "flightNumber": "537",
     "date": "2025-12-10",
     "from": "SAP-Ramon Villeda Morales Airport",
@@ -3063,12 +2357,9 @@
     "status": "Landed",
     "etd": "09:25",
     "atd": "09:16",
-    "airline": "Taca",
-    "delayMinutes": -9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 237,
     "flightNumber": "551",
     "date": "2025-12-10",
     "from": "JFK-John F Kennedy",
@@ -3076,12 +2367,9 @@
     "status": "Landed",
     "etd": "02:45",
     "atd": "02:42",
-    "airline": "Taca",
-    "delayMinutes": -3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 238,
     "flightNumber": "551",
     "date": "2025-12-10",
     "from": "GUA-La Aurora Airport",
@@ -3089,12 +2377,9 @@
     "status": "Landed",
     "etd": "07:45",
     "atd": "07:36",
-    "airline": "Taca",
-    "delayMinutes": -9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 239,
     "flightNumber": "647",
     "date": "2025-12-10",
     "from": "SJO-Juan Santamaria Airport",
@@ -3102,12 +2387,9 @@
     "status": "Landed",
     "etd": "16:45",
     "atd": "16:48",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": 3,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 240,
     "flightNumber": "647",
     "date": "2025-12-10",
     "from": "UIO-Mariscal Sucre Airport",
@@ -3115,12 +2397,9 @@
     "status": "Departed",
     "etd": "21:15",
     "atd": "21:22",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": 7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 241,
     "flightNumber": "651",
     "date": "2025-12-10",
     "from": "CUN-Cancun Airport",
@@ -3128,12 +2407,9 @@
     "status": "Landed",
     "etd": "14:00",
     "atd": "13:50",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -10,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 242,
     "flightNumber": "651",
     "date": "2025-12-10",
     "from": "GUA-La Aurora Airport",
@@ -3141,12 +2417,9 @@
     "status": "Departed",
     "etd": "21:40",
     "atd": "21:38",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 243,
     "flightNumber": "423",
     "date": "2025-12-10",
     "from": "MCO-Orlando Airport",
@@ -3154,12 +2427,9 @@
     "status": "Landed",
     "etd": "14:20",
     "atd": "14:11",
-    "airline": "Taca",
-    "delayMinutes": -9,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 244,
     "flightNumber": "422",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -3167,12 +2437,9 @@
     "status": "Landed",
     "etd": "08:45",
     "atd": "08:45",
-    "airline": "Taca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 245,
     "flightNumber": "457",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -3180,12 +2447,9 @@
     "status": "Confirmed",
     "etd": "22:55",
     "atd": "22:55",
-    "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 246,
     "flightNumber": "448",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -3193,12 +2457,9 @@
     "status": "Landed",
     "etd": "17:50",
     "atd": "17:46",
-    "airline": "Taca",
-    "delayMinutes": -4,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 247,
     "flightNumber": "650",
     "date": "2025-12-10",
     "from": "SJO-Juan Santamaria Airport",
@@ -3206,12 +2467,9 @@
     "status": "Landed",
     "etd": "06:00",
     "atd": "05:55",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -5,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 248,
     "flightNumber": "650",
     "date": "2025-12-10",
     "from": "GUA-La Aurora Airport",
@@ -3219,12 +2477,9 @@
     "status": "Landed",
     "etd": "10:00",
     "atd": "09:53",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -7,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 249,
     "flightNumber": "548",
     "date": "2025-12-10",
     "from": "SAL-El Salvador Airport",
@@ -3232,12 +2487,9 @@
     "status": "Landed",
     "etd": "17:15",
     "atd": "17:31",
-    "airline": "Taca",
-    "delayMinutes": 16,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 250,
     "flightNumber": "548",
     "date": "2025-12-10",
     "from": "GUA-La Aurora Airport",
@@ -3245,12 +2497,9 @@
     "status": "Departed",
     "etd": "19:10",
     "atd": "19:10",
-    "airline": "Taca",
-    "delayMinutes": 0,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Taca"
   },
   {
-    "id": 251,
     "flightNumber": "630",
     "date": "2025-12-10",
     "from": "SJO-Juan Santamaria Airport",
@@ -3258,12 +2507,9 @@
     "status": "Landed",
     "etd": "05:45",
     "atd": "05:47",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": 2,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 252,
     "flightNumber": "630",
     "date": "2025-12-10",
     "from": "GUA-La Aurora Airport",
@@ -3271,12 +2517,9 @@
     "status": "Landed",
     "etd": "08:30",
     "atd": "08:24",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -6,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 253,
     "flightNumber": "631",
     "date": "2025-12-10",
     "from": "ORD-O'Hare Airport",
@@ -3284,12 +2527,9 @@
     "status": "Landed",
     "etd": "14:35",
     "atd": "14:55",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": 20,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 254,
     "flightNumber": "631",
     "date": "2025-12-10",
     "from": "GUA-La Aurora Airport",
@@ -3297,12 +2537,9 @@
     "status": "Landed",
     "etd": "20:15",
     "atd": "19:51",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": -24,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   },
   {
-    "id": 255,
     "flightNumber": "664",
     "date": "2025-12-10",
     "from": "SJO-Juan Santamaria Airport",
@@ -3310,8 +2547,6 @@
     "status": "Confirmed",
     "etd": "22:45",
     "atd": "22:45",
-    "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-10T23:32:41.000Z"
+    "airline": "Avianca Costa Rica"
   }
 ]
