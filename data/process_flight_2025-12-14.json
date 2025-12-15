@@ -564,12 +564,12 @@
     "date": "2025-12-14",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:36",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-14T23:36:07.000Z"
+    "delayMinutes": 11,
+    "lastUpdated": "2025-12-15T02:19:35.000Z"
   },
   {
     "id": 45,
@@ -785,12 +785,12 @@
     "date": "2025-12-14",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:22",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-14T23:36:07.000Z"
+    "delayMinutes": 27,
+    "lastUpdated": "2025-12-15T02:19:35.000Z"
   },
   {
     "id": 62,
@@ -2852,12 +2852,12 @@
     "date": "2025-12-14",
     "from": "SJO-Juan Santamaria Airport",
     "to": "SAP-Ramon Villeda Morales Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:45",
-    "atd": "22:45",
+    "atd": "22:35",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-14T23:36:07.000Z"
+    "delayMinutes": -10,
+    "lastUpdated": "2025-12-15T02:19:36.000Z"
   },
   {
     "id": 221,
