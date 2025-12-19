@@ -603,12 +603,12 @@
     "date": "2025-12-18",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "00:29",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-18T23:31:08.000Z"
+    "delayMinutes": 64,
+    "lastUpdated": "2025-12-19T02:16:41.000Z"
   },
   {
     "id": 48,
@@ -629,12 +629,12 @@
     "date": "2025-12-18",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:35",
-    "atd": "23:25",
+    "atd": "23:41",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-18T23:31:08.000Z"
+    "delayMinutes": 66,
+    "lastUpdated": "2025-12-19T02:16:41.000Z"
   },
   {
     "id": 50,
@@ -811,12 +811,12 @@
     "date": "2025-12-18",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:20",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-18T23:31:08.000Z"
+    "delayMinutes": 25,
+    "lastUpdated": "2025-12-19T02:16:41.000Z"
   },
   {
     "id": 64,
@@ -1149,12 +1149,12 @@
     "date": "2025-12-18",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "23:48",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-18T23:31:08.000Z"
+    "delayMinutes": 88,
+    "lastUpdated": "2025-12-19T02:16:41.000Z"
   },
   {
     "id": 90,
