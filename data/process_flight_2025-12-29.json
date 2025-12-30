@@ -642,12 +642,12 @@
     "date": "2025-12-29",
     "from": "BGA-Palonegro Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "21:30",
-    "atd": "23:32",
+    "atd": "23:27",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-29T23:35:23.000Z"
+    "delayMinutes": 117,
+    "lastUpdated": "2025-12-30T02:18:03.000Z"
   },
   {
     "id": 51,
@@ -681,12 +681,12 @@
     "date": "2025-12-29",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:43",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-29T23:35:23.000Z"
+    "delayMinutes": 18,
+    "lastUpdated": "2025-12-30T02:18:03.000Z"
   },
   {
     "id": 54,
@@ -876,12 +876,12 @@
     "date": "2025-12-29",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:40",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-29T23:35:23.000Z"
+    "delayMinutes": 45,
+    "lastUpdated": "2025-12-30T02:18:03.000Z"
   },
   {
     "id": 69,
@@ -2670,12 +2670,12 @@
     "date": "2025-12-29",
     "from": "SAL-El Salvador Airport",
     "to": "YYZ-Toronto Pearson Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:21",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-29T23:35:23.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2025-12-30T02:18:03.000Z"
   },
   {
     "id": 207,
@@ -2904,12 +2904,12 @@
     "date": "2025-12-29",
     "from": "IAD-Washington Dulles Airport",
     "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:48",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-29T23:35:23.000Z"
+    "delayMinutes": -7,
+    "lastUpdated": "2025-12-30T02:18:03.000Z"
   },
   {
     "id": 225,
@@ -2930,11 +2930,11 @@
     "date": "2025-12-29",
     "from": "SAL-El Salvador Airport",
     "to": "XPL-Palmerola International Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:40",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2025-12-29T23:35:23.000Z"
+    "delayMinutes": -15,
+    "lastUpdated": "2025-12-30T02:18:03.000Z"
   }
 ]
