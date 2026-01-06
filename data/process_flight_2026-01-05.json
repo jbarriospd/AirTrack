@@ -616,12 +616,12 @@
     "date": "2026-01-05",
     "from": "AXM-El Eden Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:25",
-    "atd": "22:25",
+    "atd": "22:10",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-05T23:35:40.000Z"
+    "delayMinutes": -15,
+    "lastUpdated": "2026-01-06T02:20:38.000Z"
   },
   {
     "id": 49,
@@ -694,12 +694,12 @@
     "date": "2026-01-05",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:47",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-05T23:35:40.000Z"
+    "delayMinutes": 22,
+    "lastUpdated": "2026-01-06T02:20:38.000Z"
   },
   {
     "id": 55,
@@ -1136,12 +1136,12 @@
     "date": "2026-01-05",
     "from": "YUL-Montreal-Pierre Elliott Trudeau Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:00",
-    "atd": "23:25",
+    "atd": "00:15",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-05T23:35:40.000Z"
+    "delayMinutes": 135,
+    "lastUpdated": "2026-01-06T02:20:38.000Z"
   },
   {
     "id": 89,
@@ -2761,12 +2761,12 @@
     "date": "2026-01-05",
     "from": "IAD-Washington Dulles Airport",
     "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:57",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-05T23:35:40.000Z"
+    "delayMinutes": 2,
+    "lastUpdated": "2026-01-06T02:20:38.000Z"
   },
   {
     "id": 214,
