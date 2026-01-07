@@ -785,12 +785,12 @@
     "date": "2026-01-06",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:51",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-06T23:36:27.000Z"
+    "delayMinutes": 26,
+    "lastUpdated": "2026-01-07T02:20:01.000Z"
   },
   {
     "id": 62,
@@ -823,13 +823,13 @@
     "flightNumber": "234",
     "date": "2026-01-06",
     "from": "MDE-Jose Maria Cordova Airport",
-    "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "to": "MDE-Jose Maria Cordova Airport",
+    "status": "Returned",
     "etd": "22:35",
-    "atd": "22:35",
+    "atd": "22:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-01-06T23:36:27.000Z"
+    "lastUpdated": "2026-01-07T02:20:01.000Z"
   },
   {
     "id": 65,
@@ -2345,12 +2345,12 @@
     "date": "2026-01-06",
     "from": "FRS-Mundo Maya Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "20:45",
-    "atd": "22:30",
+    "atd": "23:07",
     "airline": "Aviateca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-06T23:36:27.000Z"
+    "delayMinutes": 142,
+    "lastUpdated": "2026-01-07T02:20:01.000Z"
   },
   {
     "id": 182,
@@ -2423,12 +2423,12 @@
     "date": "2026-01-06",
     "from": "SAL-El Salvador Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:47",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-06T23:36:27.000Z"
+    "delayMinutes": -8,
+    "lastUpdated": "2026-01-07T02:20:01.000Z"
   },
   {
     "id": 188,
@@ -2493,7 +2493,7 @@
     "atd": "23:20",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-01-06T23:36:27.000Z"
+    "lastUpdated": "2026-01-07T02:20:01.000Z"
   },
   {
     "id": 193,
@@ -2644,12 +2644,12 @@
     "date": "2026-01-06",
     "from": "IAD-Washington Dulles Airport",
     "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:47",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-06T23:36:27.000Z"
+    "delayMinutes": -8,
+    "lastUpdated": "2026-01-07T02:20:01.000Z"
   },
   {
     "id": 205,
