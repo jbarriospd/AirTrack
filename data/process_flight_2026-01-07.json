@@ -759,12 +759,12 @@
     "date": "2026-01-07",
     "from": "BOG-El Dorado Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:20",
-    "atd": "23:20",
+    "atd": "23:49",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-07T23:35:31.000Z"
+    "delayMinutes": 29,
+    "lastUpdated": "2026-01-08T02:19:47.000Z"
   },
   {
     "id": 60,
@@ -928,12 +928,12 @@
     "date": "2026-01-07",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:21",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-07T23:35:31.000Z"
+    "delayMinutes": 26,
+    "lastUpdated": "2026-01-08T02:19:47.000Z"
   },
   {
     "id": 73,
@@ -1071,12 +1071,12 @@
     "date": "2026-01-07",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MAD- Adolfo Suárez Barajas",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:05",
-    "atd": "23:08",
+    "atd": "23:49",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-07T23:35:31.000Z"
+    "delayMinutes": 104,
+    "lastUpdated": "2026-01-08T02:19:47.000Z"
   },
   {
     "id": 84,
@@ -2189,12 +2189,12 @@
     "date": "2026-01-07",
     "from": "SAL-El Salvador Airport",
     "to": "YYZ-Toronto Pearson Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:07",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-07T23:35:31.000Z"
+    "delayMinutes": -18,
+    "lastUpdated": "2026-01-08T02:19:47.000Z"
   },
   {
     "id": 170,
@@ -2865,12 +2865,12 @@
     "date": "2026-01-07",
     "from": "SAL-El Salvador Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:50",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-07T23:35:31.000Z"
+    "delayMinutes": -5,
+    "lastUpdated": "2026-01-08T02:19:47.000Z"
   },
   {
     "id": 222,
@@ -2935,7 +2935,7 @@
     "atd": "23:20",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-01-07T23:35:31.000Z"
+    "lastUpdated": "2026-01-08T02:19:47.000Z"
   },
   {
     "id": 227,
@@ -3164,12 +3164,12 @@
     "date": "2026-01-07",
     "from": "SJO-Juan Santamaria Airport",
     "to": "SAP-Ramon Villeda Morales Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:45",
-    "atd": "22:45",
+    "atd": "22:40",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-07T23:35:31.000Z"
+    "delayMinutes": -5,
+    "lastUpdated": "2026-01-08T02:19:47.000Z"
   },
   {
     "id": 245,
