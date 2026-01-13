@@ -861,14 +861,14 @@
     "id": 67,
     "flightNumber": "205",
     "date": "2026-01-12",
-    "from": "YYZ-Toronto Pearson Airport",
+    "from": "BAQ-Ernesto Cortissoz Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
-    "etd": "23:55",
-    "atd": "23:55",
+    "status": "Landed",
+    "etd": "06:30",
+    "atd": "06:01",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-12T23:36:17.000Z"
+    "delayMinutes": -29,
+    "lastUpdated": "2026-01-13T02:19:58.000Z"
   },
   {
     "id": 68,
@@ -1305,12 +1305,12 @@
     "date": "2026-01-12",
     "from": "ORD-O'Hare Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:20",
-    "atd": "22:20",
+    "atd": "23:14",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-12T23:36:17.000Z"
+    "delayMinutes": 54,
+    "lastUpdated": "2026-01-13T02:19:58.000Z"
   },
   {
     "id": 102,
@@ -2020,12 +2020,12 @@
     "date": "2026-01-12",
     "from": "SAL-El Salvador Airport",
     "to": "XPL-Palmerola International Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:55",
-    "atd": "22:55",
+    "atd": "22:36",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-12T23:36:17.000Z"
+    "delayMinutes": -19,
+    "lastUpdated": "2026-01-13T02:19:58.000Z"
   },
   {
     "id": 157,
