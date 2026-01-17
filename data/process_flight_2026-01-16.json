@@ -1045,12 +1045,12 @@
     "date": "2026-01-16",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:35",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-16T23:28:29.000Z"
+    "delayMinutes": 40,
+    "lastUpdated": "2026-01-17T02:13:59.000Z"
   },
   {
     "id": 82,
@@ -2020,12 +2020,12 @@
     "date": "2026-01-16",
     "from": "SAL-El Salvador Airport",
     "to": "MGA-Augusto C. Sandino Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "22:35",
-    "atd": "22:35",
+    "atd": "22:27",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-16T23:28:29.000Z"
+    "delayMinutes": -8,
+    "lastUpdated": "2026-01-17T02:14:00.000Z"
   },
   {
     "id": 157,
@@ -2298,7 +2298,7 @@
     "atd": "23:20",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-01-16T23:28:29.000Z"
+    "lastUpdated": "2026-01-17T02:14:00.000Z"
   },
   {
     "id": 178,
