@@ -863,12 +863,12 @@
     "date": "2026-01-20",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:39",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "delayMinutes": 14,
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 68,
@@ -1071,12 +1071,12 @@
     "date": "2026-01-20",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:23",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "delayMinutes": 28,
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 84,
@@ -1097,12 +1097,12 @@
     "date": "2026-01-20",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:00",
-    "atd": "23:00",
+    "atd": "23:48",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "delayMinutes": 48,
+    "lastUpdated": "2026-01-21T02:22:02.000Z"
   },
   {
     "id": 86,
@@ -1110,12 +1110,12 @@
     "date": "2026-01-20",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MIA-Miami Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:50",
-    "atd": "23:50",
+    "atd": "23:41",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "delayMinutes": -9,
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 87,
@@ -1232,7 +1232,7 @@
     "atd": "07:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 96,
@@ -1284,7 +1284,7 @@
     "atd": "12:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 100,
@@ -2844,7 +2844,7 @@
     "atd": "23:20",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 220,
@@ -2891,12 +2891,12 @@
     "date": "2026-01-20",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:05",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "delayMinutes": -5,
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 224,
@@ -3047,12 +3047,12 @@
     "date": "2026-01-20",
     "from": "IAD-Washington Dulles Airport",
     "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:52",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 236,
@@ -3164,12 +3164,12 @@
     "date": "2026-01-20",
     "from": "ONT-LA/Ontario International Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:30",
-    "atd": "22:30",
+    "atd": "22:19",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-20T23:40:27.000Z"
+    "delayMinutes": -11,
+    "lastUpdated": "2026-01-21T02:22:01.000Z"
   },
   {
     "id": 245,
