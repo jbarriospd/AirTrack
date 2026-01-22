@@ -57,12 +57,12 @@
     "date": "2026-01-21",
     "from": "ADZ-Gustavo Rojas Pinilla Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "19:40",
-    "atd": "23:16",
+    "atd": "23:35",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-21T23:43:44.000Z"
+    "delayMinutes": 235,
+    "lastUpdated": "2026-01-22T02:21:18.000Z"
   },
   {
     "id": 6,
@@ -824,12 +824,12 @@
     "date": "2026-01-21",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "23:43",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-21T23:43:44.000Z"
+    "delayMinutes": 18,
+    "lastUpdated": "2026-01-22T02:21:18.000Z"
   },
   {
     "id": 65,
@@ -1019,12 +1019,12 @@
     "date": "2026-01-21",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:18",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-21T23:43:44.000Z"
+    "delayMinutes": 23,
+    "lastUpdated": "2026-01-22T02:21:18.000Z"
   },
   {
     "id": 80,
@@ -1188,12 +1188,12 @@
     "date": "2026-01-21",
     "from": "BOG-El Dorado Airport",
     "to": "MAO-Eduardo Gomes Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:55",
-    "atd": "23:29",
+    "atd": "23:46",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-21T23:43:44.000Z"
+    "delayMinutes": 51,
+    "lastUpdated": "2026-01-22T02:21:18.000Z"
   },
   {
     "id": 93,
