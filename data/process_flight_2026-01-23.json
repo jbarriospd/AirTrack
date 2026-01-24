@@ -1032,12 +1032,12 @@
     "date": "2026-01-23",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-23T23:32:19.000Z"
+    "delayMinutes": 47,
+    "lastUpdated": "2026-01-24T02:14:42.000Z"
   },
   {
     "id": 81,
@@ -2410,12 +2410,12 @@
     "date": "2026-01-23",
     "from": "LAX-Los Angeles Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:20",
-    "atd": "23:20",
+    "atd": "23:11",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-23T23:32:19.000Z"
+    "delayMinutes": -9,
+    "lastUpdated": "2026-01-24T02:14:42.000Z"
   },
   {
     "id": 187,
@@ -2631,12 +2631,12 @@
     "date": "2026-01-23",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:06",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-23T23:32:19.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2026-01-24T02:14:42.000Z"
   },
   {
     "id": 204,
@@ -2787,12 +2787,12 @@
     "date": "2026-01-23",
     "from": "SAL-El Salvador Airport",
     "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "22:40",
-    "atd": "22:40",
+    "atd": "22:38",
     "airline": "Avianca Costa Rica",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-23T23:32:19.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2026-01-24T02:14:42.000Z"
   },
   {
     "id": 216,
