@@ -75,7 +75,7 @@
     "atd": "07:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-01-29T11:34:39.000Z"
+    "lastUpdated": "2026-01-30T02:35:34.000Z"
   },
   {
     "id": 7,
@@ -551,12 +551,12 @@
     "date": "2026-01-29",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:07",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-29T11:34:39.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-01-30T02:35:34.000Z"
   },
   {
     "id": 44,
