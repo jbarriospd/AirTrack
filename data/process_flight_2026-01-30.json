@@ -2319,12 +2319,12 @@
     "date": "2026-01-30",
     "from": "BOG-El Dorado Airport",
     "to": "MEX-Benito Juarez Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:20",
-    "atd": "23:20",
+    "atd": "00:13",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-30T23:59:56.000Z"
+    "delayMinutes": 53,
+    "lastUpdated": "2026-01-31T02:23:02.000Z"
   },
   {
     "id": 180,
@@ -2384,12 +2384,12 @@
     "date": "2026-01-30",
     "from": "MEX-Benito Juarez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:14",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-30T23:59:56.000Z"
+    "delayMinutes": 4,
+    "lastUpdated": "2026-01-31T02:23:02.000Z"
   },
   {
     "id": 185,
@@ -2449,12 +2449,12 @@
     "date": "2026-01-30",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:07",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-01-30T23:59:56.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-01-31T02:23:03.000Z"
   },
   {
     "id": 190,
