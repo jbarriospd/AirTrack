@@ -14,9 +14,9 @@
     "date": "2026-02-07",
     "from": "JFK-John F Kennedy",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "00:35",
-    "atd": "00:35",
+    "atd": "00:41",
     "airline": "Avianca"
   },
   {
@@ -24,9 +24,9 @@
     "date": "2026-02-07",
     "from": "MEX-Benito Juarez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "00:40",
-    "atd": "00:40",
+    "atd": "00:36",
     "airline": "Avianca"
   },
   {
@@ -34,7 +34,7 @@
     "date": "2026-02-07",
     "from": "EZE-Ezeiza Ministro Pistarini Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "01:40",
     "atd": "01:40",
     "airline": "Avianca"
@@ -44,9 +44,9 @@
     "date": "2026-02-07",
     "from": "LIM-Jorge Chavez Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "03:00",
-    "atd": "03:00",
+    "atd": "02:50",
     "airline": "Taca"
   },
   {
@@ -54,7 +54,7 @@
     "date": "2026-02-07",
     "from": "GRU-Sao Pablo- Guarulhos Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Departed",
+    "status": "Landed",
     "etd": "01:20",
     "atd": "01:14",
     "airline": "Avianca"
@@ -64,9 +64,9 @@
     "date": "2026-02-07",
     "from": "JFK-John F Kennedy",
     "to": "GYE-José Joaquín de Olmedo Airport",
-    "status": "Delayed",
+    "status": "Landed",
     "etd": "01:10",
-    "atd": "01:40",
+    "atd": "01:51",
     "airline": "Avianca Ecuador"
   },
   {
@@ -74,9 +74,9 @@
     "date": "2026-02-07",
     "from": "EZE-Ezeiza Ministro Pistarini Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Delayed",
+    "status": "Landed",
     "etd": "02:40",
-    "atd": "02:59",
+    "atd": "03:07",
     "airline": "Avianca"
   },
   {
@@ -84,7 +84,7 @@
     "date": "2026-02-07",
     "from": "VVI-Viru Viru Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Delayed",
+    "status": "Landed",
     "etd": "03:40",
     "atd": "05:04",
     "airline": "Avianca"
@@ -94,9 +94,9 @@
     "date": "2026-02-07",
     "from": "LPB-El Alto Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Delayed",
+    "status": "Landed",
     "etd": "03:20",
-    "atd": "04:22",
+    "atd": "04:30",
     "airline": "Avianca"
   },
   {
@@ -104,9 +104,9 @@
     "date": "2026-02-07",
     "from": "MAO-Eduardo Gomes Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Delayed",
+    "status": "Landed",
     "etd": "04:05",
-    "atd": "04:35",
+    "atd": "04:19",
     "airline": "Avianca"
   },
   {
@@ -114,9 +114,9 @@
     "date": "2026-02-07",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "04:20",
-    "atd": "04:20",
+    "atd": "04:16",
     "airline": "Avianca"
   },
   {
@@ -124,7 +124,7 @@
     "date": "2026-02-07",
     "from": "MEX-Benito Juarez Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "05:00",
     "atd": "05:00",
     "airline": "Avianca"
@@ -134,9 +134,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "CLO-Alfonso Bonilla Aragón Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "05:05",
-    "atd": "05:05",
+    "atd": "05:11",
     "airline": "Avianca"
   },
   {
@@ -144,9 +144,9 @@
     "date": "2026-02-07",
     "from": "UIO-Mariscal Sucre Airport",
     "to": "MEC-Eloy Alfaro Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "05:55",
-    "atd": "05:55",
+    "atd": "05:46",
     "airline": "Avianca Ecuador"
   },
   {
@@ -154,9 +154,9 @@
     "date": "2026-02-07",
     "from": "SJO-Juan Santamaria Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "06:00",
-    "atd": "06:00",
+    "atd": "05:41",
     "airline": "Avianca Costa Rica"
   },
   {
@@ -164,9 +164,9 @@
     "date": "2026-02-07",
     "from": "GUA-La Aurora Airport",
     "to": "LAX-Los Angeles Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "08:55",
-    "atd": "08:55",
+    "atd": "08:41",
     "airline": "Avianca Costa Rica"
   },
   {
@@ -174,9 +174,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "LIM-Jorge Chavez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:30",
-    "atd": "07:30",
+    "atd": "07:28",
     "airline": "Avianca"
   },
   {
@@ -184,9 +184,9 @@
     "date": "2026-02-07",
     "from": "JFK-John F Kennedy",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "06:15",
-    "atd": "06:15",
+    "atd": "06:05",
     "airline": "Avianca"
   },
   {
@@ -194,9 +194,9 @@
     "date": "2026-02-07",
     "from": "LIM-Jorge Chavez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:30",
-    "atd": "07:30",
+    "atd": "07:22",
     "airline": "Avianca"
   },
   {
@@ -204,9 +204,9 @@
     "date": "2026-02-07",
     "from": "AEP-Jorge Newbery Airfield",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "07:00",
-    "atd": "07:00",
+    "atd": "07:32",
     "airline": "Avianca"
   },
   {
@@ -214,9 +214,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Delayed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "16:10",
     "airline": "Avianca"
   },
   {
@@ -224,9 +224,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "PUJ-Punta Cana Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:40",
-    "atd": "07:40",
+    "atd": "07:35",
     "airline": "Avianca"
   },
   {
@@ -234,9 +234,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "JFK-John F Kennedy",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "07:05",
-    "atd": "07:05",
+    "atd": "06:58",
     "airline": "Avianca"
   },
   {
@@ -244,9 +244,9 @@
     "date": "2026-02-07",
     "from": "SCL-Arturo Merino Benítez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:25",
-    "atd": "07:25",
+    "atd": "07:20",
     "airline": "Wamos"
   },
   {
@@ -264,9 +264,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "GRU-Sao Pablo- Guarulhos Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "08:00",
-    "atd": "08:00",
+    "atd": "08:42",
     "airline": "Avianca"
   },
   {
@@ -274,9 +274,9 @@
     "date": "2026-02-07",
     "from": "GIG-Galeao Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "07:30",
-    "atd": "07:30",
+    "atd": "07:37",
     "airline": "Avianca"
   },
   {
@@ -284,9 +284,9 @@
     "date": "2026-02-07",
     "from": "SAL-El Salvador Airport",
     "to": "PTY-Tocumen Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:30",
-    "atd": "07:30",
+    "atd": "07:21",
     "airline": "Taca"
   },
   {
@@ -304,9 +304,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "IAD-Washington Dulles Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "07:50",
-    "atd": "07:50",
+    "atd": "08:48",
     "airline": "Avianca"
   },
   {
@@ -314,9 +314,9 @@
     "date": "2026-02-07",
     "from": "SAL-El Salvador Airport",
     "to": "MIA-Miami Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:35",
-    "atd": "07:35",
+    "atd": "07:34",
     "airline": "Taca"
   },
   {
@@ -324,9 +324,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "CUZ-Alejandro Velasco Astete Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "08:05",
-    "atd": "08:05",
+    "atd": "08:51",
     "airline": "Avianca"
   },
   {
@@ -334,9 +334,9 @@
     "date": "2026-02-07",
     "from": "CUZ-Alejandro Velasco Astete Airport",
     "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
+    "status": "Delayed",
     "etd": "12:30",
-    "atd": "12:30",
+    "atd": "13:21",
     "airline": "Avianca"
   },
   {
@@ -344,9 +344,9 @@
     "date": "2026-02-07",
     "from": "MEC-Eloy Alfaro Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:40",
-    "atd": "07:40",
+    "atd": "07:29",
     "airline": "Avianca Ecuador"
   },
   {
@@ -354,9 +354,9 @@
     "date": "2026-02-07",
     "from": "SAL-El Salvador Airport",
     "to": "DFW-Dallas/Fort Worth Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "07:35",
-    "atd": "07:35",
+    "atd": "07:46",
     "airline": "Taca"
   },
   {
@@ -364,9 +364,9 @@
     "date": "2026-02-07",
     "from": "SAL-El Salvador Airport",
     "to": "SAP-Ramon Villeda Morales Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:35",
-    "atd": "07:35",
+    "atd": "07:34",
     "airline": "Taca"
   },
   {
@@ -374,9 +374,9 @@
     "date": "2026-02-07",
     "from": "MIA-Miami Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:00",
-    "atd": "07:00",
+    "atd": "06:53",
     "airline": "Avianca"
   },
   {
@@ -384,9 +384,9 @@
     "date": "2026-02-07",
     "from": "SAL-El Salvador Airport",
     "to": "IAH-George Bush Intercontinental Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "08:00",
-    "atd": "08:00",
+    "atd": "07:55",
     "airline": "Taca"
   },
   {
@@ -394,9 +394,9 @@
     "date": "2026-02-07",
     "from": "SAL-El Salvador Airport",
     "to": "LAX-Los Angeles Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "08:00",
-    "atd": "08:00",
+    "atd": "08:08",
     "airline": "Taca"
   },
   {
@@ -404,9 +404,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "SMR-Simon Bolivar Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "08:10",
-    "atd": "08:10",
+    "atd": "09:12",
     "airline": "Avianca"
   },
   {
@@ -414,9 +414,9 @@
     "date": "2026-02-07",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "CUN-Cancun Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "08:15",
-    "atd": "08:15",
+    "atd": "08:20",
     "airline": "Avianca"
   },
   {
@@ -424,9 +424,9 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "FLL-Fort Lauderdale/Hollywood Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "09:15",
-    "atd": "09:15",
+    "atd": "10:06",
     "airline": "Avianca"
   },
   {
@@ -434,9 +434,9 @@
     "date": "2026-02-07",
     "from": "BOS-Logan Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "07:55",
-    "atd": "07:55",
+    "atd": "08:22",
     "airline": "Avianca"
   },
   {
