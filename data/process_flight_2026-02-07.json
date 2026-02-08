@@ -5,12 +5,12 @@
     "date": "2026-02-07",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:03",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-07T11:19:57.000Z"
+    "delayMinutes": -7,
+    "lastUpdated": "2026-02-08T02:33:51.000Z"
   },
   {
     "id": 2,
@@ -335,7 +335,7 @@
     "atd": "07:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-07T11:19:57.000Z"
+    "lastUpdated": "2026-02-08T02:33:51.000Z"
   },
   {
     "id": 27,
@@ -380,14 +380,14 @@
     "id": 30,
     "flightNumber": "323",
     "date": "2026-02-07",
-    "from": "PTY-Tocumen Airport",
-    "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "11:25",
-    "atd": "11:25",
+    "from": "SAL-El Salvador Airport",
+    "to": "PTY-Tocumen Airport",
+    "status": "Landed",
+    "etd": "07:30",
+    "atd": "07:21",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-07T11:19:57.000Z"
+    "delayMinutes": -9,
+    "lastUpdated": "2026-02-08T02:33:52.000Z"
   },
   {
     "id": 31,
@@ -577,11 +577,11 @@
     "date": "2026-02-07",
     "from": "BOG-El Dorado Airport",
     "to": "VVC-La Vanguardia Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "10:00",
-    "atd": "10:00",
+    "atd": "10:53",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-07T11:19:57.000Z"
+    "delayMinutes": 53,
+    "lastUpdated": "2026-02-08T02:33:51.000Z"
   }
 ]
