@@ -5,12 +5,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "AEP-Jorge Newbery Airfield",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "21:15",
     "atd": "21:15",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 2,
@@ -18,12 +18,12 @@
     "date": "2026-02-09",
     "from": "MEX-Benito Juarez Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "05:00",
-    "atd": "05:00",
+    "atd": "04:57",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 3,
@@ -31,25 +31,25 @@
     "date": "2026-02-09",
     "from": "SCY-San Cristóbal Airport",
     "to": "GYE-José Joaquín de Olmedo Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:05",
-    "atd": "13:05",
+    "atd": "13:06",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 1,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 4,
     "flightNumber": "1631",
     "date": "2026-02-09",
-    "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
-    "etd": "16:40",
-    "atd": "16:40",
+    "from": "SCY-San Cristóbal Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "13:05",
+    "atd": "13:06",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 1,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 5,
@@ -57,12 +57,12 @@
     "date": "2026-02-09",
     "from": "UIO-Mariscal Sucre Airport",
     "to": "CUE-Mariscal Lamar Internacional Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "18:40",
-    "atd": "18:40",
+    "atd": "18:37",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 6,
@@ -70,12 +70,12 @@
     "date": "2026-02-09",
     "from": "UIO-Mariscal Sucre Airport",
     "to": "MEC-Eloy Alfaro Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "20:20",
-    "atd": "20:05",
+    "atd": "20:02",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -18,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 7,
@@ -83,12 +83,12 @@
     "date": "2026-02-09",
     "from": "ADZ-Gustavo Rojas Pinilla Airport",
     "to": "CLO-Alfonso Bonilla Aragón Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:35",
-    "atd": "13:35",
+    "atd": "14:16",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 41,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 8,
@@ -96,12 +96,12 @@
     "date": "2026-02-09",
     "from": "CLO-Alfonso Bonilla Aragón Airport",
     "to": "ADZ-Gustavo Rojas Pinilla Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "10:55",
-    "atd": "10:55",
+    "atd": "11:12",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 17,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 9,
@@ -109,12 +109,12 @@
     "date": "2026-02-09",
     "from": "MEC-Eloy Alfaro Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:20",
-    "atd": "14:20",
+    "atd": "14:18",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 10,
@@ -122,25 +122,25 @@
     "date": "2026-02-09",
     "from": "GPS-Seymour Airport",
     "to": "GYE-José Joaquín de Olmedo Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "11:40",
-    "atd": "11:40",
+    "atd": "14:08",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 148,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 11,
     "flightNumber": "1633",
     "date": "2026-02-09",
-    "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
-    "etd": "15:20",
-    "atd": "15:20",
+    "from": "GPS-Seymour Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "11:40",
+    "atd": "14:08",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 148,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 12,
@@ -148,12 +148,12 @@
     "date": "2026-02-09",
     "from": "UIO-Mariscal Sucre Airport",
     "to": "GPS-Seymour Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "11:10",
-    "atd": "11:10",
+    "atd": "11:09",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -1,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 13,
@@ -161,25 +161,25 @@
     "date": "2026-02-09",
     "from": "UIO-Mariscal Sucre Airport",
     "to": "GYE-José Joaquín de Olmedo Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "09:20",
     "atd": "09:20",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2026-02-10T02:54:42.000Z"
   },
   {
     "id": 14,
     "flightNumber": "1630",
     "date": "2026-02-09",
-    "from": "GYE-José Joaquín de Olmedo Airport",
-    "to": "SCY-San Cristóbal Airport",
-    "status": "Confirmed",
-    "etd": "11:20",
-    "atd": "11:20",
+    "from": "UIO-Mariscal Sucre Airport",
+    "to": "GYE-José Joaquín de Olmedo Airport",
+    "status": "Landed",
+    "etd": "09:20",
+    "atd": "09:20",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 15,
@@ -187,12 +187,12 @@
     "date": "2026-02-09",
     "from": "CUE-Mariscal Lamar Internacional Airport",
     "to": "UIO-Mariscal Sucre Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:45",
-    "atd": "07:45",
+    "atd": "07:43",
     "airline": "Avianca Ecuador",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 16,
@@ -213,12 +213,12 @@
     "date": "2026-02-09",
     "from": "ADZ-Gustavo Rojas Pinilla Airport",
     "to": "MDE-Jose Maria Cordova Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:45",
-    "atd": "12:45",
+    "atd": "12:37",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -8,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 18,
@@ -226,12 +226,12 @@
     "date": "2026-02-09",
     "from": "AEP-Jorge Newbery Airfield",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:00",
-    "atd": "07:00",
+    "atd": "06:54",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -6,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 19,
@@ -239,12 +239,12 @@
     "date": "2026-02-09",
     "from": "AUC-Santiago Pérez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:25",
-    "atd": "12:25",
+    "atd": "15:00",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 155,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 20,
@@ -252,12 +252,12 @@
     "date": "2026-02-09",
     "from": "AXM-El Eden Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "11:00",
-    "atd": "11:00",
+    "atd": "10:56",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 21,
@@ -265,12 +265,12 @@
     "date": "2026-02-09",
     "from": "BCN-Barcelona Intl Airport ",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:50",
-    "atd": "12:50",
+    "atd": "12:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -8,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 22,
@@ -283,7 +283,7 @@
     "atd": "18:50",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 23,
@@ -291,25 +291,25 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "ADZ-Gustavo Rojas Pinilla Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:40",
-    "atd": "16:40",
+    "atd": "16:55",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 15,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 24,
     "flightNumber": "4832",
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
-    "to": "AUC-Santiago Pérez Airport",
-    "status": "Confirmed",
+    "to": "BOG-El Dorado Airport",
+    "status": "Returned",
     "etd": "10:30",
-    "atd": "10:30",
+    "atd": "10:37",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 25,
@@ -317,12 +317,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "AXM-El Eden Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "09:25",
-    "atd": "09:25",
+    "atd": "09:23",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 26,
@@ -335,7 +335,7 @@
     "atd": "17:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 27,
@@ -343,12 +343,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "CTG-Rafael Nuñez Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "18:25",
-    "atd": "18:25",
+    "atd": "18:20",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -5,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 28,
@@ -356,12 +356,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "CUC-Camilo Daza Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:25",
-    "atd": "16:25",
+    "atd": "16:22",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 29,
@@ -369,12 +369,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "CUN-Cancun Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:45",
-    "atd": "07:45",
+    "atd": "07:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 30,
@@ -382,12 +382,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "EJA-Yariguies Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "07:10",
-    "atd": "07:10",
+    "atd": "07:14",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 4,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 31,
@@ -400,7 +400,7 @@
     "atd": "17:35",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 32,
@@ -413,7 +413,7 @@
     "atd": "21:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 33,
@@ -421,12 +421,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "GIG-Galeao Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:05",
-    "atd": "16:05",
+    "atd": "16:17",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": 12,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 34,
@@ -434,12 +434,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "GRU-Sao Pablo- Guarulhos Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "17:20",
-    "atd": "17:20",
+    "atd": "17:16",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 35,
@@ -447,12 +447,12 @@
     "date": "2026-02-09",
     "from": "BOG-El Dorado Airport",
     "to": "IBE-Perales Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "06:00",
-    "atd": "06:00",
+    "atd": "05:59",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "delayMinutes": -1,
+    "lastUpdated": "2026-02-10T02:54:41.000Z"
   },
   {
     "id": 36,
@@ -465,7 +465,7 @@
     "atd": "07:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:47.000Z"
   },
   {
     "id": 37,
@@ -478,7 +478,7 @@
     "atd": "17:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 38,
@@ -491,7 +491,7 @@
     "atd": "07:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 39,
@@ -504,7 +504,7 @@
     "atd": "17:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 40,
@@ -517,7 +517,7 @@
     "atd": "14:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 41,
@@ -530,7 +530,7 @@
     "atd": "16:45",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 42,
@@ -543,7 +543,7 @@
     "atd": "13:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 43,
@@ -556,7 +556,7 @@
     "atd": "16:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 44,
@@ -569,7 +569,7 @@
     "atd": "13:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 45,
@@ -582,7 +582,7 @@
     "atd": "12:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 46,
@@ -595,7 +595,7 @@
     "atd": "09:00",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 47,
@@ -608,7 +608,7 @@
     "atd": "14:20",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 48,
@@ -621,7 +621,7 @@
     "atd": "09:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 49,
@@ -634,7 +634,7 @@
     "atd": "14:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 50,
@@ -647,7 +647,7 @@
     "atd": "18:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 51,
@@ -660,7 +660,7 @@
     "atd": "12:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 52,
@@ -673,7 +673,7 @@
     "atd": "12:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 53,
@@ -686,7 +686,7 @@
     "atd": "08:50",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 54,
@@ -699,7 +699,7 @@
     "atd": "14:55",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 55,
@@ -712,7 +712,7 @@
     "atd": "07:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 56,
@@ -738,7 +738,7 @@
     "atd": "07:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 58,
@@ -751,7 +751,7 @@
     "atd": "17:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 59,
@@ -764,7 +764,7 @@
     "atd": "07:20",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 60,
@@ -777,7 +777,7 @@
     "atd": "09:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 61,
@@ -790,7 +790,7 @@
     "atd": "21:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 62,
@@ -803,7 +803,7 @@
     "atd": "01:50",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 63,
@@ -816,7 +816,7 @@
     "atd": "10:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 64,
@@ -829,7 +829,7 @@
     "atd": "08:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 65,
@@ -842,7 +842,7 @@
     "atd": "17:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 66,
@@ -855,7 +855,7 @@
     "atd": "15:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 67,
@@ -868,7 +868,7 @@
     "atd": "05:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 68,
@@ -881,7 +881,7 @@
     "atd": "09:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 69,
@@ -894,7 +894,7 @@
     "atd": "17:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 70,
@@ -907,7 +907,7 @@
     "atd": "16:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 71,
@@ -920,7 +920,7 @@
     "atd": "17:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 72,
@@ -933,7 +933,7 @@
     "atd": "15:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 73,
@@ -946,7 +946,7 @@
     "atd": "16:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 74,
@@ -959,7 +959,7 @@
     "atd": "11:20",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 75,
@@ -972,7 +972,7 @@
     "atd": "19:05",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 76,
@@ -985,7 +985,7 @@
     "atd": "16:00",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 77,
@@ -1011,7 +1011,7 @@
     "atd": "14:40",
     "airline": "Clic para Avianca Express",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 79,
@@ -1024,7 +1024,7 @@
     "atd": "06:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 80,
@@ -1037,7 +1037,7 @@
     "atd": "08:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 81,
@@ -1050,7 +1050,7 @@
     "atd": "12:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 82,
@@ -1063,7 +1063,7 @@
     "atd": "10:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 83,
@@ -1076,7 +1076,7 @@
     "atd": "15:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 84,
@@ -1089,7 +1089,7 @@
     "atd": "15:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 85,
@@ -1102,7 +1102,7 @@
     "atd": "23:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 86,
@@ -1115,7 +1115,7 @@
     "atd": "21:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 87,
@@ -1128,7 +1128,7 @@
     "atd": "21:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 88,
@@ -1141,7 +1141,7 @@
     "atd": "19:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 89,
@@ -1154,7 +1154,7 @@
     "atd": "22:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 90,
@@ -1167,7 +1167,7 @@
     "atd": "12:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 91,
@@ -1180,7 +1180,7 @@
     "atd": "16:55",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 92,
@@ -1193,7 +1193,7 @@
     "atd": "23:30",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 93,
@@ -1206,7 +1206,7 @@
     "atd": "00:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 94,
@@ -1219,7 +1219,7 @@
     "atd": "01:10",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 95,
@@ -1232,7 +1232,7 @@
     "atd": "09:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 96,
@@ -1245,7 +1245,7 @@
     "atd": "07:50",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 97,
@@ -1258,7 +1258,7 @@
     "atd": "17:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 98,
@@ -1271,7 +1271,7 @@
     "atd": "18:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 99,
@@ -1284,7 +1284,7 @@
     "atd": "16:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 100,
@@ -1297,7 +1297,7 @@
     "atd": "14:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 101,
@@ -1310,7 +1310,7 @@
     "atd": "14:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 102,
@@ -1323,7 +1323,7 @@
     "atd": "06:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 103,
@@ -1336,7 +1336,7 @@
     "atd": "11:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 104,
@@ -1349,7 +1349,7 @@
     "atd": "16:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 105,
@@ -1362,7 +1362,7 @@
     "atd": "18:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 106,
@@ -1375,7 +1375,7 @@
     "atd": "23:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 107,
@@ -1388,7 +1388,7 @@
     "atd": "23:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 108,
@@ -1401,7 +1401,7 @@
     "atd": "15:50",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 109,
@@ -1414,7 +1414,7 @@
     "atd": "17:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 110,
@@ -1427,7 +1427,7 @@
     "atd": "06:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 111,
@@ -1440,7 +1440,7 @@
     "atd": "21:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 112,
@@ -1453,7 +1453,7 @@
     "atd": "23:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 113,
@@ -1466,7 +1466,7 @@
     "atd": "22:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 114,
@@ -1479,7 +1479,7 @@
     "atd": "10:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 115,
@@ -1492,7 +1492,7 @@
     "atd": "16:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 116,
@@ -1505,7 +1505,7 @@
     "atd": "07:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 117,
@@ -1518,7 +1518,7 @@
     "atd": "19:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 118,
@@ -1531,7 +1531,7 @@
     "atd": "08:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 119,
@@ -1544,7 +1544,7 @@
     "atd": "15:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 120,
@@ -1557,7 +1557,7 @@
     "atd": "22:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 121,
@@ -1583,7 +1583,7 @@
     "atd": "12:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 123,
@@ -1596,7 +1596,7 @@
     "atd": "18:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 124,
@@ -1609,7 +1609,7 @@
     "atd": "17:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 125,
@@ -1622,7 +1622,7 @@
     "atd": "06:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 126,
@@ -1635,7 +1635,7 @@
     "atd": "22:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 127,
@@ -1648,7 +1648,7 @@
     "atd": "20:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 128,
@@ -1661,7 +1661,7 @@
     "atd": "03:00",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 129,
@@ -1674,7 +1674,7 @@
     "atd": "22:10",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 130,
@@ -1687,7 +1687,7 @@
     "atd": "08:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 131,
@@ -1700,7 +1700,7 @@
     "atd": "00:45",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 132,
@@ -1713,7 +1713,7 @@
     "atd": "21:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 133,
@@ -1726,7 +1726,7 @@
     "atd": "18:50",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 134,
@@ -1739,7 +1739,7 @@
     "atd": "04:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 135,
@@ -1752,7 +1752,7 @@
     "atd": "21:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 136,
@@ -1765,7 +1765,7 @@
     "atd": "23:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 137,
@@ -1778,7 +1778,7 @@
     "atd": "20:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 138,
@@ -1791,7 +1791,7 @@
     "atd": "14:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 139,
@@ -1804,7 +1804,7 @@
     "atd": "18:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 140,
@@ -1817,7 +1817,7 @@
     "atd": "13:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 141,
@@ -1830,7 +1830,7 @@
     "atd": "22:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 142,
@@ -1843,7 +1843,7 @@
     "atd": "19:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 143,
@@ -1856,7 +1856,7 @@
     "atd": "15:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 144,
@@ -1869,7 +1869,7 @@
     "atd": "13:50",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 145,
@@ -1882,7 +1882,7 @@
     "atd": "08:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 146,
@@ -1895,7 +1895,7 @@
     "atd": "13:50",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 147,
@@ -1908,7 +1908,7 @@
     "atd": "12:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 148,
@@ -1921,7 +1921,7 @@
     "atd": "08:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 149,
@@ -1934,7 +1934,7 @@
     "atd": "09:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 150,
@@ -1947,7 +1947,7 @@
     "atd": "11:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 151,
@@ -1960,7 +1960,7 @@
     "atd": "09:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 152,
@@ -1973,7 +1973,7 @@
     "atd": "11:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 153,
@@ -1986,7 +1986,7 @@
     "atd": "05:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 154,
@@ -1999,7 +1999,7 @@
     "atd": "17:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 155,
@@ -2012,7 +2012,7 @@
     "atd": "11:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 156,
@@ -2025,7 +2025,7 @@
     "atd": "14:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 157,
@@ -2038,7 +2038,7 @@
     "atd": "13:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 158,
@@ -2051,7 +2051,7 @@
     "atd": "07:05",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 159,
@@ -2064,7 +2064,7 @@
     "atd": "09:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 160,
@@ -2077,7 +2077,7 @@
     "atd": "18:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 161,
@@ -2090,7 +2090,7 @@
     "atd": "20:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 162,
@@ -2103,7 +2103,7 @@
     "atd": "18:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 163,
@@ -2116,7 +2116,7 @@
     "atd": "20:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 164,
@@ -2129,7 +2129,7 @@
     "atd": "13:25",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 165,
@@ -2142,7 +2142,7 @@
     "atd": "16:10",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 166,
@@ -2155,7 +2155,7 @@
     "atd": "15:05",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 167,
@@ -2168,7 +2168,7 @@
     "atd": "14:50",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 168,
@@ -2181,7 +2181,7 @@
     "atd": "22:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 169,
@@ -2194,7 +2194,7 @@
     "atd": "20:45",
     "airline": "Aviateca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 170,
@@ -2207,7 +2207,7 @@
     "atd": "19:00",
     "airline": "Aviateca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 171,
@@ -2220,7 +2220,7 @@
     "atd": "20:35",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 172,
@@ -2233,7 +2233,7 @@
     "atd": "07:35",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 173,
@@ -2246,7 +2246,7 @@
     "atd": "13:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 174,
@@ -2259,7 +2259,7 @@
     "atd": "12:20",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 175,
@@ -2272,7 +2272,7 @@
     "atd": "18:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 176,
@@ -2285,7 +2285,7 @@
     "atd": "16:20",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 177,
@@ -2298,7 +2298,7 @@
     "atd": "17:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 178,
@@ -2311,7 +2311,7 @@
     "atd": "08:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 179,
@@ -2324,7 +2324,7 @@
     "atd": "19:40",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 180,
@@ -2337,7 +2337,7 @@
     "atd": "16:15",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 181,
@@ -2350,7 +2350,7 @@
     "atd": "05:50",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 182,
@@ -2363,7 +2363,7 @@
     "atd": "07:40",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 183,
@@ -2376,7 +2376,7 @@
     "atd": "12:45",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 184,
@@ -2389,7 +2389,7 @@
     "atd": "15:20",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 185,
@@ -2402,7 +2402,7 @@
     "atd": "13:25",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 186,
@@ -2415,7 +2415,7 @@
     "atd": "09:25",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 187,
@@ -2428,7 +2428,7 @@
     "atd": "13:50",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 188,
@@ -2441,7 +2441,7 @@
     "atd": "09:35",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 189,
@@ -2454,7 +2454,7 @@
     "atd": "07:45",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 190,
@@ -2467,7 +2467,7 @@
     "atd": "06:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 191,
@@ -2480,7 +2480,7 @@
     "atd": "08:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 192,
@@ -2493,7 +2493,7 @@
     "atd": "15:45",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 193,
@@ -2519,7 +2519,7 @@
     "atd": "13:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 195,
@@ -2532,7 +2532,7 @@
     "atd": "14:00",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 196,
@@ -2545,7 +2545,7 @@
     "atd": "03:20",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 197,
@@ -2558,7 +2558,7 @@
     "atd": "15:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 198,
@@ -2571,7 +2571,7 @@
     "atd": "22:05",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 199,
@@ -2584,7 +2584,7 @@
     "atd": "10:20",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 200,
@@ -2597,7 +2597,7 @@
     "atd": "09:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 201,
@@ -2610,7 +2610,7 @@
     "atd": "14:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 202,
@@ -2623,7 +2623,7 @@
     "atd": "08:55",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 203,
@@ -2636,7 +2636,7 @@
     "atd": "16:50",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 204,
@@ -2649,7 +2649,7 @@
     "atd": "13:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 205,
@@ -2662,7 +2662,7 @@
     "atd": "17:20",
     "airline": "Avianca Ecuador",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 206,
@@ -2675,7 +2675,7 @@
     "atd": "23:00",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 207,
@@ -2688,7 +2688,7 @@
     "atd": "09:55",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 208,
@@ -2701,7 +2701,7 @@
     "atd": "11:45",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 209,
@@ -2714,7 +2714,7 @@
     "atd": "19:50",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 210,
@@ -2727,7 +2727,7 @@
     "atd": "18:10",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 211,
@@ -2740,7 +2740,7 @@
     "atd": "13:00",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 212,
@@ -2753,7 +2753,7 @@
     "atd": "11:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 213,
@@ -2766,7 +2766,7 @@
     "atd": "18:30",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 214,
@@ -2779,7 +2779,7 @@
     "atd": "16:45",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 215,
@@ -2792,7 +2792,7 @@
     "atd": "16:35",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 216,
@@ -2805,7 +2805,7 @@
     "atd": "12:05",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 217,
@@ -2818,7 +2818,7 @@
     "atd": "08:10",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 218,
@@ -2831,7 +2831,7 @@
     "atd": "08:15",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 219,
@@ -2844,7 +2844,7 @@
     "atd": "09:45",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 220,
@@ -2857,7 +2857,7 @@
     "atd": "16:00",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 221,
@@ -2870,7 +2870,7 @@
     "atd": "14:40",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 222,
@@ -2883,7 +2883,7 @@
     "atd": "14:15",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 223,
@@ -2896,7 +2896,7 @@
     "atd": "16:30",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 224,
@@ -2909,7 +2909,7 @@
     "atd": "08:55",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 225,
@@ -2922,7 +2922,7 @@
     "atd": "13:50",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 226,
@@ -2935,7 +2935,7 @@
     "atd": "05:10",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 227,
@@ -2948,7 +2948,7 @@
     "atd": "06:15",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 228,
@@ -2961,7 +2961,7 @@
     "atd": "11:30",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 229,
@@ -2974,7 +2974,7 @@
     "atd": "22:55",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 230,
@@ -2987,7 +2987,7 @@
     "atd": "18:35",
     "airline": "Avianca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 231,
@@ -3000,7 +3000,7 @@
     "atd": "15:25",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 232,
@@ -3013,7 +3013,7 @@
     "atd": "07:45",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 233,
@@ -3026,7 +3026,7 @@
     "atd": "16:15",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 234,
@@ -3039,7 +3039,7 @@
     "atd": "19:10",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 235,
@@ -3052,7 +3052,7 @@
     "atd": "22:55",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 236,
@@ -3065,7 +3065,7 @@
     "atd": "19:35",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 237,
@@ -3078,7 +3078,7 @@
     "atd": "12:55",
     "airline": "Avianca Costa Rica",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   },
   {
     "id": 238,
@@ -3091,6 +3091,6 @@
     "atd": "09:05",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-09T00:26:14.000Z"
+    "lastUpdated": "2026-02-10T02:54:48.000Z"
   }
 ]
