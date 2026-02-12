@@ -5,12 +5,12 @@
     "date": "2026-02-11",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "00:21",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-11T11:57:15.000Z"
+    "delayMinutes": 26,
+    "lastUpdated": "2026-02-12T02:45:47.000Z"
   },
   {
     "id": 2,
@@ -835,14 +835,14 @@
     "id": 65,
     "flightNumber": "392",
     "date": "2026-02-11",
-    "from": "MGA-Augusto C. Sandino Airport",
-    "to": "MIA-Miami Airport",
-    "status": "Confirmed",
-    "etd": "11:45",
-    "atd": "11:45",
+    "from": "SAL-El Salvador Airport",
+    "to": "MGA-Augusto C. Sandino Airport",
+    "status": "Landed",
+    "etd": "09:55",
+    "atd": "09:48",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-11T11:57:15.000Z"
+    "delayMinutes": -7,
+    "lastUpdated": "2026-02-12T02:45:49.000Z"
   },
   {
     "id": 66,
