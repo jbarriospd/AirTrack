@@ -291,12 +291,12 @@
     "date": "2026-02-13",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "14:47",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-13T11:36:33.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-02-14T02:29:12.000Z"
   },
   {
     "id": 24,
@@ -447,12 +447,12 @@
     "date": "2026-02-13",
     "from": "BOG-El Dorado Airport",
     "to": "PEI-Matecaña Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:30",
-    "atd": "16:30",
+    "atd": "16:29",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-13T11:36:33.000Z"
+    "delayMinutes": -1,
+    "lastUpdated": "2026-02-14T02:29:12.000Z"
   },
   {
     "id": 36,
@@ -525,12 +525,12 @@
     "date": "2026-02-13",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:08",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-13T11:36:33.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2026-02-14T02:29:12.000Z"
   },
   {
     "id": 42,
