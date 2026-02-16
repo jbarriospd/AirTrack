@@ -5,12 +5,12 @@
     "date": "2026-02-15",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:45",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-15T11:20:26.000Z"
+    "delayMinutes": -10,
+    "lastUpdated": "2026-02-16T02:48:14.000Z"
   },
   {
     "id": 2,
