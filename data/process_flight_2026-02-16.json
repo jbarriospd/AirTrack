@@ -5,12 +5,12 @@
     "date": "2026-02-16",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:29",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-16T11:34:40.000Z"
+    "delayMinutes": 19,
+    "lastUpdated": "2026-02-17T02:44:43.000Z"
   },
   {
     "id": 2,
@@ -291,12 +291,12 @@
     "date": "2026-02-16",
     "from": "BOG-El Dorado Airport",
     "to": "MTR-Los Garzones Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "19:25",
-    "atd": "19:25",
+    "atd": "19:22",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-16T11:34:40.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-02-17T02:44:43.000Z"
   },
   {
     "id": 24,
@@ -356,12 +356,12 @@
     "date": "2026-02-16",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "14:46",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-16T11:34:40.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2026-02-17T02:44:43.000Z"
   },
   {
     "id": 29,
@@ -575,14 +575,14 @@
     "id": 45,
     "flightNumber": "105",
     "date": "2026-02-16",
-    "from": "CUZ-Alejandro Velasco Astete Airport",
-    "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
-    "etd": "12:30",
-    "atd": "12:30",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "08:05",
+    "atd": "08:20",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-16T11:34:40.000Z"
+    "delayMinutes": 15,
+    "lastUpdated": "2026-02-17T02:44:43.000Z"
   },
   {
     "id": 46,
@@ -655,12 +655,12 @@
     "date": "2026-02-16",
     "from": "AUC-Santiago Pérez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:25",
-    "atd": "12:25",
+    "atd": "12:31",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-16T11:34:40.000Z"
+    "delayMinutes": 6,
+    "lastUpdated": "2026-02-17T02:44:43.000Z"
   },
   {
     "id": 52,
