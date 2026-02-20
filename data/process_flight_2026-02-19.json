@@ -29,14 +29,14 @@
     "id": 3,
     "flightNumber": "105",
     "date": "2026-02-19",
-    "from": "CUZ-Alejandro Velasco Astete Airport",
-    "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
-    "etd": "12:30",
-    "atd": "12:30",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "08:05",
+    "atd": "08:01",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-19T11:42:29.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2026-02-20T02:42:24.000Z"
   },
   {
     "id": 4,
@@ -343,12 +343,12 @@
     "date": "2026-02-19",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "15:26",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-19T11:42:29.000Z"
+    "delayMinutes": 36,
+    "lastUpdated": "2026-02-20T02:42:24.000Z"
   },
   {
     "id": 28,
@@ -564,12 +564,12 @@
     "date": "2026-02-19",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:24",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-19T11:42:29.000Z"
+    "delayMinutes": 14,
+    "lastUpdated": "2026-02-20T02:42:24.000Z"
   },
   {
     "id": 45,
