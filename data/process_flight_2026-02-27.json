@@ -1175,12 +1175,12 @@
     "date": "2026-02-27",
     "from": "BOG-El Dorado Airport",
     "to": "LHR-Heathrow Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:25",
-    "atd": "23:25",
+    "atd": "00:30",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-27T23:51:52.000Z"
+    "delayMinutes": 65,
+    "lastUpdated": "2026-02-28T02:20:36.000Z"
   },
   {
     "id": 92,
@@ -1396,12 +1396,12 @@
     "date": "2026-02-27",
     "from": "BOG-El Dorado Airport",
     "to": "GUA-La Aurora Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:15",
-    "atd": "23:15",
+    "atd": "23:58",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-27T23:51:52.000Z"
+    "delayMinutes": 43,
+    "lastUpdated": "2026-02-28T02:20:36.000Z"
   },
   {
     "id": 109,
@@ -1760,12 +1760,12 @@
     "date": "2026-02-27",
     "from": "YYZ-Toronto Pearson Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:59",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-27T23:51:52.000Z"
+    "delayMinutes": 4,
+    "lastUpdated": "2026-02-28T02:20:36.000Z"
   },
   {
     "id": 137,
@@ -1994,12 +1994,12 @@
     "date": "2026-02-27",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "MIA-Miami Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:50",
     "atd": "23:50",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-27T23:51:52.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2026-02-28T02:20:36.000Z"
   },
   {
     "id": 155,
