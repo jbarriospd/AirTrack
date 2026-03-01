@@ -10,7 +10,7 @@
     "atd": "23:10",
     "airline": "Taca",
     "delayMinutes": null,
-    "lastUpdated": "2026-02-28T11:17:57.000Z"
+    "lastUpdated": "2026-03-01T02:27:55.000Z"
   },
   {
     "id": 2,
@@ -354,14 +354,14 @@
     "id": 28,
     "flightNumber": "323",
     "date": "2026-02-28",
-    "from": "PTY-Tocumen Airport",
-    "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "11:25",
-    "atd": "11:25",
+    "from": "SAL-El Salvador Airport",
+    "to": "PTY-Tocumen Airport",
+    "status": "Landed",
+    "etd": "07:30",
+    "atd": "07:24",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-28T11:17:57.000Z"
+    "delayMinutes": -6,
+    "lastUpdated": "2026-03-01T02:27:55.000Z"
   },
   {
     "id": 29,
@@ -406,14 +406,14 @@
     "id": 32,
     "flightNumber": "105",
     "date": "2026-02-28",
-    "from": "CUZ-Alejandro Velasco Astete Airport",
-    "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
-    "etd": "12:30",
-    "atd": "12:30",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "08:05",
+    "atd": "08:11",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-02-28T11:17:57.000Z"
+    "delayMinutes": 6,
+    "lastUpdated": "2026-03-01T02:27:55.000Z"
   },
   {
     "id": 33,
