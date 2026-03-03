@@ -5,12 +5,12 @@
     "date": "2026-03-02",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:15",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-02T11:34:58.000Z"
+    "delayMinutes": 5,
+    "lastUpdated": "2026-03-03T02:37:08.000Z"
   },
   {
     "id": 2,
@@ -278,12 +278,12 @@
     "date": "2026-03-02",
     "from": "BOG-El Dorado Airport",
     "to": "MTR-Los Garzones Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "19:25",
-    "atd": "19:25",
+    "atd": "19:41",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-02T11:34:58.000Z"
+    "delayMinutes": 16,
+    "lastUpdated": "2026-03-03T02:37:08.000Z"
   },
   {
     "id": 23,
@@ -343,12 +343,12 @@
     "date": "2026-03-02",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "15:16",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-02T11:34:58.000Z"
+    "delayMinutes": 26,
+    "lastUpdated": "2026-03-03T02:37:08.000Z"
   },
   {
     "id": 28,
@@ -603,12 +603,12 @@
     "date": "2026-03-02",
     "from": "AUC-Santiago Pérez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:25",
-    "atd": "12:25",
+    "atd": "12:16",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-02T11:34:58.000Z"
+    "delayMinutes": -9,
+    "lastUpdated": "2026-03-03T02:37:08.000Z"
   },
   {
     "id": 48,
