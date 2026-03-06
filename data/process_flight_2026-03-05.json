@@ -343,12 +343,12 @@
     "date": "2026-03-05",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "14:48",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-05T12:55:59.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2026-03-06T02:33:33.000Z"
   },
   {
     "id": 28,
@@ -538,12 +538,12 @@
     "date": "2026-03-05",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:10",
-    "atd": "23:10",
+    "atd": "23:04",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-05T12:55:59.000Z"
+    "delayMinutes": -6,
+    "lastUpdated": "2026-03-06T02:33:33.000Z"
   },
   {
     "id": 43,
