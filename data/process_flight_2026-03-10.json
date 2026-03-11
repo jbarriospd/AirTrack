@@ -29,14 +29,14 @@
     "id": 3,
     "flightNumber": "105",
     "date": "2026-03-10",
-    "from": "CUZ-Alejandro Velasco Astete Airport",
-    "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
-    "etd": "12:30",
-    "atd": "12:30",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "08:05",
+    "atd": "07:56",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-10T11:49:57.000Z"
+    "delayMinutes": -9,
+    "lastUpdated": "2026-03-11T02:38:37.000Z"
   },
   {
     "id": 4,
@@ -277,13 +277,13 @@
     "flightNumber": "262",
     "date": "2026-03-10",
     "from": "BOG-El Dorado Airport",
-    "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "to": "IAD-Washington Dulles Airport",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "15:06",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-10T11:49:57.000Z"
+    "delayMinutes": 16,
+    "lastUpdated": "2026-03-11T02:38:37.000Z"
   },
   {
     "id": 23,
@@ -460,12 +460,12 @@
     "date": "2026-03-10",
     "from": "AUC-Santiago Pérez Airport",
     "to": "BOG-El Dorado Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "12:25",
-    "atd": "12:25",
+    "atd": "12:21",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-10T11:49:57.000Z"
+    "delayMinutes": -4,
+    "lastUpdated": "2026-03-11T02:38:37.000Z"
   },
   {
     "id": 37,
