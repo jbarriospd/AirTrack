@@ -874,14 +874,14 @@
     "id": 68,
     "flightNumber": "392",
     "date": "2026-03-18",
-    "from": "MGA-Augusto C. Sandino Airport",
-    "to": "MIA-Miami Airport",
-    "status": "Confirmed",
-    "etd": "11:45",
-    "atd": "11:45",
+    "from": "SAL-El Salvador Airport",
+    "to": "MGA-Augusto C. Sandino Airport",
+    "status": "Landed",
+    "etd": "09:55",
+    "atd": "10:00",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-18T11:52:35.000Z"
+    "delayMinutes": 5,
+    "lastUpdated": "2026-03-19T02:41:23.000Z"
   },
   {
     "id": 69,
