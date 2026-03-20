@@ -343,12 +343,12 @@
     "date": "2026-03-19",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "14:53",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-19T11:49:52.000Z"
+    "delayMinutes": 3,
+    "lastUpdated": "2026-03-20T02:40:39.000Z"
   },
   {
     "id": 28,
