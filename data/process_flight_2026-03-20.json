@@ -291,12 +291,12 @@
     "date": "2026-03-20",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "15:42",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-20T11:34:24.000Z"
+    "delayMinutes": 52,
+    "lastUpdated": "2026-03-21T02:28:20.000Z"
   },
   {
     "id": 24,
@@ -354,14 +354,14 @@
     "id": 28,
     "flightNumber": "323",
     "date": "2026-03-20",
-    "from": "PTY-Tocumen Airport",
-    "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "11:25",
-    "atd": "11:25",
+    "from": "SAL-El Salvador Airport",
+    "to": "PTY-Tocumen Airport",
+    "status": "Landed",
+    "etd": "07:30",
+    "atd": "07:24",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-20T11:34:24.000Z"
+    "delayMinutes": -6,
+    "lastUpdated": "2026-03-21T02:28:20.000Z"
   },
   {
     "id": 29,
@@ -447,12 +447,12 @@
     "date": "2026-03-20",
     "from": "BOG-El Dorado Airport",
     "to": "PEI-Matecaña Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:30",
-    "atd": "16:30",
+    "atd": "16:47",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-20T11:34:24.000Z"
+    "delayMinutes": 17,
+    "lastUpdated": "2026-03-21T02:28:20.000Z"
   },
   {
     "id": 36,
