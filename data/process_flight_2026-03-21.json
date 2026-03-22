@@ -278,12 +278,12 @@
     "date": "2026-03-21",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "15:10",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-21T11:20:12.000Z"
+    "delayMinutes": 20,
+    "lastUpdated": "2026-03-22T02:33:27.000Z"
   },
   {
     "id": 23,
@@ -393,14 +393,14 @@
     "id": 31,
     "flightNumber": "323",
     "date": "2026-03-21",
-    "from": "PTY-Tocumen Airport",
-    "to": "SJO-Juan Santamaria Airport",
-    "status": "Confirmed",
-    "etd": "11:25",
-    "atd": "11:25",
+    "from": "SAL-El Salvador Airport",
+    "to": "PTY-Tocumen Airport",
+    "status": "Landed",
+    "etd": "07:30",
+    "atd": "07:19",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-21T11:20:12.000Z"
+    "delayMinutes": -11,
+    "lastUpdated": "2026-03-22T02:33:27.000Z"
   },
   {
     "id": 32,
