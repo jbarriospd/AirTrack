@@ -29,14 +29,14 @@
     "id": 3,
     "flightNumber": "105",
     "date": "2026-03-24",
-    "from": "CUZ-Alejandro Velasco Astete Airport",
-    "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
-    "etd": "12:30",
-    "atd": "12:30",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "08:05",
+    "atd": "08:00",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-24T11:53:56.000Z"
+    "delayMinutes": -5,
+    "lastUpdated": "2026-03-25T02:48:43.000Z"
   },
   {
     "id": 4,
@@ -278,12 +278,12 @@
     "date": "2026-03-24",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "14:51",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-24T11:53:56.000Z"
+    "delayMinutes": 1,
+    "lastUpdated": "2026-03-25T02:48:43.000Z"
   },
   {
     "id": 23,
