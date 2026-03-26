@@ -772,12 +772,12 @@
     "date": "2026-03-25",
     "from": "BOG-El Dorado Airport",
     "to": "PPN-Guillermo Leon Valencia Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "09:30",
-    "atd": "11:45",
+    "atd": "12:12",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-25T11:55:44.000Z"
+    "delayMinutes": 162,
+    "lastUpdated": "2026-03-26T02:57:17.000Z"
   },
   {
     "id": 61,
@@ -861,14 +861,14 @@
     "id": 67,
     "flightNumber": "392",
     "date": "2026-03-25",
-    "from": "MGA-Augusto C. Sandino Airport",
-    "to": "MIA-Miami Airport",
-    "status": "Confirmed",
-    "etd": "11:45",
-    "atd": "11:45",
+    "from": "SAL-El Salvador Airport",
+    "to": "MGA-Augusto C. Sandino Airport",
+    "status": "Landed",
+    "etd": "09:55",
+    "atd": "09:44",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-25T11:55:44.000Z"
+    "delayMinutes": -11,
+    "lastUpdated": "2026-03-26T02:57:17.000Z"
   },
   {
     "id": 68,
