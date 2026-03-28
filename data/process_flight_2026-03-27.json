@@ -291,12 +291,12 @@
     "date": "2026-03-27",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "14:53",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-27T11:44:19.000Z"
+    "delayMinutes": 3,
+    "lastUpdated": "2026-03-28T02:39:45.000Z"
   },
   {
     "id": 24,
@@ -447,12 +447,12 @@
     "date": "2026-03-27",
     "from": "BOG-El Dorado Airport",
     "to": "PEI-Matecaña Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:30",
-    "atd": "16:30",
+    "atd": "16:35",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-03-27T11:44:19.000Z"
+    "delayMinutes": 5,
+    "lastUpdated": "2026-03-28T02:39:45.000Z"
   },
   {
     "id": 36,
