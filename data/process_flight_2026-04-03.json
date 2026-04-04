@@ -29,14 +29,14 @@
     "id": 3,
     "flightNumber": "105",
     "date": "2026-04-03",
-    "from": "CUZ-Alejandro Velasco Astete Airport",
-    "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
-    "etd": "12:30",
-    "atd": "12:30",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "08:00",
+    "atd": "08:09",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-03T11:31:31.000Z"
+    "delayMinutes": 9,
+    "lastUpdated": "2026-04-04T02:43:22.000Z"
   },
   {
     "id": 4,
@@ -486,12 +486,12 @@
     "date": "2026-04-03",
     "from": "BOG-El Dorado Airport",
     "to": "PEI-Matecaña Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:10",
-    "atd": "16:10",
+    "atd": "16:22",
     "airline": "Clic para Avianca Express",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-03T11:31:31.000Z"
+    "delayMinutes": 12,
+    "lastUpdated": "2026-04-04T02:43:22.000Z"
   },
   {
     "id": 39,
@@ -564,12 +564,12 @@
     "date": "2026-04-03",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
-    "atd": "23:55",
+    "atd": "23:43",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-03T11:31:31.000Z"
+    "delayMinutes": -12,
+    "lastUpdated": "2026-04-04T02:43:22.000Z"
   },
   {
     "id": 45,
@@ -668,12 +668,12 @@
     "date": "2026-04-03",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "RCH-Almirante Padilla Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:25",
-    "atd": "13:25",
+    "atd": "13:18",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-03T11:31:31.000Z"
+    "delayMinutes": -7,
+    "lastUpdated": "2026-04-04T02:43:22.000Z"
   },
   {
     "id": 53,
