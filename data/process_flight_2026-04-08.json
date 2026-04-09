@@ -432,14 +432,14 @@
     "id": 34,
     "flightNumber": "105",
     "date": "2026-04-08",
-    "from": "CUZ-Alejandro Velasco Astete Airport",
-    "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
-    "etd": "12:30",
-    "atd": "12:30",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "08:00",
+    "atd": "08:00",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-08T11:53:06.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2026-04-09T03:14:32.000Z"
   },
   {
     "id": 35,
@@ -603,12 +603,12 @@
     "date": "2026-04-08",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "RCH-Almirante Padilla Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:25",
-    "atd": "13:25",
+    "atd": "13:16",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-08T11:53:06.000Z"
+    "delayMinutes": -9,
+    "lastUpdated": "2026-04-09T03:14:32.000Z"
   },
   {
     "id": 48,
