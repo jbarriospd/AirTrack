@@ -642,12 +642,12 @@
     "date": "2026-04-15",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "RCH-Almirante Padilla Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:25",
-    "atd": "13:25",
+    "atd": "13:23",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-15T11:54:57.000Z"
+    "delayMinutes": -2,
+    "lastUpdated": "2026-04-16T03:23:58.000Z"
   },
   {
     "id": 51,
