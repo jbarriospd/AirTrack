@@ -29,14 +29,14 @@
     "id": 3,
     "flightNumber": "105",
     "date": "2026-04-17",
-    "from": "CUZ-Alejandro Velasco Astete Airport",
-    "to": "LPB-El Alto Airport",
-    "status": "Confirmed",
-    "etd": "12:30",
-    "atd": "12:30",
+    "from": "BOG-El Dorado Airport",
+    "to": "CUZ-Alejandro Velasco Astete Airport",
+    "status": "Landed",
+    "etd": "08:00",
+    "atd": "08:02",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-17T11:45:46.000Z"
+    "delayMinutes": 2,
+    "lastUpdated": "2026-04-18T02:55:28.000Z"
   },
   {
     "id": 4,
@@ -304,12 +304,12 @@
     "date": "2026-04-17",
     "from": "BOG-El Dorado Airport",
     "to": "ORD-O'Hare Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "14:50",
-    "atd": "14:50",
+    "atd": "14:47",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-17T11:45:46.000Z"
+    "delayMinutes": -3,
+    "lastUpdated": "2026-04-18T02:55:28.000Z"
   },
   {
     "id": 25,
@@ -473,12 +473,12 @@
     "date": "2026-04-17",
     "from": "BOG-El Dorado Airport",
     "to": "PEI-Matecaña Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "16:10",
-    "atd": "16:10",
+    "atd": "16:17",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-17T11:45:46.000Z"
+    "delayMinutes": 7,
+    "lastUpdated": "2026-04-18T02:55:28.000Z"
   },
   {
     "id": 38,
@@ -551,12 +551,12 @@
     "date": "2026-04-17",
     "from": "SFO-San Francisco Airport",
     "to": "SAL-El Salvador Airport",
-    "status": "Confirmed",
+    "status": "Departed",
     "etd": "23:55",
     "atd": "23:55",
     "airline": "Taca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-17T11:45:46.000Z"
+    "delayMinutes": 0,
+    "lastUpdated": "2026-04-18T02:55:28.000Z"
   },
   {
     "id": 44,
@@ -655,12 +655,12 @@
     "date": "2026-04-17",
     "from": "MDE-Jose Maria Cordova Airport",
     "to": "RCH-Almirante Padilla Airport",
-    "status": "Confirmed",
+    "status": "Landed",
     "etd": "13:25",
-    "atd": "13:25",
+    "atd": "13:41",
     "airline": "Avianca",
-    "delayMinutes": null,
-    "lastUpdated": "2026-04-17T11:45:46.000Z"
+    "delayMinutes": 16,
+    "lastUpdated": "2026-04-18T02:55:28.000Z"
   },
   {
     "id": 52,
